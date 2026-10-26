@@ -1,0 +1,3 @@
+seed 42 | filter SP in (0,40] | 62193 issues | 39 projects
+CROSS-PROJECT  (n=1482 pairs): MAE mean 2.527 +- 1.435 | MdAE mean 1.921
+WITHIN-PROJECT (n=39):      MAE mean 1.926 +- 1.283 | MdAE mean 1.397
