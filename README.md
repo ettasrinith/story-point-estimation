@@ -28,7 +28,7 @@ We extracted the data ourselves from the official MySQL dump using `01_extract_t
 
 - [x] Data extraction from the official dump (39 project CSVs)
 - [x] Median baseline over all cross-project pairs
-- [ ] BERT token embedding extraction
+- [x] BERT token embedding extraction
 - [ ] CNN prediction model with 5-fold validation
 - [ ] Full 39-pair evaluation and report
 
@@ -51,6 +51,16 @@ Cross-project is already ~31% worse than within-project with a single constant p
 |---|---|
 | `01_extract_tawos.ipynb` | Loads the official TAWOS MySQL dump in Kaggle, exports per-project CSVs + manifest |
 | `02_baseline_median.ipynb` | Median predictor baseline, MAE/MdAE for every source → target pair |
+| `03_bert_embeddings.ipynb` | Frozen bert-base-uncased over every issue, saves token embeddings per project (fp16, [n, 128, 768]) |
+| `04_check_embeddings.ipynb` | Verification: all 39 embedding files exist, shapes match metadata, values finite |
+
+## Embeddings
+
+`03_bert_embeddings.ipynb` (Kaggle GPU) runs bert-base-uncased once over all 62,193 issues and stores
+token-level embeddings per project: `emb/<PROJECT>.npy` (float16) with matching `meta/<PROJECT>.csv`
+(issue_id, issue_key, storypoint, n_tokens). 12.2 GB total. Max length is 128 tokens, so about 15% of
+the longest descriptions get truncated (fraction is in `extraction_summary.csv`). CNN training reads
+these files with memory mapping, BERT never has to run again.
 
 ## How to run
 
@@ -60,4 +70,4 @@ Both notebooks run on Kaggle (CPU only so far):
 2. Open `01_extract_tawos.ipynb` on Kaggle, attach the dataset as input, Run All. It produces `all_issues_sp.csv`, `csv/` (one file per project) and `manifest.csv`.
 3. Open `02_baseline_median.ipynb`, attach the output of step 2 as input, Run All. It produces `baseline_results.csv` and the summary.
 
-Internet is only needed in the first notebook (to install MySQL). No GPU is used in either.
+Internet is only needed in the first notebook (to install MySQL) and the third (to download the BERT weights). Only the third needs a GPU (T4, ~8 minutes).
