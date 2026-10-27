@@ -1,0 +1,24 @@
+PS-3 cross-project evaluation - BERT word embeddings + 3-layer CNN
+seed 42 | SP in (0,40] | same 80:20 partitions as baseline | 5-fold CV on source train pool
+
+pairs evaluated: 39 of 39 assigned (missing data: 0)
+test MAE  across pairs: 2.326 +/- 1.350  (baseline 2.496 +/- 1.450)
+test MdAE across pairs: 1.710              (baseline 1.872)
+beats baseline MAE on 27/39 pairs
+5-fold val MAE mean over pairs: 1.923 +/- 0.213
+
+best 5 pairs by test MAE:
+          pdf_source          pdf_target  test_mae  test_mdae  baseline_mae
+C++ driver (MongoDB)         Java driver  0.549084   0.103279      0.000000
+             FishEye DotNetNuke Platform  0.890311   0.632635      1.040426
+ MongoDB Core Server              Bamboo  0.900808   0.691707      1.276699
+           Evergreen              Fabric  0.970072   0.820764      1.752000
+    Confluence Cloud  Lyrasis Dura Cloud  1.051187   0.983671      1.877863
+
+worst 5 pairs by test MAE:
+         pdf_source                pdf_target  test_mae  test_mdae  baseline_mae
+     Software Cloud       Appcelerator Daemon  7.176367   4.597866      3.375000
+             Moodle Atlassian Software Server  4.930293   3.353687      2.492308
+        Mule APIkit  Titanium Mobile Platform  4.287043   3.064788      3.167969
+Appcelerator Studio                     Nexus  4.241019   4.151823      3.390305
+               Mule C++ driver (Appcelerator)  3.765003   2.589766      5.879518
