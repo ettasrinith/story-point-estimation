@@ -1,0 +1,6 @@
+PS-3 cross-project evaluation - POOLED-source BERT+CNN (log target, 3-seed ensemble)
+pooled 5-fold val MAE: 2.579 +/- 0.083 | epochs 6 | seed 42 partitions
+
+test MAE  across pairs: 2.024 +/- 1.212  (baseline 2.496 +/- 1.450)
+test MdAE across pairs: 1.351              (baseline 1.872)
+beats baseline MAE on 29/39 pairs
