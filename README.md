@@ -55,19 +55,20 @@ Cross-project is already ~31% worse than within-project with a single constant p
 | `04_check_embeddings.ipynb` | Verification: all 39 embedding files exist, shapes match metadata, values finite |
 | `04_cnn_model.ipynb` | 3-layer CNN regressor over token embeddings; demo pair (Nexus -> CLI) end to end |
 | `05_run_all_pairs.ipynb` | Full evaluation: 5-fold CV + held-out test on all 39 assigned pairs, compared with the baseline |
+| `06_pooled_training.ipynb` | Improved model: pooled-source training (GPT2SP-style), log1p target, 3-seed ensemble |
 
 ## Final results (all 39 assigned pairs)
 
-| Metric | BERT + CNN | Median baseline |
-|---|---|---|
-| Test MAE (mean +/- std over pairs) | **2.326 +/- 1.350** | 2.496 +/- 1.450 |
-| Test MdAE (mean over pairs) | **1.710** | 1.872 |
-| Mean 5-fold validation MAE | 1.923 +/- 0.213 | - |
-| Pairs beating the baseline | 27 / 39 | - |
+| Model | Test MAE (mean +/- std) | Test MdAE | Beats baseline |
+|---|---|---|---|
+| Median baseline | 2.496 +/- 1.450 | 1.872 | - |
+| Per-source BERT + CNN (`05`) | 2.326 +/- 1.350 | 1.710 | 27 / 39 |
+| **Pooled-source BERT + CNN (`06`)** | **2.024 +/- 1.212** | **1.351** | **29 / 39** |
 
-Seed 42, story points in (0, 40], same 80:20 partitions for both methods, 5-fold CV on the source
-train pool, single evaluation on the held-out target test set. Per-pair numbers:
-`results/results_pairs.csv`, per-pair plot: `results/results_per_pair.png`.
+Pooled training (each target trains on all other projects' data, GPT2SP-style, with a log1p target
+and 3-seed ensemble) cuts test MAE by 19% vs the baseline and 13% vs per-source training.
+Seed 42, story points in (0, 40], same 80:20 partitions for every method, target data never used in
+training. Per-pair numbers: `results/results_pooled_pairs.csv` (plot: `results/results_pooled_per_pair.png`).
 Two names in the assignment table were mapped with the instructor's approval:
 Evergreen -> The MongoDB Engineering, C++ driver (Appcelerator) -> Aptana Studio.
 Full write-up: [REPORT.md](REPORT.md).

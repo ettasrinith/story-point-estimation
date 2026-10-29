@@ -57,7 +57,27 @@ TAWOS projects, "The MongoDB Engineering" and "Aptana Studio".
 
 ## 4. Results
 
-Across the 39 assigned pairs:
+**Main model: pooled-source BERT+CNN (06).** Following GPT2SP (Fu & Tantithamthavorn, 2023), each
+target model trains on the combined train pools of ALL other projects instead of a single source
+(target data fully excluded), the network learns log1p(story point) to handle the heavy skew, and
+3 seeds are averaged. A global 5-fold CV on the pooled training data selects the number of epochs.
+
+| Model | Test MAE (mean ± std over pairs) | Test MdAE | Beats baseline |
+|---|---|---|---|
+| Median baseline | 2.496 ± 1.450 | 1.872 | — |
+| Per-source BERT+CNN (05) | 2.326 ± 1.350 | 1.710 | 27/39 |
+| **Pooled-source BERT+CNN (06)** | **2.024 ± 1.212** | **1.351** | **29/39** |
+
+The pooled model reduces test MAE by 18.9% over the baseline and
+13.0% over the per-source model. Biggest gains come from pairs
+where the single source was small (e.g. Appcelerator Studio → Nexus: 4.241 →
+1.019; Blockchain Explorer → Moodle: 1.619 →
+1.464), because the pooled model no longer depends on the
+vocabulary of one small project.
+
+Per-pair pooled results: `results/results_pooled_pairs.csv` (plot: `results/results_pooled_per_pair.png`).
+
+### 4.1 Per-source model (ablation, all 39 assigned pairs)
 
 | Metric | BERT + CNN | Median baseline |
 |---|---|---|
@@ -119,13 +139,15 @@ vs baseline 2.789.
 
 ## 5. Discussion
 
-- The CNN beats the median baseline on 27 of 39 pairs and lowers the average cross-project
-  test MAE from 2.496 to 2.326 (improvement of
-  6.8%). BERT word embeddings clearly carry effort-relevant signal
-  that transfers across projects.
-- Validation MAE (~1.92) is much lower than test MAE: the model is accurate
-  *within* the source project but degrades on unseen projects. The transfer gap is the central
-  finding of this setting.
+- The per-source CNN beats the median baseline on 27 of 39 pairs (test MAE 2.496 →
+  2.326), and the pooled-source model improves this further to 2.024 — BERT word
+  embeddings clearly carry effort-relevant signal that transfers across projects, and pooling sources
+  multiplies the usable training data per target.
+- Per-source validation MAE (~1.92) is much lower than its test MAE: the model is
+  accurate *within* the source project but degrades on unseen projects. The transfer gap is the
+  central finding of this setting. Notably, the pooled model's global 5-fold validation MAE
+  (2.024-scale) is less informative per pair — pooled validation mixes many projects'
+  scales, so per-pair test numbers remain the primary evidence.
 - Worst pairs combine a source and target with very different story-point scales (e.g. a source with
   median 1–2 and a target with median 5); text alone cannot recover the target's scale, so the model
   inherits a systematic offset. Best pairs share vocabulary domains and scales.
@@ -149,12 +171,12 @@ vs baseline 2.789.
 
 BERT word embeddings with a small CNN improve cross-project story point estimation over a
 median baseline on 27/39 assigned pairs (test MAE 2.326 vs 2.496),
-but a large project-transfer gap remains. Representation quality helps; scale mismatch between
-projects is the dominant remaining obstacle — combining text with target-project calibration is the
-natural next step.
+but a large project-transfer gap remains. Pooling source projects, a log target and seed ensembling
+cut test MAE to 2.024; scale mismatch between projects is the dominant remaining obstacle —
+combining text with target-project calibration is the natural next step.
 
 ## Reproducibility
 
 All notebooks run on Kaggle: 01 (data extraction, CPU), 02 (baseline, CPU), 03 (embeddings, T4),
-04 (demo pair, T4), 05 (39 pairs, T4). Seeds, split procedure and configurations are fixed inside
+04 (demo pair, T4), 05 (per-source 39 pairs, T4), 06 (pooled model, T4, ~2 h). Seeds, split procedure and configurations are fixed inside
 the notebooks; results CSVs are committed under `results/`.
