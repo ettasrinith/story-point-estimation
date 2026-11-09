@@ -1,0 +1,40 @@
+project,raw,sp0,sp_gt40,kept,sp_max,sp_median,changed_after_est,removed
+Alloy Framework,315,12,0,303,21.0,3.0,13,12
+Apache MXNet,209,4,4,201,99.0,3.0,32,8
+Apache Mesos,3272,4,0,3268,40.0,3.0,351,4
+Apache Usergrid,487,5,0,482,8.0,3.0,68,5
+Appcelerator Daemon,242,0,3,239,144.0,5.0,9,3
+Appcelerator Studio,3406,111,2,3293,144.0,5.0,200,113
+Aptana Studio,890,51,7,832,100.0,8.0,71,58
+Atlassian Atlassian Software Server,351,25,1,325,688.0,3.0,26,26
+Atlassian Bamboo,528,12,0,516,20.0,2.0,20,12
+Atlassian Clover,387,5,4,378,100.0,2.0,87,9
+Atlassian Confluence Cloud,352,12,0,340,21.0,2.0,20,12
+Atlassian Confluence Server,662,17,0,645,21.0,3.0,66,17
+Atlassian Crowd,214,1,0,213,8.0,1.0,7,1
+Atlassian FishEye,240,23,0,217,5.0,1.0,31,23
+Atlassian Jira Cloud,361,9,1,351,3030.0,4.0,9,10
+Atlassian Jira Server,380,0,2,378,90.0,4.0,33,2
+Atlassian Software Cloud,318,22,1,295,688.0,3.0,23,23
+Command-Line Interface,374,17,0,357,13.0,3.0,23,17
+DotNetNuke Platform,2594,9,1,2584,100.0,2.0,232,10
+Hyperledger Blockchain Explorer,373,1,0,372,13.0,3.0,52,1
+Hyperledger Fabric,636,9,0,627,40.0,2.0,37,9
+Hyperledger Indy Node,681,4,0,677,13.0,3.0,118,4
+Hyperledger Indy SDK,720,12,0,708,13.0,3.0,125,12
+Hyperledger Sawtooth,966,16,0,950,8.0,2.0,115,16
+Lsstcorp Data management,20664,599,707,19358,300.0,3.0,4097,1306
+Lyrasis Dura Cloud,666,9,0,657,21.0,1.0,92,9
+MongoDB Compass,499,0,0,499,8.0,3.0,40,0
+MongoDB Core Server,784,41,1,742,42.0,2.0,40,42
+Moodle,1594,66,57,1471,195.0,5.0,287,123
+Mule,4170,476,1,3693,60.0,4.0,649,477
+Mule APIkit,473,8,0,465,21.0,3.0,59,8
+Sonatype Nexus,1845,41,0,1804,40.0,1.0,140,41
+Spring DataCass,243,27,4,212,26710114.0,2.0,14,31
+Spring XD,3705,163,6,3536,2567.0,3.0,494,169
+The Mongo C++ driver,224,12,0,212,8.0,1.0,21,12
+The Mongo Java driver,238,0,0,238,16.0,1.0,0,0
+The MongoDB Engineering,5402,333,0,5069,8.0,2.0,0,333
+The Titanium SDK,4665,243,15,4407,6765.0,5.0,363,258
+Titanium Mobile Platform,1297,17,1,1279,120.0,3.0,95,18

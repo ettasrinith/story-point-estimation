@@ -1,2 +1,2 @@
-source,target,val_mae_mean,val_mae_std,epochs,test_mae,test_mdae,baseline_mae
-Sonatype Nexus,Command-Line Interface,0.9727219581604004,0.04811651627794795,9,1.8743574938303988,1.1914252042770386,2.788732394366197
+source,target,val_mae_mean,val_mae_std,fold_best_epochs,epochs,test_mae,test_mdae,n_test,baseline_mae
+Sonatype Nexus,Command-Line Interface,0.9622501730918884,0.0949065378668517,8;15;22;6;5,11,2.4248411655426025,1.7947795391082764,71,2.788732394366197

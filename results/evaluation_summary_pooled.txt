@@ -1,6 +1,25 @@
-PS-3 cross-project evaluation - POOLED-source BERT+CNN (log target, 3-seed ensemble)
-pooled 5-fold val MAE: 2.579 +/- 0.083 | epochs 6 | seed 42 partitions
+Pooled-source BERT+CNN + target-blind calibration (multi-source extension, NOT the assigned single-source protocol)
+seed 42 | log1p target | ensemble (42, 43, 44) | grouped CV epochs, target-blind | calibration on other-38 out-of-fold predictions only (no target data)
+grouped CV val MAE 2.502 +/- 0.704 | epochs used: min 1 mean 2.0 max 2
 
-test MAE  across pairs: 2.024 +/- 1.212  (baseline 2.496 +/- 1.450)
-test MdAE across pairs: 1.351              (baseline 1.872)
-beats baseline MAE on 29/39 pairs
+macro test MAE over 39 pairs : uncalibrated 2.191 +/- 1.340 | calibrated 2.195 +/- 1.343
+issue-weighted test MAE      : uncalibrated 2.741 | calibrated 2.758
+pooled over 12438 test issues: uncal MAE 2.741 MdAE 1.383 | cal MAE 2.758 MdAE 1.418
+
+UNCALIBRATED beats SINGLE-SOURCE median on 24/39 (source-median macro 2.496)
+UNCALIBRATED beats POOLED median on       22/39 (pooled-median macro 2.242)
+CALIBRATED  beats SINGLE-SOURCE median on 24/39
+CALIBRATED  beats POOLED median on        20/39
+
+issue-level Wilcoxon (calibrated vs pooled median): p = 6.13e-34 over 12438 issues
+issue-level Wilcoxon (calibrated vs source median): p = 2.01e-207
+per-pair Wilcoxon over 39 pairs (cal MAE vs source median): p = 4.44e-02
+per-pair Wilcoxon over 39 pairs (cal MAE vs pooled median): p = 3.80e-01
+note: the two issue-level lines were recomputed post hoc from the saved per-issue predictions.
+The original run of this summary compared |actual - baseline_MAE| instead of |actual - baseline_median|
+(an MAE is not a prediction); src/06 was fixed to save and use the baseline constants. The per-pair
+tests and every MAE/MdAE above are unaffected. Recomputed constants reproduce the committed
+pooled_median_mae / baseline_mae columns to <1e-6.
+
+ablation status: pooling, log1p target, the seed ensemble and calibration are combined in this
+run; separating them needs the A/B/C/D variants described in REPORT.md 'next steps'.

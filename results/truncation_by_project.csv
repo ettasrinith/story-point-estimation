@@ -1,0 +1,40 @@
+project,trunc128,trunc256,median,p95
+Atlassian Jira Cloud,92.9,36.8,220.0,484.5
+Atlassian Jira Server,91.5,38.9,227.0,456.9
+Atlassian Confluence Cloud,76.5,25.3,177.0,486.3
+Atlassian Confluence Server,76.4,39.8,211.0,701.8
+Sonatype Nexus,56.4,21.7,144.0,801.7
+The Titanium SDK,52.4,18.3,134.0,499.7
+Command-Line Interface,51.0,13.2,130.0,377.2
+DotNetNuke Platform,50.5,17.5,129.0,532.8
+Alloy Framework,49.2,13.9,128.0,406.2
+MongoDB Core Server,45.8,17.0,119.0,420.9
+Atlassian FishEye,45.6,16.1,119.0,419.4
+Atlassian Software Cloud,44.4,19.3,107.0,428.3
+Atlassian Atlassian Software Server,41.8,17.5,104.0,397.4
+Hyperledger Indy Node,39.1,16.1,103.0,413.0
+Appcelerator Daemon,38.5,6.3,105.0,282.2
+Appcelerator Studio,37.8,6.5,108.0,275.0
+Moodle,37.6,13.3,96.0,462.5
+Hyperledger Blockchain Explorer,33.9,14.0,79.0,382.7
+Atlassian Clover,33.6,10.6,97.0,381.8
+Aptana Studio,33.5,8.9,95.0,342.2
+The Mongo C++ driver,32.5,9.9,87.5,363.1
+Apache Mesos,32.3,8.8,89.5,330.0
+The Mongo Java driver,31.5,10.1,90.0,348.3
+Titanium Mobile Platform,30.1,8.8,88.0,350.7
+Atlassian Crowd,30.0,9.4,83.0,378.0
+Hyperledger Indy SDK,25.7,7.5,68.5,332.6
+Lyrasis Dura Cloud,22.5,5.3,84.0,269.4
+Hyperledger Fabric,22.2,4.3,70.0,251.4
+Apache Usergrid,21.4,11.6,54.0,957.4
+Lsstcorp Data management,20.2,4.9,67.0,253.0
+Spring XD,18.1,6.1,67.0,294.2
+The MongoDB Engineering,17.8,5.1,45.0,258.0
+Atlassian Bamboo,17.1,6.8,57.5,318.2
+MongoDB Compass,16.0,3.8,55.0,225.1
+Mule,15.1,3.1,64.0,202.0
+Spring DataCass,14.6,4.2,65.5,220.9
+Mule APIkit,11.8,3.2,47.0,181.6
+Hyperledger Sawtooth,7.7,2.5,31.0,156.0
+Apache MXNet,2.5,1.5,20.0,98.0

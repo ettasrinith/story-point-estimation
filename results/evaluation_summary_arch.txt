@@ -1,0 +1,10 @@
+Predictor architecture ablation over the same frozen BERT embeddings (pooled protocol, calibrated)
+seed 42 | log1p target | ensemble (42, 43, 44) | grouped CV epochs, target-blind | calibration on other-38 out-of-fold predictions only
+
+transformer  macro cal MAE 2.203 | issue-weighted 2.761 | beats source median 24/39 | beats pooled median 23/39 | mean epochs 3.7
+mlp          macro cal MAE 2.221 | issue-weighted 2.748 | beats source median 23/39 | beats pooled median 22/39 | mean epochs 3.5
+
+per-pair Wilcoxon transformer vs mlp: p = 1.54e-01
+per-pair Wilcoxon transformer vs mlp: p = 1.54e-01
+
+(CNN row: see 06's evaluation_summary_pooled.txt — same protocol)
