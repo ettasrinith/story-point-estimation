@@ -1,0 +1,12 @@
+# The notebooks run on the Kaggle Python image; these are the lowest versions the code was
+# checked against. `tools/` needs only numpy, torch and nbformat.
+numpy>=1.24
+pandas>=1.5
+torch>=2.0
+transformers>=4.30
+scikit-learn>=1.2
+matplotlib>=3.6
+sqlalchemy>=2.0
+pymysql>=1.0
+nbformat>=5.9
+kaggle>=1.6
