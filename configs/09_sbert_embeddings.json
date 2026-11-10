@@ -1,8 +1,0 @@
-{
-  "sbert_model": "sentence-transformers/all-mpnet-base-v2 (revision recorded at run time)",
-  "max_seq_length": 256,
-  "batch_size": 128,
-  "dtype": "float16 storage",
-  "bertmean": "masked mean over real tokens of the committed 128-token BERT arrays",
-  "fields": "title + description (same filtered corpus as 03: story points in (0, 40])"
-}

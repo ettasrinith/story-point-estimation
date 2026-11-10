@@ -1,9 +1,0 @@
-{
-  "predictor": "source project's train-pool median story point (constant)",
-  "split": {
-    "test_fraction": 0.2,
-    "seed": 42,
-    "scope": "per project"
-  },
-  "pairs": "all 39x38 cross-project + 39 within-project reference rows"
-}
