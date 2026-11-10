@@ -1,0 +1,16 @@
+{
+  "source": "official TAWOS MySQL dump (Tawosi et al., MSR 2022, DOI 10.5522/04/21308124)",
+  "label_filter": {
+    "story_point_min": 0,
+    "story_point_max_exclusive": 40,
+    "rationale": "0 = no-effort tickets; >40 = corrupt values (max 26,710,114); per-project cost in results/filter_impact.csv"
+  },
+  "cleaning": [
+    "numeric story point coercion + drop NaN",
+    "dedupe issue_id",
+    "strip HTML tags from title/description",
+    "collapse whitespace",
+    "drop empty title+body"
+  ],
+  "seed": null
+}

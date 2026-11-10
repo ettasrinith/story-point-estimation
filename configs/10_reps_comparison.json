@@ -1,0 +1,31 @@
+{
+  "representations": {
+    "sbert": "768-d all-mpnet-base-v2 sentence embedding (256-token window) -> MLP 768-256-32-1, dropout 0.2",
+    "bertmean": "masked mean of BERT tokens (128-token window) -> same MLP",
+    "combined": "early fusion: 3-layer token CNN 768-256-128-64 (masked max pool, 64-d) concat SBERT 768-d -> MLP 832-64-32-1"
+  },
+  "loss": "L1",
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.001
+  },
+  "batch_size": 64,
+  "epochs": {
+    "max": 25,
+    "patience": 4,
+    "selection": "5-fold CV on the source pool; final epochs = mean of fold best epochs"
+  },
+  "target_transform": "raw story points (same as 05, for the paired comparison)",
+  "split": {
+    "test_fraction": 0.2,
+    "seed": 42,
+    "scope": "per project"
+  },
+  "pairs": "39 assigned",
+  "extended_metrics": {
+    "SA_draws": 1000,
+    "SA_seed_rule": "42*1000 + pair index (same draws for every method)",
+    "a12": "Vargha-Delaney vs median-baseline errors on the same issues",
+    "norm_mae": "MAE / target train-pool median"
+  }
+}

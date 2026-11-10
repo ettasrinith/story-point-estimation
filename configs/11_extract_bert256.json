@@ -1,0 +1,9 @@
+{
+  "model": "bert-base-uncased (frozen, inference only, revision recorded at run time)",
+  "max_length": 256,
+  "batch_size": 64,
+  "dtype": "float16 autocast, fp16 storage",
+  "label_filter": "(0, 100]  # standard Deep-SE cap: drop SP <= 0 and SP > 100",
+  "storage_split": "two kernels (11a/11b) by balanced per-project assignment; 24.7 GB total",
+  "fields": "title + description (same cleaned corpus as 03)"
+}
