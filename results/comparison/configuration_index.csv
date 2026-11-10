@@ -1,0 +1,8 @@
+key,label,cohort,window,protocol,model,src,status,pairs,macro_test_mae,macro_test_mdae
+old_median,Median baseline,old,—,Constant baseline (no training),source-project median,results/results_pairs.csv,COMPLETE,39,2.4958203525583027,1.8717948717948718
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,results/results_pairs.csv,COMPLETE,39,2.4856202779576564,1.6808224534377074
+old_pooled_cnn,Pooled multi-source CNN,old,128,Extension: 38 sources → 1 target,38-source CNN + ensemble,results/results_pooled_pairs.csv,COMPLETE,39,2.190629775707538,1.4143451284139583
+old_transformer,Pooled Transformer head,old,128,Extension: 38 sources → 1 target,1-layer self-attention,results/results_pooled_transformer.csv,COMPLETE,39,2.241972024624164,1.5105966329574585
+old_mlp,Pooled MLP head,old,128,Extension: 38 sources → 1 target,mean-pooled BERT + MLP,results/results_pooled_mlp.csv,COMPLETE,39,2.2162505449392857,1.462591753556178
+new_median,Median baseline,new,—,Constant baseline (no training),source-project median,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv,COMPLETE,39,2.897380925325185,1.8974358974358974
+new_bert_256,BERT + CNN (redo PS-3),new,256,PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,ps3-256-main / results_pairs_256.csv,COMPLETE,39,2.9664989672601223,1.7924073078693488

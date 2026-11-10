@@ -1,0 +1,64 @@
+configuration_key,configuration,cohort,token_window,story_point_filter,protocol,model,status,metric,metric_label,value,source
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,mae,Macro test MAE,2.4958203525583027,results/results_pairs.csv
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,mae_sd,Macro test MAE s.d.,1.4499451722734087,results/results_pairs.csv
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,mdae,Mean per-pair test MdAE,1.8717948717948718,results/results_pairs.csv
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,base_mae,Macro baseline MAE,2.4958203525583027,results/results_pairs.csv
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,base_mdae,Macro baseline MdAE,1.8717948717948718,results/results_pairs.csv
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,n_test,Held-out test issues,12438.0,results/results_pairs.csv
+old_median,Median baseline,old,—,"(0,40]",Constant baseline (no training),source-project median,COMPLETE,weighted_mae,Issue-weighted test MAE,3.3232610071833095,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,mae,Macro test MAE,2.4856202779576564,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,mae_sd,Macro test MAE s.d.,1.3030323762396385,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,mdae,Mean per-pair test MdAE,1.6808224534377074,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,base_mae,Macro baseline MAE,2.4958203525583027,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,base_mdae,Macro baseline MdAE,1.8717948717948718,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,val_mae,5-fold validation MAE,1.8089919129911909,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,val_sd,5-fold validation MAE s.d.,0.2212439267443669,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,n_test,Held-out test issues,12438.0,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,wins,Pairs beating the median baseline,18.0,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,epochs,Mean final epochs,8.76923076923077,results/results_pairs.csv
+old_bert_cnn,BERT + CNN (assigned PS-3),old,128,"(0,40]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,weighted_mae,Issue-weighted test MAE,3.1848197992682015,results/results_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,mae,Macro test MAE,2.190629775707538,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,mae_sd,Macro test MAE s.d.,1.339872475706313,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,mdae,Mean per-pair test MdAE,1.4143451284139583,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,base_mae,Macro baseline MAE,2.4958203525583027,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,base_mdae,Macro baseline MdAE,1.8717948717948718,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,n_test,Held-out test issues,12438.0,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,wins,Pairs beating the median baseline,24.0,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,epochs,Mean final epochs,1.9743589743589745,results/results_pooled_pairs.csv
+old_pooled_cnn,Pooled multi-source CNN,old,128,"(0,40]",Extension: 38 sources → 1 target,38-source CNN + ensemble,COMPLETE,weighted_mae,Issue-weighted test MAE,2.740883904353352,results/results_pooled_pairs.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,mae,Macro test MAE,2.241972024624164,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,mae_sd,Macro test MAE s.d.,1.2602984363159766,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,mdae,Mean per-pair test MdAE,1.5105966329574585,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,base_mae,Macro baseline MAE,2.4958203525583027,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,base_mdae,Macro baseline MdAE,1.8717948717948718,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,n_test,Held-out test issues,12438.0,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,wins,Pairs beating the median baseline,23.0,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,epochs,Mean final epochs,3.6923076923076925,results/results_pooled_transformer.csv
+old_transformer,Pooled Transformer head,old,128,"(0,40]",Extension: 38 sources → 1 target,1-layer self-attention,COMPLETE,weighted_mae,Issue-weighted test MAE,2.7631091163326715,results/results_pooled_transformer.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,mae,Macro test MAE,2.2162505449392857,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,mae_sd,Macro test MAE s.d.,1.2854667481102113,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,mdae,Mean per-pair test MdAE,1.462591753556178,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,base_mae,Macro baseline MAE,2.4958203525583027,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,base_mdae,Macro baseline MdAE,1.8717948717948718,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,n_test,Held-out test issues,12438.0,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,wins,Pairs beating the median baseline,23.0,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,epochs,Mean final epochs,3.4615384615384617,results/results_pooled_mlp.csv
+old_mlp,Pooled MLP head,old,128,"(0,40]",Extension: 38 sources → 1 target,mean-pooled BERT + MLP,COMPLETE,weighted_mae,Issue-weighted test MAE,2.724946705555874,results/results_pooled_mlp.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,mae,Macro test MAE,2.897380925325185,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,mae_sd,Macro test MAE s.d.,2.097931749529492,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,mdae,Mean per-pair test MdAE,1.8974358974358974,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,base_mae,Macro baseline MAE,2.897380925325185,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,base_mdae,Macro baseline MdAE,1.8974358974358974,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,n_test,Held-out test issues,12573.0,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_median,Median baseline,new,—,"(0,100]",Constant baseline (no training),source-project median,COMPLETE,weighted_mae,Issue-weighted test MAE,4.059154079376442,ps3-256-audit / baseline_assigned_pairs_both_corpora.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,mae,Macro test MAE,2.9664989672601223,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,mae_sd,Macro test MAE s.d.,2.016639669009617,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,mdae,Mean per-pair test MdAE,1.7924073078693488,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,base_mae,Macro baseline MAE,2.8973809241388855,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,base_mdae,Macro baseline MdAE,1.8974358974358974,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,val_mae,5-fold validation MAE,1.9910040800674607,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,val_sd,5-fold validation MAE s.d.,0.2939830658423419,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,n_test,Held-out test issues,12573.0,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,wins,Pairs beating the median baseline,15.0,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,epochs,Mean final epochs,9.076923076923077,ps3-256-main / results_pairs_256.csv
+new_bert_256,BERT + CNN (redo PS-3),new,256,"(0,100]",PS-3: 1 source → 1 target,frozen BERT + 3-layer CNN,COMPLETE,weighted_mae,Issue-weighted test MAE,3.961124550530139,ps3-256-main / results_pairs_256.csv

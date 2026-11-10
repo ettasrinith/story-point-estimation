@@ -1,0 +1,37 @@
+PS-3 ASSIGNED EXPERIMENT — BERT word embeddings + 3-layer CNN | tag 256
+seed 42 | story points (0,100] | BERT window 256 tokens | 5-fold CV on source development pool | single held-out target test
+corpus: 62870 issues / 39 projects | frozen bert-base-uncased, fp16 arrays
+
+pairs evaluated            : 39 / 39
+macro test MAE             : 2.966 +/- 2.017
+macro baseline MAE         : 2.897 +/- 2.098
+macro pooled-median MAE    : 2.651
+macro MAE improvement      : -2.4% vs single-source median
+issue-weighted test MAE    : 3.961
+issue-weighted baseline MAE: 4.059
+pooled over 12573 issues: MAE 3.961 | MdAE 1.862
+mean per-pair test MdAE    : 1.792 (baseline 1.897, pooled median 1.692)
+5-fold validation MAE      : 1.991 +/- 0.294 (best epoch)
+final epochs               : mean 9.1 (min 5, max 17)
+beats single-source median : 15/39 pairs
+beats pooled median        : 11/39 pairs
+unbeatable baseline (MAE=0): 0 pairs
+Wilcoxon issue-level vs single-source median : p = 7.553e-01
+Wilcoxon issue-level vs pooled median        : p = 1.218e-193
+Wilcoxon pair-level (39 pairs)               : p = 0.1045
+
+best 5 pairs:
+            pdf_source          pdf_target  test_mae  test_mdae  baseline_mae  n_test
+  C++ driver (MongoDB)         Java driver  0.047117   0.024019      0.020833      48
+               FishEye DotNetNuke Platform  1.107193   0.994452      1.082979     517
+                 Crowd            Sawtooth  1.285733   0.869334      1.368421     190
+   MongoDB Core Server              Bamboo  1.412017   0.811004      1.276699     103
+Command-Line Interface             Compass  1.585922   1.293872      1.250000     100
+
+worst 5 pairs:
+         pdf_source                pdf_target  test_mae  test_mdae  baseline_mae  n_test
+Blockchain Explorer                    Moodle 10.269403   2.643791     10.261770     305
+           Usergrid                     MXNet  7.485416   1.730539      7.243902      41
+     Software Cloud       Appcelerator Daemon  6.297938   2.374544      6.187500      48
+               Mule C++ driver (Appcelerator)  6.117006   3.865968      6.190476     168
+Appcelerator Daemon                  DataCass  5.860516   3.857558      5.162791      43

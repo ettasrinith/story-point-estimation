@@ -1,0 +1,19 @@
+{
+  "id": "madmaxop123/ps3-256-audit",
+  "title": "ps3 256 audit",
+  "code_file": "ps3-256-audit.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "ettasrinithreddy/tawos-extracted"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "madmaxop123/tawos-bert-256-a",
+    "madmaxop123/tawos-bert-256-b"
+  ],
+  "model_sources": []
+}

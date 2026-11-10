@@ -1,8 +1,29 @@
-# Story Point Estimation using BERT Word Embeddings
+# Story Point Estimation with BERT Word Embeddings
 
-Natural Language Processing course project — Group 12
+NLP course project — **PS-3**, Group 12
 
-## Group members
+GitHub: https://github.com/ettasrinith/story-point-estimation
+
+## 1. What this project is about
+
+In agile software teams, each issue is given a **story point**: a number that estimates how much
+work it needs. We train a model to read an issue's title and description and predict that number.
+
+Our assigned problem statement, **PS-3**, asks one specific question:
+
+> Evaluate **BERT-based word embeddings** for story point estimation when **training on a source
+> project** and **testing on a different target project**, using the **assigned random-split
+> protocol**.
+
+So for each of the 39 pairs listed in section 3.3 of the guidelines, we train on one project and
+test on another project the model has never seen. We measure **MAE** (mean absolute error) and
+**MdAE** (median absolute error).
+
+PS-3 covers **BERT word embeddings only**. SBERT sentence embeddings and combined BERT+SBERT
+representations are separate problem statements (PS 1–2, 5–12) and are **not** part of this
+repository or this report.
+
+## 2. Group members
 
 | Name | Roll No |
 |---|---|
@@ -12,138 +33,157 @@ Natural Language Processing course project — Group 12
 | Fahad Ahmed Mahdi | B230103CS |
 | Anita | B230818CS |
 
-## Problem statement
+## 3. Dataset
 
-PS-3: Evaluate BERT-based word embeddings for story point estimation when training on source projects and testing on a different target project under the assigned random-split protocol.
+**TAWOS** (Tawosi et al., MSR 2022; DOI `10.5522/04/21308124`) — Jira issues with story points
+from 39 open-source projects. We loaded the official MySQL dump ourselves in
+`01_extract_tawos.ipynb`, joined the Issue and Project tables, stripped HTML from the text, and
+exported one CSV per project. That gives **65,427 issues with a story point**.
 
-In agile teams every issue gets a story point that roughly measures how much work it needs. We build a model that reads the issue text (title + description) and predicts this number. For cross-project estimation the model is trained on one project and tested on a different project it has never seen, and this is repeated for 39 training/testing pairs taken from the project list. Performance is measured with MAE (Mean Absolute Error) and MdAE (Median Absolute Error).
+Story points contain zeros and obvious data-entry errors (the largest is **26,710,114**), so a
+filter is necessary. The guidelines do **not** prescribe one, so we treat it as a documented
+design choice and report two corpora:
 
-## Dataset
-
-TAWOS (Tawosi et al., MSR 2022, DOI: 10.5522/04/21308124) — Jira issues from 39 open source projects with their story points.
-
-We extracted the data ourselves from the official MySQL dump using `01_extract_tawos.ipynb`. The notebook installs a MySQL server inside the Kaggle notebook, loads the 4.3 GB dump, joins the Issue and Project tables and exports one CSV per project. After dropping issues without story points and cleaning the text we get 65,427 issues. For the experiments we keep story points in the (0, 40] range, which removes 2,416 zero-point tickets and 818 broken values (the largest is 26,710,114) and leaves 62,193 issues. Per-project counts, the cost of that filter and the number of issues whose story point was edited after the estimation date are in `results/manifest.csv` and `results/filter_impact.csv`.
-
-## Repository layout
-
-| Path | What it is |
-|---|---|
-| `NN_*.ipynb` | The notebooks, as they run on Kaggle. These are what the report quotes. |
-| `src/NN_*.py` | The same notebooks as plain Python with `# %%` cell markers - read and edit these, they are the source of truth. |
-| `tools/build_notebooks.py` | Converts `src/*.py` into the `.ipynb` files at the repo root. |
-| `tools/test_model_cpu.py` | CPU checks that exec the model cells straight out of the notebooks (no GPU, no embeddings). |
-| `results/` | Committed outputs of the runs: per-pair CSVs, summaries, plots, data-quality tables. |
-
-```bash
-python tools/build_notebooks.py      # src/*.py -> *.ipynb
-python tools/test_model_cpu.py       # checks the CNN masking, the head and the fold bookkeeping
-```
-
-The notebooks carry no cell outputs: the code is meant to be read as code, and every number it produced is committed under `results/`.
-
-## Progress
-
-- [x] Data extraction from the official dump (39 project CSVs)
-- [x] Median baseline over all cross-project pairs
-- [x] BERT token embedding extraction
-- [x] CNN prediction model with 5-fold validation
-- [x] Full 39-pair evaluation and report (see REPORT.md)
-- [x] Pooled multi-source model, corrected protocol + target-blind calibration (`06`)
-- [x] Architecture ablation: Transformer / MLP vs CNN over the same embeddings (`07`)
-
-## Baseline results
-
-Before training any model we predict the source project's median story point for every issue in the target test set. Any real model has to beat these numbers (seed 42, random 80:20 split):
-
-| Setting | MAE | MdAE |
+| | Committed run | Redo |
 |---|---|---|
-| Cross-project (1482 pairs) | 2.527 ± 1.435 | 1.921 |
-| Within-project (39 projects) | 1.926 ± 1.283 | 1.397 |
+| Filter | `(0,40]` | `(0,100]` |
+| Issues kept | 62,193 | 62,870 (+677) |
+| Dropped above the cap | 818 | 141 |
+| BERT window | 128 tokens | 256 tokens |
 
-Full per-pair numbers: `results/baseline_results.csv`. Plot: `results/baseline_by_source.png`.
+`(0,100]` is the standard upper bound used in the literature — Deep-SE (Choetkiertikul et al., TSE 2019),
+the TAWOS README sample query, and Tawosi et al. (ESEM 2022) all discard story points above 100.
+The original `(0,40]` cap was the outlier. See `results/256_sp100/audit/audit_corpus.json` for the
+exact counts and `results/filter_impact.csv` for the per-project cost of the filter.
 
-Cross-project is already ~31% worse than within-project with a single constant prediction, which shows the projects use different story point scales. Shrinking this gap with text representations is the point of the project.
+## 4. Two different experiments — please keep them separate
 
-## Notebooks
+This repository contains **one assigned experiment** and **one extra experiment**. They answer
+different questions and their numbers are never mixed.
 
-| Notebook | What it does |
+| | Assigned PS-3 | Pooled extension |
+|---|---|---|
+| Notebooks | `05_run_all_pairs` | `06_pooled_training`, `07_architecture_ablation` |
+| Training data per target | **one** assigned source project | the **other 38** projects combined |
+| Question | does BERT transfer from one project to another? | does more source data help? |
+| Status | the required deliverable | extra analysis, clearly labelled |
+
+The extension also changes the target to `log1p(storypoint)` and averages three seeds, so its
+improvement cannot be attributed to pooling alone. Every results table below has a **Protocol**
+column that makes this distinction explicit.
+
+## 5. Repository layout
+
+| Path | Contents |
 |---|---|
-| `01_extract_tawos.ipynb` | Loads the official TAWOS MySQL dump in Kaggle, exports per-project CSVs + manifest |
-| `02_baseline_median.ipynb` | Median predictor baseline, MAE/MdAE for every source → target pair |
-| `03_bert_embeddings.ipynb` | Frozen bert-base-uncased over every issue, saves token embeddings per project (fp16, [n, 128, 768]) |
-| `04_check_embeddings.ipynb` | Verification: all 39 embedding files exist, shapes match metadata, values finite |
-| `04_cnn_model.ipynb` | 3-layer CNN regressor over token embeddings; demo pair (Nexus -> CLI) end to end |
-| `05_run_all_pairs.ipynb` | **The PS-3 experiment**: 5-fold CV + held-out test on all 39 assigned pairs, compared with the baseline |
-| `06_pooled_training.ipynb` | Separate extension, not part of PS-3: pooled multi-source training (GPT2SP-style), log1p target, 3-seed ensemble, target-blind out-of-fold calibration |
-| `07_architecture_ablation.ipynb` | Extension: predictor ablation over the same frozen embeddings — small Transformer encoder and mean-pool MLP vs the CNN of 05/06, same pooled protocol |
+| `configs/ps3.yaml` | **All** model names, hyperparameters, seeds and split settings (guideline 3.5) |
+| `src/*.py` | Readable Python sources of the notebooks, with `# %%` cell markers — edit these |
+| `NN_*.ipynb` | The generated notebooks, as they run on Kaggle |
+| `tools/build_notebooks.py` | Converts `src/*.py` → `.ipynb` |
+| `tools/test_model_cpu.py` | CPU checks for the CNN padding mask, head and fold bookkeeping |
+| `tools/verify_project_mapping.py` | Machine-checks the 39 PDF pair names against TAWOS |
+| `redo/` | The 256-token / (0,100] redo: kernel builders and the reporting script |
+| `results/` | Per-pair metrics, summaries, plots, predictions, audits |
+| `results/comparison/` | The neat comparative package (tables, dashboard, CSVs) |
+| `REPORT.md` / `REPORT.pdf` | Final report |
 
-## Final results (all 39 assigned pairs)
+Notebooks carry no saved cell outputs; every number they produced is committed under `results/`.
 
-| Model | Test MAE (mean +/- std) | Test MdAE | Beats baseline |
-|---|---|---|---|
-| Median baseline | 2.496 +/- 1.450 | 1.872 | - |
-| Per-source BERT + CNN (`05`) | 2.486 +/- 1.303 | 1.681 | 18 / 39 |
-| **Pooled multi-source BERT + CNN (`06`, corrected)** | **2.191 +/- 1.340** | **1.414** | **24 / 39** |
+## 6. Results
 
-The corrected pooled run (each target trains on the other 38 source projects' development pools,
-GPT2SP-style, log1p target, 3-seed ensemble, target-blind grouped-CV epoch selection, no target data
-in training/selection/calibration) cuts macro test MAE by 12.2% and the mean per-pair MdAE by 24.5%
-vs the baseline, and also beats the like-for-like **pooled median** constant (2.242) on 22/39 pairs.
-Issue-level Wilcoxon: p = 2.0e-207 vs the single-source median, p = 6.1e-34 vs the pooled median. Issue-level predictions are in
-`results/predictions_pooled/`. The per-source row is the strict PS-3 protocol (one assigned source
-per pair). A predictor ablation over the same embeddings (`07`) shows the three-layer CNN is as good
-as a small Transformer encoder or a mean-pool MLP (macro MAE 2.195 / 2.203 / 2.221, differences not
-significant) — the signal lives in the BERT embeddings and the multi-source pooling, not in the
-predictor architecture. Seed 42, story points in (0, 40], same 80:20 partitions for every method. Per-pair
-numbers: `results/results_pooled_pairs.csv` (plot: `results/results_pooled_per_pair.png`).
-Two names in the assignment table were mapped with the instructor's approval:
-Evergreen -> The MongoDB Engineering, C++ driver (Appcelerator) -> Aptana Studio.
-Full write-up: [REPORT.md](REPORT.md).
+<!-- BEGIN GENERATED RESULTS -->
+_Auto-generated 2026-11-10 09:40 UTC by `redo/build_comparison.py`. Do not edit between the markers._
 
-## Embeddings
+### Committed run — 128 tokens, story points (0,40]
 
-`03_bert_embeddings.ipynb` (Kaggle GPU) runs bert-base-uncased once over all 62,193 issues and stores
-token-level embeddings per project: `emb/<PROJECT>.npy` (float16) with matching `meta/<PROJECT>.csv`
-(issue_id, issue_key, storypoint, n_tokens). 12.2 GB total. CNN training reads these files with memory
-mapping, so BERT never has to run again.
+| Configuration | Protocol | Test MAE | s.d. | Test MdAE | 5-fold val MAE | Beats baseline | Test issues |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Median baseline | Constant baseline (no training) | 2.496 | 1.450 | 1.872 | &mdash; | — | 12,438 |
+| BERT + CNN (assigned PS-3) | PS-3: 1 source → 1 target | 2.486 | 1.303 | 1.681 | 1.809 | 18/39 | 12,438 |
+| Pooled multi-source CNN | Extension: 38 sources → 1 target | 2.191 | 1.340 | 1.414 | &mdash; | 24/39 | 12,438 |
+| Pooled Transformer head | Extension: 38 sources → 1 target | 2.242 | 1.260 | 1.511 | &mdash; | 23/39 | 12,438 |
+| Pooled MLP head | Extension: 38 sources → 1 target | 2.216 | 1.285 | 1.463 | &mdash; | 23/39 | 12,438 |
 
-The 128-token window is the honest weak point of the method. Measured with the `bert-base-uncased`
-tokenizer over the published issue texts: **29.5% of issues are longer than 128 tokens** and are cut
-off, and those cuts throw away **41.8% of all token content**; the median issue is 81 tokens but the
-90th percentile is 244. At 256 tokens the truncated share would drop to 9.0%. It is very uneven
-across projects - Atlassian Jira Cloud 92.9% and Jira Server 91.5% of issues truncated, against a
-handful of projects near 5%. Numbers: `results/truncation_stats.json` and
-`results/truncation_by_project.csv` (measured with the tokenizer over `all_issues_sp.csv`,
-2026-11-02; `03` now recomputes them inside the notebook, where earlier revisions had reported this
-fraction as ~13-15%).
+### Redo — 256 tokens, story points (0,100]
 
-## How to run
+| Configuration | Protocol | Test MAE | s.d. | Test MdAE | 5-fold val MAE | Beats baseline | Test issues |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Median baseline | Constant baseline (no training) | 2.897 | 2.098 | 1.897 | &mdash; | — | 12,573 |
+| BERT + CNN (redo PS-3) | PS-3: 1 source → 1 target | 2.966 | 2.017 | 1.792 | 1.991 | 15/39 | 12,573 |
 
-Everything runs on Kaggle; the kernels are `ettasrinithreddy/tawos-*` and each notebook reads the
-previous one's output.
 
-| Step | Notebook | Attach as input | Hardware | Kaggle run time |
-|---|---|---|---|---|
-| 1 | `01_extract_tawos.ipynb` | dataset with `TAWOS.sql` | CPU, internet ON (apt) | not recorded |
-| 2 | `02_baseline_median.ipynb` | output of 01 | CPU | not recorded |
-| 3 | `03_bert_embeddings.ipynb` | output of 01 | T4 GPU, internet ON (weights) | 2.2 min + verification |
-| 4 | `04_check_embeddings.ipynb` | output of 03 | CPU | 0.3 min |
-| 5 | `04_cnn_model.ipynb` | outputs of 01 and 03 | T4 GPU | 2.5 min |
-| 6 | `05_run_all_pairs.ipynb` | outputs of 01 and 03 | T4 GPU | ~65 min |
-| 7 | `06_pooled_training.ipynb` | outputs of 01 and 03 | T4 GPU, 12.2 GB pooled in RAM | ~2-2.5 h (v2) |
-| 8 | `07_architecture_ablation.ipynb` | outputs of 01 and 03 | T4 GPU, 12.2 GB pooled in RAM | ~3-4 h |
+**How to read these tables**
 
-Times are the ones the kernels on this Kaggle account logged. 01 and 02 have no kernel left on the
-account - their outputs are published as the `tawos-extracted` dataset - so run them to get your own.
+- **Test MAE** is the mean of the 39 per-pair test MAEs; **s.d.** is the spread across those pairs. **Test MdAE** is the mean of the 39 per-pair median absolute errors.
+- **PS-3: 1 source → 1 target** is the assigned protocol (guideline 3.3). **Extension: 38 sources → 1 target** is a separate extra experiment and must not be read as a PS-3 result or listed as a peer of the PS-3 row.
+- **5-fold validation MAE** comes only from the source development pool and is reported separately from the single held-out target test, as required by guideline 3.4.
+- The two tables use **different corpora** — 62,193 issues at (0,40] and 62,870 at (0,100]. Compare each model with **its own cohort's baseline**; an old-vs-new MAE difference is descriptive, not a controlled comparison of the token window.
 
-Steps 5-7 also need `baseline_results.csv` from step 2 (it is part of the 01+02 output dataset) so
-that every model is compared against the baseline on the same partitions; each of them asserts that
-its own train/test partition matches the baseline before training.
+Full comparative package: [`results/comparison/`](results/comparison/COMPARISON.md).
+<!-- END GENERATED RESULTS -->
 
-From the command line, once the notebooks are built (`python tools/build_notebooks.py`):
+## 7. Why the 256-token redo
+
+A 128-token BERT window is too short for a large share of TAWOS issues. Measured with the same
+tokenizer on the `(0,100]` corpus:
+
+| Window | Issues truncated | Token content lost |
+|---|---:|---:|
+| 128 tokens | 29.35% | 41.66% |
+| 256 tokens | 8.97% | 26.20% |
+
+So the longer window clearly preserves more text. **The finished CNN run does not turn that into a
+macro-MAE win**: it scores 2.966 against its own 2.897 median baseline, winning on only 15 of 39
+pairs (pair-level Wilcoxon p = 0.104, not significant). It does improve typical-case error — MdAE
+1.792 vs 1.897, and issue-weighted MAE 3.961 vs 4.059. We report this as a **measured gain in
+input fidelity, not a demonstrated gain in accuracy**.
+
+Note that the redo changed the story-point cap and the corpus partitions as well as the token
+window, so it is **not** a controlled 128-vs-256 A/B comparison. Evidence:
+`results/256_sp100/audit/truncation_comparison.json` and
+`results/256_sp100/main/master_metrics_256.json`.
+
+## 8. Project-name mapping
+
+Section 3.3 of the guidelines uses short/informal project names. `tools/verify_project_mapping.py`
+resolves them in three machine-checked steps: **13 exact** matches, **24 normalised** short forms
+(e.g. `MESOS` → `Apache Mesos`), and **2 instructor-approved remaps** for labels that name no TAWOS
+project:
+
+- `Evergreen` → `The MongoDB Engineering`
+- `C++ driver (Appcelerator)` → `Aptana Studio`
+
+After exact + normalised matching, exactly those two TAWOS projects remain, so the mapping is a
+verified **bijection**: 39 PDF labels → 39 distinct TAWOS projects. Outputs:
+`results/project_name_mapping.csv` and `results/project_mapping_validation.json`.
+
+## 9. Reproducing the experiments
+
+**All training runs on Kaggle GPUs; nothing is trained locally.** The Kaggle account is
+`madmaxop123`; the extracted dataset is `ettasrinithreddy/tawos-extracted`.
 
 ```bash
-kaggle kernels push -p <directory with the .ipynb and kernel-metadata.json>
-kaggle kernels status <user>/<kernel-ref>
-kaggle kernels output <user>/<kernel-ref> -p results/
+# 1. Build notebooks from the readable sources
+python tools/build_notebooks.py
+python tools/test_model_cpu.py
+
+# 2. Rebuild the redo kernels and push them to Kaggle
+python redo/build_kernels.py
+kaggle kernels push -p redo/kernels/ps3-256-audit      # CPU: corpus / baseline / truncation
+kaggle kernels push -p redo/kernels/ps3-256-main       # GPU: the 39-pair BERT + CNN redo
+
+# 3. Download finished outputs
+kaggle kernels output madmaxop123/ps3-256-audit -p results/256_sp100/audit
+kaggle kernels output madmaxop123/ps3-256-main  -p results/256_sp100/main
+
+# 4. Regenerate every results table, the dashboard and the report's results section
+python redo/build_comparison.py
+
+# 5. One-shot shortcut: download outputs + rebuild every table and the PDF
+python redo/finalize_main.py
 ```
+
+The committed `05`/`06`/`07` runs reproduce from `03_bert_embeddings.ipynb` (frozen
+`bert-base-uncased`, fp16 token arrays) followed by the respective training notebooks. Full
+hyperparameters and seeds: `configs/ps3.yaml`. Step-by-step Kaggle inputs, hardware and runtimes
+are in `REPORT.md` section 8.

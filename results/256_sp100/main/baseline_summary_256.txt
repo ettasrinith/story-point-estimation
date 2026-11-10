@@ -1,0 +1,4 @@
+seed 42 | story points (0,100] | 62870 issues | 39 projects
+CROSS-PROJECT  (n=1482): MAE 2.937 +/- 2.100 | MdAE 1.943
+WITHIN-PROJECT (n=39): MAE 2.326 +/- 2.031 | MdAE 1.372
+cross/within gap: 26.3%

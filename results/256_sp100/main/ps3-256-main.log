@@ -1,0 +1,368 @@
+[{"stream_name":"stderr","time":7.026091642,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.026146296,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.026153206,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.026157616,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.609879618,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.6099050120000005,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.6099102720000005,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.609914643,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.529246209,"data":"config: {'tag': '256', 'seed': 42, 'sp_filter': '(0,100]', 'max_len': 256, 'folds': 5, 'batch': 64, 'lr': 0.001, 'max_epochs': 25, 'patience': 4}\n"}
+,{"stream_name":"stdout","time":11.724754584,"data":"{\n"}
+,{"stream_name":"stdout","time":11.724784402000001,"data":"  \"rows_in_csv\": 65427,\n"}
+,{"stream_name":"stdout","time":11.724788381,"data":"  \"rows_with_storypoint\": 65427,\n"}
+,{"stream_name":"stdout","time":11.724790894,"data":"  \"rows_without_storypoint\": 0,\n"}
+,{"stream_name":"stdout","time":11.724793343,"data":"  \"dropped_sp_le_0\": 2416,\n"}
+,{"stream_name":"stdout","time":11.724795614,"data":"  \"dropped_sp_gt_100\": 141,\n"}
+,{"stream_name":"stdout","time":11.724798012,"data":"  \"dropped_sp_gt_40\": 818,\n"}
+,{"stream_name":"stdout","time":11.724818997,"data":"  \"kept_sp_0_40\": 62193,\n"}
+,{"stream_name":"stdout","time":11.72482289,"data":"  \"kept_sp_0_100\": 62870,\n"}
+,{"stream_name":"stdout","time":11.724827145999999,"data":"  \"max_storypoint\": 26710114.0,\n"}
+,{"stream_name":"stdout","time":11.724831039,"data":"  \"added_by_relaxing_40_to_100\": 677\n"}
+,{"stream_name":"stdout","time":11.724834699,"data":"}\n"}
+,{"stream_name":"stdout","time":11.724838296,"data":"filtered corpus: 62870 issues | 39 projects\n"}
+,{"stream_name":"stdout","time":12.137467263,"data":"seed 42 | story points (0,100] | 62870 issues | 39 projects\n"}
+,{"stream_name":"stdout","time":12.137494026,"data":"CROSS-PROJECT  (n=1482): MAE 2.937 +/- 2.100 | MdAE 1.943\n"}
+,{"stream_name":"stdout","time":12.137499469,"data":"WITHIN-PROJECT (n=39): MAE 2.326 +/- 2.031 | MdAE 1.372\n"}
+,{"stream_name":"stdout","time":12.137503059,"data":"cross/within gap: 26.3%\n"}
+,{"stream_name":"stdout","time":12.338241682,"data":"found 39 npy files in ['notebooks']\n"}
+,{"stream_name":"stdout","time":12.338278607,"data":"verifying alignment for all 39 projects ...\n"}
+,{"stream_name":"stdout","time":25.559206066,"data":"all 39 arrays aligned: [n, 256, 768], float16, finite, issue_id + storypoint verified\n"}
+,{"stream_name":"stdout","time":25.821505951,"data":"{\n"}
+,{"stream_name":"stdout","time":25.821531529,"data":"  \"issues\": 62870,\n"}
+,{"stream_name":"stdout","time":25.821537279,"data":"  \"median_tokens\": 81.0,\n"}
+,{"stream_name":"stdout","time":25.821542143,"data":"  \"p90_tokens\": 243.0,\n"}
+,{"stream_name":"stdout","time":25.821546732,"data":"  \"p99_tokens\": 858.3099999999977,\n"}
+,{"stream_name":"stdout","time":25.821551331,"data":"  \"trunc_pct_128\": 29.34,\n"}
+,{"stream_name":"stdout","time":25.821555873,"data":"  \"trunc_pct_256\": 8.97,\n"}
+,{"stream_name":"stdout","time":25.821573632,"data":"  \"content_lost_at_128_pct\": 41.66,\n"}
+,{"stream_name":"stdout","time":25.821578857,"data":"  \"content_lost_at_256_pct\": 26.19\n"}
+,{"stream_name":"stdout","time":25.821582891,"data":"}\n"}
+,{"stream_name":"stdout","time":25.821586648,"data":"                    project    n  median_tokens  p90_tokens  trunc_pct_128  trunc_pct_256  content_lost_at_128_pct  content_lost_at_256_pct\n"}
+,{"stream_name":"stdout","time":25.821590955,"data":"       Atlassian Jira Cloud  351          220.0       387.0          92.88          36.75                    50.37                    17.11\n"}
+,{"stream_name":"stdout","time":25.821595571,"data":"      Atlassian Jira Server  380          226.5       385.0          91.05          38.68                    50.74                    16.68\n"}
+,{"stream_name":"stdout","time":25.821599823,"data":" Atlassian Confluence Cloud  340          177.0       375.2          76.47          25.29                    47.67                    21.01\n"}
+,{"stream_name":"stdout","time":25.821604012999998,"data":"Atlassian Confluence Server  645          211.0       536.6          76.43          39.84                    61.10                    37.52\n"}
+,{"stream_name":"stdout","time":25.821608366,"data":"             Sonatype Nexus 1804          144.0       415.0          56.43          21.73                    67.37                    53.60\n"}
+,{"stream_name":"stdout","time":25.821617226,"data":"           The Titanium SDK 4412          134.0       348.9          52.38          18.34                    47.33                    26.35\n"}
+,{"stream_name":"stdout","time":33.043981555,"data":"device: cuda | Tesla T4\n"}
+,{"stream_name":"stdout","time":33.094825595,"data":"[1/39] XD -\u003e MESOS\n"}
+,{"stream_name":"stdout","time":228.335063852,"data":"    fold 1: best val MAE 1.911 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":257.394373502,"data":"    fold 2: best val MAE 1.632 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":278.305202824,"data":"    fold 3: best val MAE 1.990 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":301.527764972,"data":"    fold 4: best val MAE 2.077 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":324.403807482,"data":"    fold 5: best val MAE 1.716 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":389.513512228,"data":"    test MAE 1.697 (baseline 1.538, pooled median 1.538) | MdAE 1.258 | val 1.865+/-0.167 -\u003e 8 ep | 380s total\n"}
+,{"stream_name":"stdout","time":389.514430366,"data":"[2/39] Usergrid -\u003e MXNet\n"}
+,{"stream_name":"stdout","time":412.039631338,"data":"    fold 1: best val MAE 1.000 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":417.138727074,"data":"    fold 2: best val MAE 0.757 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":419.66709338,"data":"    fold 3: best val MAE 0.655 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":422.199154537,"data":"    fold 4: best val MAE 1.181 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":423.654939793,"data":"    fold 5: best val MAE 1.125 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":428.121854673,"data":"    test MAE 7.485 (baseline 7.244, pooled median 7.244) | MdAE 1.731 | val 0.944+/-0.205 -\u003e 6 ep | 419s total\n"}
+,{"stream_name":"stdout","time":428.123027943,"data":"[3/39] Titanium Mobile Platform -\u003e Usergrid\n"}
+,{"stream_name":"stdout","time":508.25237642,"data":"    fold 1: best val MAE 2.195 @ epoch 17 (21 run)\n"}
+,{"stream_name":"stdout","time":525.489330712,"data":"    fold 2: best val MAE 2.386 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":542.121329657,"data":"    fold 3: best val MAE 2.971 @ epoch 18 (22 run)\n"}
+,{"stream_name":"stdout","time":554.878520064,"data":"    fold 4: best val MAE 2.217 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":572.212788715,"data":"    fold 5: best val MAE 2.483 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":590.662764308,"data":"    test MAE 2.015 (baseline 0.729, pooled median 0.729) | MdAE 1.222 | val 2.451+/-0.281 -\u003e 17 ep | 581s total\n"}
+,{"stream_name":"stdout","time":590.663973656,"data":"[4/39] The Titanium SDK -\u003e Alloy Framework\n"}
+,{"stream_name":"stdout","time":819.71637344,"data":"    fold 1: best val MAE 2.741 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":853.991307077,"data":"    fold 2: best val MAE 2.876 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":903.71249131,"data":"    fold 3: best val MAE 2.698 @ epoch 15 (19 run)\n"}
+,{"stream_name":"stdout","time":937.791423341,"data":"    fold 4: best val MAE 2.756 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":997.348217391,"data":"    fold 5: best val MAE 2.768 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":1030.715970887,"data":"    test MAE 1.852 (baseline 2.180, pooled median 1.885) | MdAE 1.402 | val 2.768+/-0.059 -\u003e 12 ep | 1021s total\n"}
+,{"stream_name":"stdout","time":1030.716856082,"data":"[5/39] Software Cloud -\u003e Appcelerator Daemon\n"}
+,{"stream_name":"stdout","time":1045.370526457,"data":"    fold 1: best val MAE 2.551 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":1048.785359444,"data":"    fold 2: best val MAE 1.892 @ epoch 15 (19 run)\n"}
+,{"stream_name":"stdout","time":1049.80196541,"data":"    fold 3: best val MAE 1.786 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":1052.168978414,"data":"    fold 4: best val MAE 2.024 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":1054.598232799,"data":"    fold 5: best val MAE 1.963 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":1059.619491494,"data":"    test MAE 6.298 (baseline 6.188, pooled median 6.188) | MdAE 2.375 | val 2.043+/-0.266 -\u003e 8 ep | 1050s total\n"}
+,{"stream_name":"stdout","time":1059.620587899,"data":"[6/39] Sawtooth -\u003e Appcelerator Studio\n"}
+,{"stream_name":"stdout","time":1108.321433764,"data":"    fold 1: best val MAE 0.918 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":1116.591966418,"data":"    fold 2: best val MAE 0.983 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":1123.893113424,"data":"    fold 3: best val MAE 0.909 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":1130.071397894,"data":"    fold 4: best val MAE 0.937 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":1136.214144232,"data":"    fold 5: best val MAE 0.864 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":1188.014365196,"data":"    test MAE 3.723 (baseline 3.674, pooled median 2.877) | MdAE 3.093 | val 0.922+/-0.039 -\u003e 7 ep | 1178s total\n"}
+,{"stream_name":"stdout","time":1188.015392672,"data":"[7/39] Nexus -\u003e Command-Line Interface\n"}
+,{"stream_name":"stdout","time":1274.977976501,"data":"    fold 1: best val MAE 0.956 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":1289.534522835,"data":"    fold 2: best val MAE 0.974 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":1303.016123843,"data":"    fold 3: best val MAE 0.947 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":1312.478958303,"data":"    fold 4: best val MAE 0.886 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":1325.02118816,"data":"    fold 5: best val MAE 0.862 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":1336.33642691,"data":"    test MAE 2.459 (baseline 2.789, pooled median 1.944) | MdAE 1.810 | val 0.925+/-0.043 -\u003e 7 ep | 1327s total\n"}
+,{"stream_name":"stdout","time":1336.336470727,"data":"[8/39] MXNet -\u003e The Titanium SDK\n"}
+,{"stream_name":"stdout","time":1345.07432354,"data":"    fold 1: best val MAE 2.463 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":1345.918779982,"data":"    fold 2: best val MAE 2.114 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":1347.720543887,"data":"    fold 3: best val MAE 2.371 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":1348.793899395,"data":"    fold 4: best val MAE 5.706 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":1349.686277774,"data":"    fold 5: best val MAE 5.618 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":1397.269709368,"data":"    test MAE 3.453 (baseline 3.576, pooled median 3.576) | MdAE 1.636 | val 3.655+/-1.643 -\u003e 5 ep | 1388s total\n"}
+,{"stream_name":"stdout","time":1397.270769294,"data":"[9/39] Mule APIkit -\u003e Titanium Mobile Platform\n"}
+,{"stream_name":"stdout","time":1420.646902588,"data":"    fold 1: best val MAE 1.953 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":1423.25212326,"data":"    fold 2: best val MAE 1.672 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":1428.68935665,"data":"    fold 3: best val MAE 1.296 @ epoch 16 (20 run)\n"}
+,{"stream_name":"stdout","time":1434.548997829,"data":"    fold 4: best val MAE 1.913 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":1436.112565467,"data":"    fold 5: best val MAE 1.867 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":1452.421271689,"data":"    test MAE 3.101 (baseline 2.980, pooled median 2.980) | MdAE 1.516 | val 1.740+/-0.242 -\u003e 11 ep | 1443s total\n"}
+,{"stream_name":"stdout","time":1452.422244874,"data":"[10/39] Mule -\u003e C++ driver (Appcelerator)\n"}
+,{"stream_name":"stdout","time":1646.22253289,"data":"    fold 1: best val MAE 2.579 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":1673.539807823,"data":"    fold 2: best val MAE 2.520 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":1692.499209114,"data":"    fold 3: best val MAE 2.695 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":1726.102285378,"data":"    fold 4: best val MAE 2.501 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":1761.886634079,"data":"    fold 5: best val MAE 2.435 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":1792.07682458,"data":"    test MAE 6.117 (baseline 6.190, pooled median 6.750) | MdAE 3.866 | val 2.546+/-0.088 -\u003e 9 ep | 1783s total\n"}
+,{"stream_name":"stdout","time":1792.077780508,"data":"[11/39] Moodle -\u003e Atlassian Software Server\n"}
+,{"stream_name":"stdout","time":1877.238663405,"data":"    fold 1: best val MAE 9.105 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":1890.182450813,"data":"    fold 2: best val MAE 9.870 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":1904.90259456,"data":"    fold 3: best val MAE 10.558 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":1914.313215766,"data":"    fold 4: best val MAE 8.097 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":1928.255147907,"data":"    fold 5: best val MAE 7.980 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":1942.761654403,"data":"    test MAE 3.205 (baseline 2.492, pooled median 2.062) | MdAE 2.114 | val 9.122+/-0.998 -\u003e 11 ep | 1933s total\n"}
+,{"stream_name":"stdout","time":1942.763168976,"data":"[12/39] MongoDB Core Server -\u003e Bamboo\n"}
+,{"stream_name":"stdout","time":1985.188689509,"data":"    fold 1: best val MAE 1.077 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":1995.64249369,"data":"    fold 2: best val MAE 1.166 @ epoch 24 (25 run)\n"}
+,{"stream_name":"stdout","time":2004.40449661,"data":"    fold 3: best val MAE 1.710 @ epoch 17 (21 run)\n"}
+,{"stream_name":"stdout","time":2009.430424418,"data":"    fold 4: best val MAE 0.990 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":2016.939879975,"data":"    fold 5: best val MAE 1.201 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":2029.044030461,"data":"    test MAE 1.412 (baseline 1.277, pooled median 1.597) | MdAE 0.811 | val 1.229+/-0.252 -\u003e 14 ep | 2020s total\n"}
+,{"stream_name":"stdout","time":2029.044769742,"data":"[13/39] MESOS -\u003e Clover\n"}
+,{"stream_name":"stdout","time":2197.34925841,"data":"    fold 1: best val MAE 1.421 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":2214.604472474,"data":"    fold 2: best val MAE 1.461 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":2235.630716682,"data":"    fold 3: best val MAE 1.248 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":2266.666912908,"data":"    fold 4: best val MAE 1.398 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":2288.115159335,"data":"    fold 5: best val MAE 1.305 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":2308.131604517,"data":"    test MAE 3.684 (baseline 3.796, pooled median 3.796) | MdAE 1.170 | val 1.367+/-0.079 -\u003e 8 ep | 2299s total\n"}
+,{"stream_name":"stdout","time":2308.132530015,"data":"[14/39] Lyrasis Dura Cloud -\u003e Confluence Cloud\n"}
+,{"stream_name":"stdout","time":2349.281935603,"data":"    fold 1: best val MAE 0.586 @ epoch 21 (25 run)\n"}
+,{"stream_name":"stdout","time":2353.122256175,"data":"    fold 2: best val MAE 1.202 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":2357.96702545,"data":"    fold 3: best val MAE 1.083 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":2362.834930867,"data":"    fold 4: best val MAE 0.746 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":2366.171416854,"data":"    fold 5: best val MAE 0.875 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":2374.486273209,"data":"    test MAE 2.355 (baseline 2.390, pooled median 1.625) | MdAE 1.497 | val 0.898+/-0.223 -\u003e 10 ep | 2365s total\n"}
+,{"stream_name":"stdout","time":2374.487420534,"data":"[15/39] Lsstcorp Data management -\u003e Confluence Server\n"}
+,{"stream_name":"stdout","time":3569.372885957,"data":"    fold 1: best val MAE 4.215 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":3771.217977306,"data":"    fold 2: best val MAE 3.961 @ epoch 14 (18 run)\n"}
+,{"stream_name":"stdout","time":3932.19300006,"data":"    fold 3: best val MAE 4.065 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":4111.792489555,"data":"    fold 4: best val MAE 4.154 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":4223.689635901,"data":"    fold 5: best val MAE 4.276 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":4345.718792119,"data":"    test MAE 1.879 (baseline 1.039, pooled median 1.039) | MdAE 1.223 | val 4.134+/-0.111 -\u003e 10 ep | 4336s total\n"}
+,{"stream_name":"stdout","time":4345.719674534,"data":"[16/39] Jira Server -\u003e Crowd\n"}
+,{"stream_name":"stdout","time":4366.752682931,"data":"    fold 1: best val MAE 2.587 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":4372.227711304,"data":"    fold 2: best val MAE 1.626 @ epoch 21 (25 run)\n"}
+,{"stream_name":"stdout","time":4377.532811831,"data":"    fold 3: best val MAE 1.617 @ epoch 20 (24 run)\n"}
+,{"stream_name":"stdout","time":4378.843200459,"data":"    fold 4: best val MAE 1.184 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":4384.53099915,"data":"    fold 5: best val MAE 2.371 @ epoch 25 (25 run)\n"}
+,{"stream_name":"stdout","time":4390.447924331,"data":"    test MAE 2.556 (baseline 2.558, pooled median 1.698) | MdAE 2.452 | val 1.877+/-0.522 -\u003e 14 ep | 4381s total\n"}
+,{"stream_name":"stdout","time":4390.448740816,"data":"[17/39] Jira Cloud -\u003e FishEye\n"}
+,{"stream_name":"stdout","time":4409.083815219,"data":"    fold 1: best val MAE 1.639 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":4410.345938365,"data":"    fold 2: best val MAE 1.164 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":4412.597127524,"data":"    fold 3: best val MAE 1.402 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":4414.702536972,"data":"    fold 4: best val MAE 1.070 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":4415.848355815,"data":"    fold 5: best val MAE 1.317 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":4419.692583694,"data":"    test MAE 1.651 (baseline 2.169, pooled median 1.494) | MdAE 1.612 | val 1.318+/-0.198 -\u003e 6 ep | 4410s total\n"}
+,{"stream_name":"stdout","time":4419.693911116,"data":"[18/39] Java driver -\u003e Jira Cloud\n"}
+,{"stream_name":"stdout","time":4431.256324469,"data":"    fold 1: best val MAE 0.011 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":4432.07697911,"data":"    fold 2: best val MAE 0.464 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":4433.830074561,"data":"    fold 3: best val MAE 0.064 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":4434.673858093,"data":"    fold 4: best val MAE 0.040 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":4436.417065094,"data":"    fold 5: best val MAE 0.039 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":4441.222759402,"data":"    test MAE 3.255 (baseline 3.243, pooled median 1.729) | MdAE 3.011 | val 0.124+/-0.171 -\u003e 7 ep | 4432s total\n"}
+,{"stream_name":"stdout","time":4441.22369341,"data":"[19/39] Indy SDK -\u003e Jira Server\n"}
+,{"stream_name":"stdout","time":4480.945653541,"data":"    fold 1: best val MAE 1.530 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":4490.545437432,"data":"    fold 2: best val MAE 1.406 @ epoch 18 (22 run)\n"}
+,{"stream_name":"stdout","time":4497.188745274,"data":"    fold 3: best val MAE 1.499 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":4501.328413869,"data":"    fold 4: best val MAE 1.645 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":4507.969976736,"data":"    fold 5: best val MAE 1.451 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":4516.334636643,"data":"    test MAE 1.878 (baseline 1.895, pooled median 1.895) | MdAE 1.082 | val 1.506+/-0.081 -\u003e 12 ep | 4507s total\n"}
+,{"stream_name":"stdout","time":4516.335876225,"data":"[20/39] Indy Node -\u003e Software Cloud\n"}
+,{"stream_name":"stdout","time":4548.823775191,"data":"    fold 1: best val MAE 1.174 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":4552.723014237,"data":"    fold 2: best val MAE 1.609 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":4557.814403599,"data":"    fold 3: best val MAE 1.479 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":4560.909041346,"data":"    fold 4: best val MAE 1.233 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":4566.439567478,"data":"    fold 5: best val MAE 1.536 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":4573.182187405,"data":"    test MAE 2.300 (baseline 2.237, pooled median 2.237) | MdAE 1.160 | val 1.406+/-0.172 -\u003e 7 ep | 4564s total\n"}
+,{"stream_name":"stdout","time":4573.182934266,"data":"[21/39] FishEye -\u003e DotNetNuke Platform\n"}
+,{"stream_name":"stdout","time":4584.819940836,"data":"    fold 1: best val MAE 0.826 @ epoch 21 (25 run)\n"}
+,{"stream_name":"stdout","time":4585.82629918,"data":"    fold 2: best val MAE 0.978 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":4586.624731172,"data":"    fold 3: best val MAE 0.752 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":4587.201078055,"data":"    fold 4: best val MAE 0.848 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":4588.354805154,"data":"    fold 5: best val MAE 0.747 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":4631.372204405,"data":"    test MAE 1.107 (baseline 1.083, pooled median 1.442) | MdAE 0.994 | val 0.830+/-0.084 -\u003e 7 ep | 4622s total\n"}
+,{"stream_name":"stdout","time":4631.373560199,"data":"[22/39] Fabric -\u003e Blockchain Explorer\n"}
+,{"stream_name":"stdout","time":4665.778749042,"data":"    fold 1: best val MAE 1.722 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":4671.402765567,"data":"    fold 2: best val MAE 1.264 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":4676.722181924,"data":"    fold 3: best val MAE 0.991 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":4683.100863747,"data":"    fold 4: best val MAE 1.724 @ epoch 14 (18 run)\n"}
+,{"stream_name":"stdout","time":4687.729295388,"data":"    fold 5: best val MAE 1.310 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":4696.742259911,"data":"    test MAE 1.905 (baseline 1.501, pooled median 1.177) | MdAE 1.654 | val 1.402+/-0.284 -\u003e 10 ep | 4687s total\n"}
+,{"stream_name":"stdout","time":4696.742910357,"data":"[23/39] Evergreen -\u003e Fabric\n"}
+,{"stream_name":"stdout","time":4969.722965731,"data":"    fold 1: best val MAE 0.755 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":4999.09313608,"data":"    fold 2: best val MAE 0.741 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5031.34951193,"data":"    fold 3: best val MAE 0.756 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":5057.677101136,"data":"    fold 4: best val MAE 0.706 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":5089.721877973,"data":"    fold 5: best val MAE 0.716 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":5115.9872475,"data":"    test MAE 1.702 (baseline 1.752, pooled median 2.080) | MdAE 0.785 | val 0.735+/-0.021 -\u003e 7 ep | 5106s total\n"}
+,{"stream_name":"stdout","time":5115.988250842,"data":"[24/39] DotNetNuke Platform -\u003e Indy Node\n"}
+,{"stream_name":"stdout","time":5241.050208798,"data":"    fold 1: best val MAE 0.781 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5260.525237932,"data":"    fold 2: best val MAE 0.925 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":5285.862848359,"data":"    fold 3: best val MAE 0.874 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":5305.751643644,"data":"    fold 4: best val MAE 0.752 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":5329.620563728,"data":"    fold 5: best val MAE 1.195 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":5353.342927678,"data":"    test MAE 1.837 (baseline 1.956, pooled median 1.563) | MdAE 1.339 | val 0.905+/-0.158 -\u003e 10 ep | 5344s total\n"}
+,{"stream_name":"stdout","time":5353.343090267,"data":"[25/39] DataCass -\u003e Indy SDK\n"}
+,{"stream_name":"stdout","time":5365.318554354,"data":"    fold 1: best val MAE 1.996 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":5366.524748393,"data":"    fold 2: best val MAE 2.632 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5368.259820408,"data":"    fold 3: best val MAE 1.462 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":5369.796962007,"data":"    fold 4: best val MAE 3.227 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":5370.637851829,"data":"    fold 5: best val MAE 2.888 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":5378.838575283,"data":"    test MAE 1.747 (baseline 1.620, pooled median 1.620) | MdAE 1.145 | val 2.441+/-0.634 -\u003e 8 ep | 5369s total\n"}
+,{"stream_name":"stdout","time":5378.839357934,"data":"[26/39] Crowd -\u003e Sawtooth\n"}
+,{"stream_name":"stdout","time":5387.891313784,"data":"    fold 1: best val MAE 0.863 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":5390.598155416,"data":"    fold 2: best val MAE 0.784 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":5391.209200628,"data":"    fold 3: best val MAE 0.804 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":5392.271614477,"data":"    fold 4: best val MAE 1.027 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":5393.130896814,"data":"    fold 5: best val MAE 0.797 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":5403.905493218,"data":"    test MAE 1.286 (baseline 1.368, pooled median 1.189) | MdAE 0.869 | val 0.855+/-0.090 -\u003e 6 ep | 5394s total\n"}
+,{"stream_name":"stdout","time":5403.906424857,"data":"[27/39] Confluence Server -\u003e Lsstcorp Data management\n"}
+,{"stream_name":"stdout","time":5437.279473634,"data":"    fold 1: best val MAE 1.006 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":5440.847624721,"data":"    fold 2: best val MAE 1.343 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5444.126196072,"data":"    fold 3: best val MAE 1.406 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":5449.232779754,"data":"    fold 4: best val MAE 1.218 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":5454.355552048,"data":"    fold 5: best val MAE 1.155 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":5683.42328102,"data":"    test MAE 5.819 (baseline 5.723, pooled median 5.723) | MdAE 1.901 | val 1.226+/-0.141 -\u003e 8 ep | 5674s total\n"}
+,{"stream_name":"stdout","time":5683.424253098,"data":"[28/39] Confluence Cloud -\u003e Lyrasis Dura Cloud\n"}
+,{"stream_name":"stdout","time":5701.042410971,"data":"    fold 1: best val MAE 1.117 @ epoch 18 (22 run)\n"}
+,{"stream_name":"stdout","time":5702.014720107,"data":"    fold 2: best val MAE 1.045 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":5703.421565687,"data":"    fold 3: best val MAE 1.220 @ epoch 3 (7 run)\n"}
+,{"stream_name":"stdout","time":5705.365627788,"data":"    fold 4: best val MAE 1.147 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5709.658346111,"data":"    fold 5: best val MAE 1.658 @ epoch 18 (22 run)\n"}
+,{"stream_name":"stdout","time":5718.173162157,"data":"    test MAE 1.672 (baseline 1.718, pooled median 1.718) | MdAE 1.575 | val 1.237+/-0.218 -\u003e 9 ep | 5709s total\n"}
+,{"stream_name":"stdout","time":5718.174112139,"data":"[29/39] Compass -\u003e MongoDB Core Server\n"}
+,{"stream_name":"stdout","time":5743.086710826,"data":"    fold 1: best val MAE 1.289 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":5747.338437956,"data":"    fold 2: best val MAE 1.144 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":5750.360742149,"data":"    fold 3: best val MAE 1.263 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5752.587086648,"data":"    fold 4: best val MAE 1.417 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":5755.522685468,"data":"    fold 5: best val MAE 1.153 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":5765.255236714,"data":"    test MAE 1.669 (baseline 1.755, pooled median 1.755) | MdAE 1.536 | val 1.253+/-0.100 -\u003e 7 ep | 5756s total\n"}
+,{"stream_name":"stdout","time":5765.256135749,"data":"[30/39] Command-Line Interface -\u003e Compass\n"}
+,{"stream_name":"stdout","time":5784.090596604,"data":"    fold 1: best val MAE 1.851 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":5785.614326989,"data":"    fold 2: best val MAE 1.735 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":5788.891046735,"data":"    fold 3: best val MAE 1.812 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":5790.071893243,"data":"    fold 4: best val MAE 1.905 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":5793.61600986,"data":"    fold 5: best val MAE 1.440 @ epoch 14 (18 run)\n"}
+,{"stream_name":"stdout","time":5800.465654992,"data":"    test MAE 1.586 (baseline 1.250, pooled median 1.250) | MdAE 1.294 | val 1.749+/-0.164 -\u003e 10 ep | 5791s total\n"}
+,{"stream_name":"stdout","time":5800.46663479,"data":"[31/39] Clover -\u003e C++ driver (MongoDB)\n"}
+,{"stream_name":"stdout","time":5818.581564258,"data":"    fold 1: best val MAE 3.691 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":5823.952421161,"data":"    fold 2: best val MAE 5.279 @ epoch 21 (25 run)\n"}
+,{"stream_name":"stdout","time":5827.889435424,"data":"    fold 3: best val MAE 3.023 @ epoch 14 (18 run)\n"}
+,{"stream_name":"stdout","time":5830.983586638,"data":"    fold 4: best val MAE 5.182 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":5835.647561955,"data":"    fold 5: best val MAE 2.876 @ epoch 17 (21 run)\n"}
+,{"stream_name":"stdout","time":5841.097313993,"data":"    test MAE 1.762 (baseline 0.845, pooled median 1.702) | MdAE 1.578 | val 4.010+/-1.034 -\u003e 13 ep | 5832s total\n"}
+,{"stream_name":"stdout","time":5841.098118234,"data":"[32/39] C++ driver (Appcelerator) -\u003e Evergreen\n"}
+,{"stream_name":"stdout","time":5881.26927175,"data":"    fold 1: best val MAE 4.439 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":5885.672080832,"data":"    fold 2: best val MAE 4.065 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":5889.967298506,"data":"    fold 3: best val MAE 4.728 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":5895.803187454,"data":"    fold 4: best val MAE 3.156 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":5906.941594127,"data":"    fold 5: best val MAE 5.047 @ epoch 19 (23 run)\n"}
+,{"stream_name":"stdout","time":5963.498672921,"data":"    test MAE 4.006 (baseline 6.086, pooled median 1.421) | MdAE 4.053 | val 4.287+/-0.651 -\u003e 8 ep | 5954s total\n"}
+,{"stream_name":"stdout","time":5963.499647576,"data":"[33/39] C++ driver (MongoDB) -\u003e Java driver\n"}
+,{"stream_name":"stdout","time":5972.620469066,"data":"    fold 1: best val MAE 0.550 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":5974.50160356,"data":"    fold 2: best val MAE 0.552 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":5976.694887364,"data":"    fold 3: best val MAE 0.436 @ epoch 15 (19 run)\n"}
+,{"stream_name":"stdout","time":5977.294515727,"data":"    fold 4: best val MAE 0.315 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":5978.581632047,"data":"    fold 5: best val MAE 0.559 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":5981.976703188,"data":"    test MAE 0.047 (baseline 0.021, pooled median 1.979) | MdAE 0.024 | val 0.482+/-0.095 -\u003e 7 ep | 5972s total\n"}
+,{"stream_name":"stdout","time":5981.977525135,"data":"[34/39] Blockchain Explorer -\u003e Moodle\n"}
+,{"stream_name":"stdout","time":6002.132214191,"data":"    fold 1: best val MAE 1.147 @ epoch 21 (25 run)\n"}
+,{"stream_name":"stdout","time":6003.258999946,"data":"    fold 2: best val MAE 1.061 @ epoch 1 (5 run)\n"}
+,{"stream_name":"stdout","time":6005.017799096,"data":"    fold 3: best val MAE 1.407 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":6006.837364327,"data":"    fold 4: best val MAE 1.119 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":6012.135519784,"data":"    fold 5: best val MAE 0.957 @ epoch 23 (25 run)\n"}
+,{"stream_name":"stdout","time":6030.39323709,"data":"    test MAE 10.269 (baseline 10.262, pooled median 10.262) | MdAE 2.644 | val 1.138+/-0.149 -\u003e 11 ep | 6021s total\n"}
+,{"stream_name":"stdout","time":6030.394315072,"data":"[35/39] Bamboo -\u003e Mule\n"}
+,{"stream_name":"stdout","time":6055.083176906,"data":"    fold 1: best val MAE 1.452 @ epoch 8 (12 run)\n"}
+,{"stream_name":"stdout","time":6059.274760603,"data":"    fold 2: best val MAE 1.045 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":6061.118618843,"data":"    fold 3: best val MAE 1.248 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":6063.874916268,"data":"    fold 4: best val MAE 0.931 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":6066.799012704,"data":"    fold 5: best val MAE 1.080 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":6106.954994554,"data":"    test MAE 3.316 (baseline 3.302, pooled median 2.932) | MdAE 1.988 | val 1.151+/-0.181 -\u003e 6 ep | 6097s total\n"}
+,{"stream_name":"stdout","time":6106.95594705,"data":"[36/39] Atlassian Software Server -\u003e Mule APIkit\n"}
+,{"stream_name":"stdout","time":6124.410623161,"data":"    fold 1: best val MAE 2.104 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":6126.761156495,"data":"    fold 2: best val MAE 1.810 @ epoch 9 (13 run)\n"}
+,{"stream_name":"stdout","time":6130.625424451,"data":"    fold 3: best val MAE 2.073 @ epoch 17 (21 run)\n"}
+,{"stream_name":"stdout","time":6132.156640218,"data":"    fold 4: best val MAE 2.393 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":6136.114332597,"data":"    fold 5: best val MAE 1.800 @ epoch 17 (21 run)\n"}
+,{"stream_name":"stdout","time":6143.400096364,"data":"    test MAE 1.870 (baseline 1.742, pooled median 1.742) | MdAE 1.721 | val 2.036+/-0.219 -\u003e 12 ep | 6134s total\n"}
+,{"stream_name":"stdout","time":6143.400925022,"data":"[37/39] Appcelerator Studio -\u003e Nexus\n"}
+,{"stream_name":"stdout","time":6313.552224521,"data":"    fold 1: best val MAE 2.066 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":6328.693310821,"data":"    fold 2: best val MAE 2.056 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":6345.906633458,"data":"    fold 3: best val MAE 1.966 @ epoch 5 (9 run)\n"}
+,{"stream_name":"stdout","time":6376.192989499,"data":"    fold 4: best val MAE 2.190 @ epoch 12 (16 run)\n"}
+,{"stream_name":"stdout","time":6404.417252944,"data":"    fold 5: best val MAE 2.162 @ epoch 11 (15 run)\n"}
+,{"stream_name":"stdout","time":6440.562265485,"data":"    test MAE 3.573 (baseline 3.424, pooled median 1.778) | MdAE 3.414 | val 2.088+/-0.080 -\u003e 9 ep | 6431s total\n"}
+,{"stream_name":"stdout","time":6440.563582752,"data":"[38/39] Appcelerator Daemon -\u003e DataCass\n"}
+,{"stream_name":"stdout","time":6451.324122667,"data":"    fold 1: best val MAE 4.164 @ epoch 4 (8 run)\n"}
+,{"stream_name":"stdout","time":6453.288493057,"data":"    fold 2: best val MAE 7.525 @ epoch 13 (17 run)\n"}
+,{"stream_name":"stdout","time":6455.362869784,"data":"    fold 3: best val MAE 4.851 @ epoch 14 (18 run)\n"}
+,{"stream_name":"stdout","time":6458.249386,"data":"    fold 4: best val MAE 5.576 @ epoch 21 (25 run)\n"}
+,{"stream_name":"stdout","time":6459.876270327,"data":"    fold 5: best val MAE 4.329 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":6463.676117053,"data":"    test MAE 5.861 (baseline 5.163, pooled median 4.930) | MdAE 3.858 | val 5.289+/-1.221 -\u003e 12 ep | 6454s total\n"}
+,{"stream_name":"stdout","time":6463.677967392,"data":"[39/39] Alloy Framework -\u003e XD\n"}
+,{"stream_name":"stdout","time":6476.183108744,"data":"    fold 1: best val MAE 1.624 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":6478.040578592,"data":"    fold 2: best val MAE 1.788 @ epoch 6 (10 run)\n"}
+,{"stream_name":"stdout","time":6479.156898567,"data":"    fold 3: best val MAE 1.527 @ epoch 2 (6 run)\n"}
+,{"stream_name":"stdout","time":6481.715899581,"data":"    fold 4: best val MAE 1.755 @ epoch 10 (14 run)\n"}
+,{"stream_name":"stdout","time":6483.752202272,"data":"    fold 5: best val MAE 1.779 @ epoch 7 (11 run)\n"}
+,{"stream_name":"stdout","time":6520.619770119,"data":"    test MAE 2.283 (baseline 2.244, pooled median 2.244) | MdAE 1.494 | val 1.695+/-0.103 -\u003e 5 ep | 6511s total\n"}
+,{"stream_name":"stdout","time":6520.62076938,"data":"ALL PAIRS DONE in 108.5 min\n"}
+,{"stream_name":"stdout","time":6520.88189351,"data":"PS-3 ASSIGNED EXPERIMENT — BERT word embeddings + 3-layer CNN | tag 256\n"}
+,{"stream_name":"stdout","time":6520.881921451,"data":"seed 42 | story points (0,100] | BERT window 256 tokens | 5-fold CV on source development pool | single held-out target test\n"}
+,{"stream_name":"stdout","time":6520.881927017,"data":"corpus: 62870 issues / 39 projects | frozen bert-base-uncased, fp16 arrays\n"}
+,{"stream_name":"stdout","time":6520.881931016,"data":"\n"}
+,{"stream_name":"stdout","time":6520.881934591,"data":"pairs evaluated            : 39 / 39\n"}
+,{"stream_name":"stdout","time":6520.88193807,"data":"macro test MAE             : 2.966 +/- 2.017\n"}
+,{"stream_name":"stdout","time":6520.881941691,"data":"macro baseline MAE         : 2.897 +/- 2.098\n"}
+,{"stream_name":"stdout","time":6520.881945212,"data":"macro pooled-median MAE    : 2.651\n"}
+,{"stream_name":"stdout","time":6520.88194865,"data":"macro MAE improvement      : -2.4% vs single-source median\n"}
+,{"stream_name":"stdout","time":6520.881953928,"data":"issue-weighted test MAE    : 3.961\n"}
+,{"stream_name":"stdout","time":6520.881957331,"data":"issue-weighted baseline MAE: 4.059\n"}
+,{"stream_name":"stdout","time":6520.881962739,"data":"pooled over 12573 issues: MAE 3.961 | MdAE 1.862\n"}
+,{"stream_name":"stdout","time":6520.881966448,"data":"mean per-pair test MdAE    : 1.792 (baseline 1.897, pooled median 1.692)\n"}
+,{"stream_name":"stdout","time":6520.881970631,"data":"5-fold validation MAE      : 1.991 +/- 0.294 (best epoch)\n"}
+,{"stream_name":"stdout","time":6520.881974762,"data":"final epochs               : mean 9.1 (min 5, max 17)\n"}
+,{"stream_name":"stdout","time":6520.881978735,"data":"beats single-source median : 15/39 pairs\n"}
+,{"stream_name":"stdout","time":6520.881982443,"data":"beats pooled median        : 11/39 pairs\n"}
+,{"stream_name":"stdout","time":6520.881986837,"data":"unbeatable baseline (MAE=0): 0 pairs\n"}
+,{"stream_name":"stdout","time":6520.881990945,"data":"Wilcoxon issue-level vs single-source median : p = 7.553e-01\n"}
+,{"stream_name":"stdout","time":6520.881994222,"data":"Wilcoxon issue-level vs pooled median        : p = 1.218e-193\n"}
+,{"stream_name":"stdout","time":6520.881997505,"data":"Wilcoxon pair-level (39 pairs)               : p = 0.1045\n"}
+,{"stream_name":"stdout","time":6520.882001046,"data":"\n"}
+,{"stream_name":"stdout","time":6520.882004831,"data":"best 5 pairs:\n"}
+,{"stream_name":"stdout","time":6520.882008234,"data":"            pdf_source          pdf_target  test_mae  test_mdae  baseline_mae  n_test\n"}
+,{"stream_name":"stdout","time":6520.882012401,"data":"  C++ driver (MongoDB)         Java driver  0.047117   0.024019      0.020833      48\n"}
+,{"stream_name":"stdout","time":6520.882015849,"data":"               FishEye DotNetNuke Platform  1.107193   0.994452      1.082979     517\n"}
+,{"stream_name":"stdout","time":6520.882019412,"data":"                 Crowd            Sawtooth  1.285733   0.869334      1.368421     190\n"}
+,{"stream_name":"stdout","time":6520.882024331,"data":"   MongoDB Core Server              Bamboo  1.412017   0.811004      1.276699     103\n"}
+,{"stream_name":"stdout","time":6520.882028551,"data":"Command-Line Interface             Compass  1.585922   1.293872      1.250000     100\n"}
+,{"stream_name":"stdout","time":6520.882033091,"data":"\n"}
+,{"stream_name":"stdout","time":6520.882036326,"data":"worst 5 pairs:\n"}
+,{"stream_name":"stdout","time":6520.88203979,"data":"         pdf_source                pdf_target  test_mae  test_mdae  baseline_mae  n_test\n"}
+,{"stream_name":"stdout","time":6520.882055668,"data":"Blockchain Explorer                    Moodle 10.269403   2.643791     10.261770     305\n"}
+,{"stream_name":"stdout","time":6520.882059758,"data":"           Usergrid                     MXNet  7.485416   1.730539      7.243902      41\n"}
+,{"stream_name":"stdout","time":6520.882063293,"data":"     Software Cloud       Appcelerator Daemon  6.297938   2.374544      6.187500      48\n"}
+,{"stream_name":"stdout","time":6520.882068529,"data":"               Mule C++ driver (Appcelerator)  6.117006   3.865968      6.190476     168\n"}
+,{"stream_name":"stdout","time":6520.882072134,"data":"Appcelerator Daemon                  DataCass  5.860516   3.857558      5.162791      43\n"}
+,{"stream_name":"stdout","time":6522.992804607,"data":"DONE. outputs: ['__notebook__.ipynb', 'baseline_results_256.csv', 'baseline_summary_256.txt', 'error_distribution_256.png', 'evaluation_summary_256.txt', 'filter_impact_256.json', 'manifest_256.csv', 'master_metrics_256.json', 'predictions_256', 'predictions_all_256.csv', 'results_pairs_256.csv', 'results_per_pair_256.png', 'run_metadata_256.json', 'scatter_256.png', 'storypoint_distribution_256.png', 'token_lengths_256.png', 'truncation_by_project_256.csv', 'truncation_stats_256.json']\n"}
+,{"stream_name":"stderr","time":6529.138040623,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6529.138087858,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6529.305306819,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6529.305332216,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6530.049392965,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6530.162220258,"data":"[NbConvertApp] Writing 76304 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":6532.640644645,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6533.339802579,"data":"[NbConvertApp] Writing 497683 bytes to __results__.html\n"}
+]

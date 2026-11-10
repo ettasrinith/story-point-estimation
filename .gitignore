@@ -2,3 +2,9 @@ __pycache__/
 .ipynb_checkpoints/
 *.sql
 *.zip
+
+# Local agent workspace (session state, not part of the submission)
+.workbuddy-ai/
+
+# Kaggle CLI download bookkeeping stubs
+*.kaggle-partial

@@ -1,0 +1,1522 @@
+source,target,mae,mdae,pred,n_train,n_test
+Alloy Framework,Apache MXNet,7.2439024390243905,2.0,3.0,242,41
+Alloy Framework,Apache Mesos,1.5382262996941896,1.0,3.0,242,654
+Alloy Framework,Apache Usergrid,0.7291666666666666,0.0,3.0,242,96
+Alloy Framework,Appcelerator Daemon,6.1875,2.0,3.0,242,48
+Alloy Framework,Appcelerator Studio,2.8770864946889225,2.0,3.0,242,659
+Alloy Framework,Aptana Studio,6.75,5.0,3.0,242,168
+Alloy Framework,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,242,65
+Alloy Framework,Atlassian Bamboo,1.5970873786407767,2.0,3.0,242,103
+Alloy Framework,Atlassian Clover,3.7960526315789473,2.0,3.0,242,76
+Alloy Framework,Atlassian Confluence Cloud,1.625,1.0,3.0,242,68
+Alloy Framework,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,242,129
+Alloy Framework,Atlassian Crowd,1.697674418604651,2.0,3.0,242,43
+Alloy Framework,Atlassian FishEye,1.494186046511628,2.0,3.0,242,43
+Alloy Framework,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,242,70
+Alloy Framework,Atlassian Jira Server,1.894736842105263,1.0,3.0,242,76
+Alloy Framework,Atlassian Software Cloud,2.23728813559322,1.0,3.0,242,59
+Alloy Framework,Command-Line Interface,1.943661971830986,2.0,3.0,242,71
+Alloy Framework,DotNetNuke Platform,1.441972920696325,1.0,3.0,242,517
+Alloy Framework,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,242,74
+Alloy Framework,Hyperledger Fabric,2.08,2.0,3.0,242,125
+Alloy Framework,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,242,135
+Alloy Framework,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,242,142
+Alloy Framework,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,242,190
+Alloy Framework,Lsstcorp Data management,5.723277573326648,2.0,3.0,242,3989
+Alloy Framework,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,242,131
+Alloy Framework,MongoDB Compass,1.25,1.0,3.0,242,100
+Alloy Framework,MongoDB Core Server,1.75503355704698,2.0,3.0,242,149
+Alloy Framework,Moodle,10.26177049180328,2.0,3.0,242,305
+Alloy Framework,Mule,2.93234100135318,2.0,3.0,242,739
+Alloy Framework,Mule APIkit,1.7419354838709677,2.0,3.0,242,93
+Alloy Framework,Sonatype Nexus,1.778393351800554,2.0,3.0,242,361
+Alloy Framework,Spring DataCass,4.930232558139535,2.0,3.0,242,43
+Alloy Framework,Spring XD,2.244350282485876,2.0,3.0,242,708
+Alloy Framework,The Mongo C++ driver,1.7023809523809523,2.0,3.0,242,42
+Alloy Framework,The Mongo Java driver,1.9791666666666667,2.0,3.0,242,48
+Alloy Framework,The MongoDB Engineering,1.421104536489152,1.0,3.0,242,1014
+Alloy Framework,The Titanium SDK,3.5759637188208617,2.0,3.0,242,882
+Alloy Framework,Titanium Mobile Platform,2.98046875,2.0,3.0,242,256
+Apache MXNet,Alloy Framework,1.8852459016393444,2.0,3.0,164,61
+Apache MXNet,Apache Mesos,1.5382262996941896,1.0,3.0,164,654
+Apache MXNet,Apache Usergrid,0.7291666666666666,0.0,3.0,164,96
+Apache MXNet,Appcelerator Daemon,6.1875,2.0,3.0,164,48
+Apache MXNet,Appcelerator Studio,2.8770864946889225,2.0,3.0,164,659
+Apache MXNet,Aptana Studio,6.75,5.0,3.0,164,168
+Apache MXNet,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,164,65
+Apache MXNet,Atlassian Bamboo,1.5970873786407767,2.0,3.0,164,103
+Apache MXNet,Atlassian Clover,3.7960526315789473,2.0,3.0,164,76
+Apache MXNet,Atlassian Confluence Cloud,1.625,1.0,3.0,164,68
+Apache MXNet,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,164,129
+Apache MXNet,Atlassian Crowd,1.697674418604651,2.0,3.0,164,43
+Apache MXNet,Atlassian FishEye,1.494186046511628,2.0,3.0,164,43
+Apache MXNet,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,164,70
+Apache MXNet,Atlassian Jira Server,1.894736842105263,1.0,3.0,164,76
+Apache MXNet,Atlassian Software Cloud,2.23728813559322,1.0,3.0,164,59
+Apache MXNet,Command-Line Interface,1.943661971830986,2.0,3.0,164,71
+Apache MXNet,DotNetNuke Platform,1.441972920696325,1.0,3.0,164,517
+Apache MXNet,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,164,74
+Apache MXNet,Hyperledger Fabric,2.08,2.0,3.0,164,125
+Apache MXNet,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,164,135
+Apache MXNet,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,164,142
+Apache MXNet,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,164,190
+Apache MXNet,Lsstcorp Data management,5.723277573326648,2.0,3.0,164,3989
+Apache MXNet,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,164,131
+Apache MXNet,MongoDB Compass,1.25,1.0,3.0,164,100
+Apache MXNet,MongoDB Core Server,1.75503355704698,2.0,3.0,164,149
+Apache MXNet,Moodle,10.26177049180328,2.0,3.0,164,305
+Apache MXNet,Mule,2.93234100135318,2.0,3.0,164,739
+Apache MXNet,Mule APIkit,1.7419354838709677,2.0,3.0,164,93
+Apache MXNet,Sonatype Nexus,1.778393351800554,2.0,3.0,164,361
+Apache MXNet,Spring DataCass,4.930232558139535,2.0,3.0,164,43
+Apache MXNet,Spring XD,2.244350282485876,2.0,3.0,164,708
+Apache MXNet,The Mongo C++ driver,1.7023809523809523,2.0,3.0,164,42
+Apache MXNet,The Mongo Java driver,1.9791666666666667,2.0,3.0,164,48
+Apache MXNet,The MongoDB Engineering,1.421104536489152,1.0,3.0,164,1014
+Apache MXNet,The Titanium SDK,3.5759637188208617,2.0,3.0,164,882
+Apache MXNet,Titanium Mobile Platform,2.98046875,2.0,3.0,164,256
+Apache Mesos,Alloy Framework,1.8852459016393444,2.0,3.0,2614,61
+Apache Mesos,Apache MXNet,7.2439024390243905,2.0,3.0,2614,41
+Apache Mesos,Apache Usergrid,0.7291666666666666,0.0,3.0,2614,96
+Apache Mesos,Appcelerator Daemon,6.1875,2.0,3.0,2614,48
+Apache Mesos,Appcelerator Studio,2.8770864946889225,2.0,3.0,2614,659
+Apache Mesos,Aptana Studio,6.75,5.0,3.0,2614,168
+Apache Mesos,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,2614,65
+Apache Mesos,Atlassian Bamboo,1.5970873786407767,2.0,3.0,2614,103
+Apache Mesos,Atlassian Clover,3.7960526315789473,2.0,3.0,2614,76
+Apache Mesos,Atlassian Confluence Cloud,1.625,1.0,3.0,2614,68
+Apache Mesos,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,2614,129
+Apache Mesos,Atlassian Crowd,1.697674418604651,2.0,3.0,2614,43
+Apache Mesos,Atlassian FishEye,1.494186046511628,2.0,3.0,2614,43
+Apache Mesos,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,2614,70
+Apache Mesos,Atlassian Jira Server,1.894736842105263,1.0,3.0,2614,76
+Apache Mesos,Atlassian Software Cloud,2.23728813559322,1.0,3.0,2614,59
+Apache Mesos,Command-Line Interface,1.943661971830986,2.0,3.0,2614,71
+Apache Mesos,DotNetNuke Platform,1.441972920696325,1.0,3.0,2614,517
+Apache Mesos,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,2614,74
+Apache Mesos,Hyperledger Fabric,2.08,2.0,3.0,2614,125
+Apache Mesos,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,2614,135
+Apache Mesos,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,2614,142
+Apache Mesos,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,2614,190
+Apache Mesos,Lsstcorp Data management,5.723277573326648,2.0,3.0,2614,3989
+Apache Mesos,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,2614,131
+Apache Mesos,MongoDB Compass,1.25,1.0,3.0,2614,100
+Apache Mesos,MongoDB Core Server,1.75503355704698,2.0,3.0,2614,149
+Apache Mesos,Moodle,10.26177049180328,2.0,3.0,2614,305
+Apache Mesos,Mule,2.93234100135318,2.0,3.0,2614,739
+Apache Mesos,Mule APIkit,1.7419354838709677,2.0,3.0,2614,93
+Apache Mesos,Sonatype Nexus,1.778393351800554,2.0,3.0,2614,361
+Apache Mesos,Spring DataCass,4.930232558139535,2.0,3.0,2614,43
+Apache Mesos,Spring XD,2.244350282485876,2.0,3.0,2614,708
+Apache Mesos,The Mongo C++ driver,1.7023809523809523,2.0,3.0,2614,42
+Apache Mesos,The Mongo Java driver,1.9791666666666667,2.0,3.0,2614,48
+Apache Mesos,The MongoDB Engineering,1.421104536489152,1.0,3.0,2614,1014
+Apache Mesos,The Titanium SDK,3.5759637188208617,2.0,3.0,2614,882
+Apache Mesos,Titanium Mobile Platform,2.98046875,2.0,3.0,2614,256
+Apache Usergrid,Alloy Framework,1.8852459016393444,2.0,3.0,386,61
+Apache Usergrid,Apache MXNet,7.2439024390243905,2.0,3.0,386,41
+Apache Usergrid,Apache Mesos,1.5382262996941896,1.0,3.0,386,654
+Apache Usergrid,Appcelerator Daemon,6.1875,2.0,3.0,386,48
+Apache Usergrid,Appcelerator Studio,2.8770864946889225,2.0,3.0,386,659
+Apache Usergrid,Aptana Studio,6.75,5.0,3.0,386,168
+Apache Usergrid,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,386,65
+Apache Usergrid,Atlassian Bamboo,1.5970873786407767,2.0,3.0,386,103
+Apache Usergrid,Atlassian Clover,3.7960526315789473,2.0,3.0,386,76
+Apache Usergrid,Atlassian Confluence Cloud,1.625,1.0,3.0,386,68
+Apache Usergrid,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,386,129
+Apache Usergrid,Atlassian Crowd,1.697674418604651,2.0,3.0,386,43
+Apache Usergrid,Atlassian FishEye,1.494186046511628,2.0,3.0,386,43
+Apache Usergrid,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,386,70
+Apache Usergrid,Atlassian Jira Server,1.894736842105263,1.0,3.0,386,76
+Apache Usergrid,Atlassian Software Cloud,2.23728813559322,1.0,3.0,386,59
+Apache Usergrid,Command-Line Interface,1.943661971830986,2.0,3.0,386,71
+Apache Usergrid,DotNetNuke Platform,1.441972920696325,1.0,3.0,386,517
+Apache Usergrid,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,386,74
+Apache Usergrid,Hyperledger Fabric,2.08,2.0,3.0,386,125
+Apache Usergrid,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,386,135
+Apache Usergrid,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,386,142
+Apache Usergrid,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,386,190
+Apache Usergrid,Lsstcorp Data management,5.723277573326648,2.0,3.0,386,3989
+Apache Usergrid,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,386,131
+Apache Usergrid,MongoDB Compass,1.25,1.0,3.0,386,100
+Apache Usergrid,MongoDB Core Server,1.75503355704698,2.0,3.0,386,149
+Apache Usergrid,Moodle,10.26177049180328,2.0,3.0,386,305
+Apache Usergrid,Mule,2.93234100135318,2.0,3.0,386,739
+Apache Usergrid,Mule APIkit,1.7419354838709677,2.0,3.0,386,93
+Apache Usergrid,Sonatype Nexus,1.778393351800554,2.0,3.0,386,361
+Apache Usergrid,Spring DataCass,4.930232558139535,2.0,3.0,386,43
+Apache Usergrid,Spring XD,2.244350282485876,2.0,3.0,386,708
+Apache Usergrid,The Mongo C++ driver,1.7023809523809523,2.0,3.0,386,42
+Apache Usergrid,The Mongo Java driver,1.9791666666666667,2.0,3.0,386,48
+Apache Usergrid,The MongoDB Engineering,1.421104536489152,1.0,3.0,386,1014
+Apache Usergrid,The Titanium SDK,3.5759637188208617,2.0,3.0,386,882
+Apache Usergrid,Titanium Mobile Platform,2.98046875,2.0,3.0,386,256
+Appcelerator Daemon,Alloy Framework,2.180327868852459,2.0,5.0,193,61
+Appcelerator Daemon,Apache MXNet,7.2439024390243905,3.0,5.0,193,41
+Appcelerator Daemon,Apache Mesos,2.400611620795107,2.0,5.0,193,654
+Appcelerator Daemon,Apache Usergrid,2.1458333333333335,2.0,5.0,193,96
+Appcelerator Daemon,Appcelerator Studio,2.0910470409711683,2.0,5.0,193,659
+Appcelerator Daemon,Aptana Studio,5.630952380952381,3.0,5.0,193,168
+Appcelerator Daemon,Atlassian Atlassian Software Server,2.4923076923076923,2.0,5.0,193,65
+Appcelerator Daemon,Atlassian Bamboo,3.033980582524272,3.0,5.0,193,103
+Appcelerator Daemon,Atlassian Clover,4.796052631578948,3.0,5.0,193,76
+Appcelerator Daemon,Atlassian Confluence Cloud,2.713235294117647,3.0,5.0,193,68
+Appcelerator Daemon,Atlassian Confluence Server,2.3255813953488373,2.0,5.0,193,129
+Appcelerator Daemon,Atlassian Crowd,3.4186046511627906,4.0,5.0,193,43
+Appcelerator Daemon,Atlassian FishEye,2.88953488372093,3.0,5.0,193,43
+Appcelerator Daemon,Atlassian Jira Cloud,1.8142857142857143,1.0,5.0,193,70
+Appcelerator Daemon,Atlassian Jira Server,2.1315789473684212,1.5,5.0,193,76
+Appcelerator Daemon,Atlassian Software Cloud,2.406779661016949,2.0,5.0,193,59
+Appcelerator Daemon,Command-Line Interface,2.4225352112676055,2.0,5.0,193,71
+Appcelerator Daemon,DotNetNuke Platform,3.1352030947775624,3.0,5.0,193,517
+Appcelerator Daemon,Hyperledger Blockchain Explorer,2.339189189189189,2.0,5.0,193,74
+Appcelerator Daemon,Hyperledger Fabric,3.344,3.0,5.0,193,125
+Appcelerator Daemon,Hyperledger Indy Node,2.111111111111111,2.0,5.0,193,135
+Appcelerator Daemon,Hyperledger Indy SDK,2.2535211267605635,2.0,5.0,193,142
+Appcelerator Daemon,Hyperledger Sawtooth,2.663157894736842,3.0,5.0,193,190
+Appcelerator Daemon,Lsstcorp Data management,6.132026633241414,3.0,5.0,193,3989
+Appcelerator Daemon,Lyrasis Dura Cloud,3.213740458015267,3.0,5.0,193,131
+Appcelerator Daemon,MongoDB Compass,1.83,2.0,5.0,193,100
+Appcelerator Daemon,MongoDB Core Server,2.976510067114094,3.0,5.0,193,149
+Appcelerator Daemon,Moodle,9.962295081967213,3.0,5.0,193,305
+Appcelerator Daemon,Mule,2.970230040595399,3.0,5.0,193,739
+Appcelerator Daemon,Mule APIkit,2.193548387096774,3.0,5.0,193,93
+Appcelerator Daemon,Sonatype Nexus,3.4238227146814406,4.0,5.0,193,361
+Appcelerator Daemon,Spring DataCass,5.162790697674419,4.0,5.0,193,43
+Appcelerator Daemon,Spring XD,2.9138418079096047,3.0,5.0,193,708
+Appcelerator Daemon,The Mongo C++ driver,3.7023809523809526,4.0,5.0,193,42
+Appcelerator Daemon,The Mongo Java driver,3.9791666666666665,4.0,5.0,193,48
+Appcelerator Daemon,The MongoDB Engineering,3.103550295857988,3.0,5.0,193,1014
+Appcelerator Daemon,The Titanium SDK,3.18140589569161,2.0,5.0,193,882
+Appcelerator Daemon,Titanium Mobile Platform,3.52734375,3.0,5.0,193,256
+Appcelerator Studio,Alloy Framework,2.180327868852459,2.0,5.0,2635,61
+Appcelerator Studio,Apache MXNet,7.2439024390243905,3.0,5.0,2635,41
+Appcelerator Studio,Apache Mesos,2.400611620795107,2.0,5.0,2635,654
+Appcelerator Studio,Apache Usergrid,2.1458333333333335,2.0,5.0,2635,96
+Appcelerator Studio,Appcelerator Daemon,5.604166666666667,3.0,5.0,2635,48
+Appcelerator Studio,Aptana Studio,5.630952380952381,3.0,5.0,2635,168
+Appcelerator Studio,Atlassian Atlassian Software Server,2.4923076923076923,2.0,5.0,2635,65
+Appcelerator Studio,Atlassian Bamboo,3.033980582524272,3.0,5.0,2635,103
+Appcelerator Studio,Atlassian Clover,4.796052631578948,3.0,5.0,2635,76
+Appcelerator Studio,Atlassian Confluence Cloud,2.713235294117647,3.0,5.0,2635,68
+Appcelerator Studio,Atlassian Confluence Server,2.3255813953488373,2.0,5.0,2635,129
+Appcelerator Studio,Atlassian Crowd,3.4186046511627906,4.0,5.0,2635,43
+Appcelerator Studio,Atlassian FishEye,2.88953488372093,3.0,5.0,2635,43
+Appcelerator Studio,Atlassian Jira Cloud,1.8142857142857143,1.0,5.0,2635,70
+Appcelerator Studio,Atlassian Jira Server,2.1315789473684212,1.5,5.0,2635,76
+Appcelerator Studio,Atlassian Software Cloud,2.406779661016949,2.0,5.0,2635,59
+Appcelerator Studio,Command-Line Interface,2.4225352112676055,2.0,5.0,2635,71
+Appcelerator Studio,DotNetNuke Platform,3.1352030947775624,3.0,5.0,2635,517
+Appcelerator Studio,Hyperledger Blockchain Explorer,2.339189189189189,2.0,5.0,2635,74
+Appcelerator Studio,Hyperledger Fabric,3.344,3.0,5.0,2635,125
+Appcelerator Studio,Hyperledger Indy Node,2.111111111111111,2.0,5.0,2635,135
+Appcelerator Studio,Hyperledger Indy SDK,2.2535211267605635,2.0,5.0,2635,142
+Appcelerator Studio,Hyperledger Sawtooth,2.663157894736842,3.0,5.0,2635,190
+Appcelerator Studio,Lsstcorp Data management,6.132026633241414,3.0,5.0,2635,3989
+Appcelerator Studio,Lyrasis Dura Cloud,3.213740458015267,3.0,5.0,2635,131
+Appcelerator Studio,MongoDB Compass,1.83,2.0,5.0,2635,100
+Appcelerator Studio,MongoDB Core Server,2.976510067114094,3.0,5.0,2635,149
+Appcelerator Studio,Moodle,9.962295081967213,3.0,5.0,2635,305
+Appcelerator Studio,Mule,2.970230040595399,3.0,5.0,2635,739
+Appcelerator Studio,Mule APIkit,2.193548387096774,3.0,5.0,2635,93
+Appcelerator Studio,Sonatype Nexus,3.4238227146814406,4.0,5.0,2635,361
+Appcelerator Studio,Spring DataCass,5.162790697674419,4.0,5.0,2635,43
+Appcelerator Studio,Spring XD,2.9138418079096047,3.0,5.0,2635,708
+Appcelerator Studio,The Mongo C++ driver,3.7023809523809526,4.0,5.0,2635,42
+Appcelerator Studio,The Mongo Java driver,3.9791666666666665,4.0,5.0,2635,48
+Appcelerator Studio,The MongoDB Engineering,3.103550295857988,3.0,5.0,2635,1014
+Appcelerator Studio,The Titanium SDK,3.18140589569161,2.0,5.0,2635,882
+Appcelerator Studio,Titanium Mobile Platform,3.52734375,3.0,5.0,2635,256
+Aptana Studio,Alloy Framework,4.491803278688525,5.0,8.0,671,61
+Aptana Studio,Apache MXNet,8.731707317073171,5.0,8.0,671,41
+Aptana Studio,Apache Mesos,4.807339449541284,5.0,8.0,671,654
+Aptana Studio,Apache Usergrid,5.145833333333333,5.0,8.0,671,96
+Aptana Studio,Appcelerator Daemon,6.104166666666667,5.0,8.0,671,48
+Aptana Studio,Appcelerator Studio,3.2336874051593325,3.0,8.0,671,659
+Aptana Studio,Atlassian Atlassian Software Server,4.815384615384615,5.0,8.0,671,65
+Aptana Studio,Atlassian Bamboo,5.859223300970874,6.0,8.0,671,103
+Aptana Studio,Atlassian Clover,6.769736842105263,6.0,8.0,671,76
+Aptana Studio,Atlassian Confluence Cloud,5.007352941176471,5.5,8.0,671,68
+Aptana Studio,Atlassian Confluence Server,5.046511627906977,5.0,8.0,671,129
+Aptana Studio,Atlassian Crowd,6.4186046511627906,7.0,8.0,671,43
+Aptana Studio,Atlassian FishEye,5.8895348837209305,6.0,8.0,671,43
+Aptana Studio,Atlassian Jira Cloud,3.757142857142857,4.0,8.0,671,70
+Aptana Studio,Atlassian Jira Server,4.052631578947368,4.0,8.0,671,76
+Aptana Studio,Atlassian Software Cloud,4.389830508474576,5.0,8.0,671,59
+Aptana Studio,Command-Line Interface,4.492957746478873,5.0,8.0,671,71
+Aptana Studio,DotNetNuke Platform,5.994390715667312,6.0,8.0,671,517
+Aptana Studio,Hyperledger Blockchain Explorer,4.987837837837838,5.0,8.0,671,74
+Aptana Studio,Hyperledger Fabric,5.8,6.0,8.0,671,125
+Aptana Studio,Hyperledger Indy Node,4.488888888888889,5.0,8.0,671,135
+Aptana Studio,Hyperledger Indy SDK,4.366197183098592,5.0,8.0,671,142
+Aptana Studio,Hyperledger Sawtooth,5.631578947368421,6.0,8.0,671,190
+Aptana Studio,Lsstcorp Data management,7.582189581348709,6.0,8.0,671,3989
+Aptana Studio,Lyrasis Dura Cloud,5.969465648854962,6.0,8.0,671,131
+Aptana Studio,MongoDB Compass,4.53,5.0,8.0,671,100
+Aptana Studio,MongoDB Core Server,5.453020134228188,6.0,8.0,671,149
+Aptana Studio,Moodle,10.214754098360656,6.0,8.0,671,305
+Aptana Studio,Mule,4.3382949932341,5.0,8.0,671,739
+Aptana Studio,Mule APIkit,4.612903225806452,5.0,8.0,671,93
+Aptana Studio,Sonatype Nexus,6.32409972299169,7.0,8.0,671,361
+Aptana Studio,Spring DataCass,6.767441860465116,5.0,8.0,671,43
+Aptana Studio,Spring XD,4.987288135593221,5.0,8.0,671,708
+Aptana Studio,The Mongo C++ driver,6.7023809523809526,7.0,8.0,671,42
+Aptana Studio,The Mongo Java driver,6.979166666666667,7.0,8.0,671,48
+Aptana Studio,The MongoDB Engineering,6.085798816568047,6.0,8.0,671,1014
+Aptana Studio,The Titanium SDK,4.489795918367347,5.0,8.0,671,882
+Aptana Studio,Titanium Mobile Platform,5.21484375,6.0,8.0,671,256
+Atlassian Atlassian Software Server,Alloy Framework,1.8852459016393444,2.0,3.0,260,61
+Atlassian Atlassian Software Server,Apache MXNet,7.2439024390243905,2.0,3.0,260,41
+Atlassian Atlassian Software Server,Apache Mesos,1.5382262996941896,1.0,3.0,260,654
+Atlassian Atlassian Software Server,Apache Usergrid,0.7291666666666666,0.0,3.0,260,96
+Atlassian Atlassian Software Server,Appcelerator Daemon,6.1875,2.0,3.0,260,48
+Atlassian Atlassian Software Server,Appcelerator Studio,2.8770864946889225,2.0,3.0,260,659
+Atlassian Atlassian Software Server,Aptana Studio,6.75,5.0,3.0,260,168
+Atlassian Atlassian Software Server,Atlassian Bamboo,1.5970873786407767,2.0,3.0,260,103
+Atlassian Atlassian Software Server,Atlassian Clover,3.7960526315789473,2.0,3.0,260,76
+Atlassian Atlassian Software Server,Atlassian Confluence Cloud,1.625,1.0,3.0,260,68
+Atlassian Atlassian Software Server,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,260,129
+Atlassian Atlassian Software Server,Atlassian Crowd,1.697674418604651,2.0,3.0,260,43
+Atlassian Atlassian Software Server,Atlassian FishEye,1.494186046511628,2.0,3.0,260,43
+Atlassian Atlassian Software Server,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,260,70
+Atlassian Atlassian Software Server,Atlassian Jira Server,1.894736842105263,1.0,3.0,260,76
+Atlassian Atlassian Software Server,Atlassian Software Cloud,2.23728813559322,1.0,3.0,260,59
+Atlassian Atlassian Software Server,Command-Line Interface,1.943661971830986,2.0,3.0,260,71
+Atlassian Atlassian Software Server,DotNetNuke Platform,1.441972920696325,1.0,3.0,260,517
+Atlassian Atlassian Software Server,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,260,74
+Atlassian Atlassian Software Server,Hyperledger Fabric,2.08,2.0,3.0,260,125
+Atlassian Atlassian Software Server,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,260,135
+Atlassian Atlassian Software Server,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,260,142
+Atlassian Atlassian Software Server,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,260,190
+Atlassian Atlassian Software Server,Lsstcorp Data management,5.723277573326648,2.0,3.0,260,3989
+Atlassian Atlassian Software Server,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,260,131
+Atlassian Atlassian Software Server,MongoDB Compass,1.25,1.0,3.0,260,100
+Atlassian Atlassian Software Server,MongoDB Core Server,1.75503355704698,2.0,3.0,260,149
+Atlassian Atlassian Software Server,Moodle,10.26177049180328,2.0,3.0,260,305
+Atlassian Atlassian Software Server,Mule,2.93234100135318,2.0,3.0,260,739
+Atlassian Atlassian Software Server,Mule APIkit,1.7419354838709677,2.0,3.0,260,93
+Atlassian Atlassian Software Server,Sonatype Nexus,1.778393351800554,2.0,3.0,260,361
+Atlassian Atlassian Software Server,Spring DataCass,4.930232558139535,2.0,3.0,260,43
+Atlassian Atlassian Software Server,Spring XD,2.244350282485876,2.0,3.0,260,708
+Atlassian Atlassian Software Server,The Mongo C++ driver,1.7023809523809523,2.0,3.0,260,42
+Atlassian Atlassian Software Server,The Mongo Java driver,1.9791666666666667,2.0,3.0,260,48
+Atlassian Atlassian Software Server,The MongoDB Engineering,1.421104536489152,1.0,3.0,260,1014
+Atlassian Atlassian Software Server,The Titanium SDK,3.5759637188208617,2.0,3.0,260,882
+Atlassian Atlassian Software Server,Titanium Mobile Platform,2.98046875,2.0,3.0,260,256
+Atlassian Bamboo,Alloy Framework,2.4262295081967213,1.0,2.0,413,61
+Atlassian Bamboo,Apache MXNet,7.609756097560975,2.0,2.0,413,41
+Atlassian Bamboo,Apache Mesos,1.7737003058103975,1.0,2.0,413,654
+Atlassian Bamboo,Apache Usergrid,1.0833333333333333,1.0,2.0,413,96
+Atlassian Bamboo,Appcelerator Daemon,6.729166666666667,3.0,2.0,413,48
+Atlassian Bamboo,Appcelerator Studio,3.6737481031866466,3.0,2.0,413,659
+Atlassian Bamboo,Aptana Studio,7.416666666666667,6.0,2.0,413,168
+Atlassian Bamboo,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,413,65
+Atlassian Bamboo,Atlassian Clover,3.638157894736842,1.0,2.0,413,76
+Atlassian Bamboo,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,413,68
+Atlassian Bamboo,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,413,129
+Atlassian Bamboo,Atlassian Crowd,0.8837209302325582,1.0,2.0,413,43
+Atlassian Bamboo,Atlassian FishEye,1.2383720930232558,1.0,2.0,413,43
+Atlassian Bamboo,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,413,70
+Atlassian Bamboo,Atlassian Jira Server,2.289473684210526,2.0,2.0,413,76
+Atlassian Bamboo,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,413,59
+Atlassian Bamboo,Command-Line Interface,2.295774647887324,1.0,2.0,413,71
+Atlassian Bamboo,DotNetNuke Platform,0.8713733075435203,1.0,2.0,413,517
+Atlassian Bamboo,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,413,74
+Atlassian Bamboo,Hyperledger Fabric,1.752,1.0,2.0,413,125
+Atlassian Bamboo,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,413,135
+Atlassian Bamboo,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,413,142
+Atlassian Bamboo,Hyperledger Sawtooth,0.9473684210526315,1.0,2.0,413,190
+Atlassian Bamboo,Lsstcorp Data management,5.783014349461018,1.5,2.0,413,3989
+Atlassian Bamboo,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,413,131
+Atlassian Bamboo,MongoDB Compass,1.75,1.0,2.0,413,100
+Atlassian Bamboo,MongoDB Core Server,1.5067114093959733,1.0,2.0,413,149
+Atlassian Bamboo,Moodle,10.693442622950819,3.0,2.0,413,305
+Atlassian Bamboo,Mule,3.301759133964817,2.0,2.0,413,739
+Atlassian Bamboo,Mule APIkit,1.881720430107527,1.0,2.0,413,93
+Atlassian Bamboo,Sonatype Nexus,1.1939058171745152,1.0,2.0,413,361
+Atlassian Bamboo,Spring DataCass,5.232558139534884,1.0,2.0,413,43
+Atlassian Bamboo,Spring XD,2.402542372881356,1.0,2.0,413,708
+Atlassian Bamboo,The Mongo C++ driver,0.8452380952380952,1.0,2.0,413,42
+Atlassian Bamboo,The Mongo Java driver,0.9791666666666666,1.0,2.0,413,48
+Atlassian Bamboo,The MongoDB Engineering,0.7485207100591716,1.0,2.0,413,1014
+Atlassian Bamboo,The Titanium SDK,4.1768707482993195,3.0,2.0,413,882
+Atlassian Bamboo,Titanium Mobile Platform,3.02734375,1.0,2.0,413,256
+Atlassian Clover,Alloy Framework,2.4262295081967213,1.0,2.0,306,61
+Atlassian Clover,Apache MXNet,7.609756097560975,2.0,2.0,306,41
+Atlassian Clover,Apache Mesos,1.7737003058103975,1.0,2.0,306,654
+Atlassian Clover,Apache Usergrid,1.0833333333333333,1.0,2.0,306,96
+Atlassian Clover,Appcelerator Daemon,6.729166666666667,3.0,2.0,306,48
+Atlassian Clover,Appcelerator Studio,3.6737481031866466,3.0,2.0,306,659
+Atlassian Clover,Aptana Studio,7.416666666666667,6.0,2.0,306,168
+Atlassian Clover,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,306,65
+Atlassian Clover,Atlassian Bamboo,1.2766990291262137,1.0,2.0,306,103
+Atlassian Clover,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,306,68
+Atlassian Clover,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,306,129
+Atlassian Clover,Atlassian Crowd,0.8837209302325582,1.0,2.0,306,43
+Atlassian Clover,Atlassian FishEye,1.2383720930232558,1.0,2.0,306,43
+Atlassian Clover,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,306,70
+Atlassian Clover,Atlassian Jira Server,2.289473684210526,2.0,2.0,306,76
+Atlassian Clover,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,306,59
+Atlassian Clover,Command-Line Interface,2.295774647887324,1.0,2.0,306,71
+Atlassian Clover,DotNetNuke Platform,0.8713733075435203,1.0,2.0,306,517
+Atlassian Clover,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,306,74
+Atlassian Clover,Hyperledger Fabric,1.752,1.0,2.0,306,125
+Atlassian Clover,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,306,135
+Atlassian Clover,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,306,142
+Atlassian Clover,Hyperledger Sawtooth,0.9473684210526315,1.0,2.0,306,190
+Atlassian Clover,Lsstcorp Data management,5.783014349461018,1.5,2.0,306,3989
+Atlassian Clover,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,306,131
+Atlassian Clover,MongoDB Compass,1.75,1.0,2.0,306,100
+Atlassian Clover,MongoDB Core Server,1.5067114093959733,1.0,2.0,306,149
+Atlassian Clover,Moodle,10.693442622950819,3.0,2.0,306,305
+Atlassian Clover,Mule,3.301759133964817,2.0,2.0,306,739
+Atlassian Clover,Mule APIkit,1.881720430107527,1.0,2.0,306,93
+Atlassian Clover,Sonatype Nexus,1.1939058171745152,1.0,2.0,306,361
+Atlassian Clover,Spring DataCass,5.232558139534884,1.0,2.0,306,43
+Atlassian Clover,Spring XD,2.402542372881356,1.0,2.0,306,708
+Atlassian Clover,The Mongo C++ driver,0.8452380952380952,1.0,2.0,306,42
+Atlassian Clover,The Mongo Java driver,0.9791666666666666,1.0,2.0,306,48
+Atlassian Clover,The MongoDB Engineering,0.7485207100591716,1.0,2.0,306,1014
+Atlassian Clover,The Titanium SDK,4.1768707482993195,3.0,2.0,306,882
+Atlassian Clover,Titanium Mobile Platform,3.02734375,1.0,2.0,306,256
+Atlassian Confluence Cloud,Alloy Framework,1.8852459016393444,2.0,3.0,272,61
+Atlassian Confluence Cloud,Apache MXNet,7.2439024390243905,2.0,3.0,272,41
+Atlassian Confluence Cloud,Apache Mesos,1.5382262996941896,1.0,3.0,272,654
+Atlassian Confluence Cloud,Apache Usergrid,0.7291666666666666,0.0,3.0,272,96
+Atlassian Confluence Cloud,Appcelerator Daemon,6.1875,2.0,3.0,272,48
+Atlassian Confluence Cloud,Appcelerator Studio,2.8770864946889225,2.0,3.0,272,659
+Atlassian Confluence Cloud,Aptana Studio,6.75,5.0,3.0,272,168
+Atlassian Confluence Cloud,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,272,65
+Atlassian Confluence Cloud,Atlassian Bamboo,1.5970873786407767,2.0,3.0,272,103
+Atlassian Confluence Cloud,Atlassian Clover,3.7960526315789473,2.0,3.0,272,76
+Atlassian Confluence Cloud,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,272,129
+Atlassian Confluence Cloud,Atlassian Crowd,1.697674418604651,2.0,3.0,272,43
+Atlassian Confluence Cloud,Atlassian FishEye,1.494186046511628,2.0,3.0,272,43
+Atlassian Confluence Cloud,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,272,70
+Atlassian Confluence Cloud,Atlassian Jira Server,1.894736842105263,1.0,3.0,272,76
+Atlassian Confluence Cloud,Atlassian Software Cloud,2.23728813559322,1.0,3.0,272,59
+Atlassian Confluence Cloud,Command-Line Interface,1.943661971830986,2.0,3.0,272,71
+Atlassian Confluence Cloud,DotNetNuke Platform,1.441972920696325,1.0,3.0,272,517
+Atlassian Confluence Cloud,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,272,74
+Atlassian Confluence Cloud,Hyperledger Fabric,2.08,2.0,3.0,272,125
+Atlassian Confluence Cloud,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,272,135
+Atlassian Confluence Cloud,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,272,142
+Atlassian Confluence Cloud,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,272,190
+Atlassian Confluence Cloud,Lsstcorp Data management,5.723277573326648,2.0,3.0,272,3989
+Atlassian Confluence Cloud,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,272,131
+Atlassian Confluence Cloud,MongoDB Compass,1.25,1.0,3.0,272,100
+Atlassian Confluence Cloud,MongoDB Core Server,1.75503355704698,2.0,3.0,272,149
+Atlassian Confluence Cloud,Moodle,10.26177049180328,2.0,3.0,272,305
+Atlassian Confluence Cloud,Mule,2.93234100135318,2.0,3.0,272,739
+Atlassian Confluence Cloud,Mule APIkit,1.7419354838709677,2.0,3.0,272,93
+Atlassian Confluence Cloud,Sonatype Nexus,1.778393351800554,2.0,3.0,272,361
+Atlassian Confluence Cloud,Spring DataCass,4.930232558139535,2.0,3.0,272,43
+Atlassian Confluence Cloud,Spring XD,2.244350282485876,2.0,3.0,272,708
+Atlassian Confluence Cloud,The Mongo C++ driver,1.7023809523809523,2.0,3.0,272,42
+Atlassian Confluence Cloud,The Mongo Java driver,1.9791666666666667,2.0,3.0,272,48
+Atlassian Confluence Cloud,The MongoDB Engineering,1.421104536489152,1.0,3.0,272,1014
+Atlassian Confluence Cloud,The Titanium SDK,3.5759637188208617,2.0,3.0,272,882
+Atlassian Confluence Cloud,Titanium Mobile Platform,2.98046875,2.0,3.0,272,256
+Atlassian Confluence Server,Alloy Framework,1.8852459016393444,2.0,3.0,516,61
+Atlassian Confluence Server,Apache MXNet,7.2439024390243905,2.0,3.0,516,41
+Atlassian Confluence Server,Apache Mesos,1.5382262996941896,1.0,3.0,516,654
+Atlassian Confluence Server,Apache Usergrid,0.7291666666666666,0.0,3.0,516,96
+Atlassian Confluence Server,Appcelerator Daemon,6.1875,2.0,3.0,516,48
+Atlassian Confluence Server,Appcelerator Studio,2.8770864946889225,2.0,3.0,516,659
+Atlassian Confluence Server,Aptana Studio,6.75,5.0,3.0,516,168
+Atlassian Confluence Server,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,516,65
+Atlassian Confluence Server,Atlassian Bamboo,1.5970873786407767,2.0,3.0,516,103
+Atlassian Confluence Server,Atlassian Clover,3.7960526315789473,2.0,3.0,516,76
+Atlassian Confluence Server,Atlassian Confluence Cloud,1.625,1.0,3.0,516,68
+Atlassian Confluence Server,Atlassian Crowd,1.697674418604651,2.0,3.0,516,43
+Atlassian Confluence Server,Atlassian FishEye,1.494186046511628,2.0,3.0,516,43
+Atlassian Confluence Server,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,516,70
+Atlassian Confluence Server,Atlassian Jira Server,1.894736842105263,1.0,3.0,516,76
+Atlassian Confluence Server,Atlassian Software Cloud,2.23728813559322,1.0,3.0,516,59
+Atlassian Confluence Server,Command-Line Interface,1.943661971830986,2.0,3.0,516,71
+Atlassian Confluence Server,DotNetNuke Platform,1.441972920696325,1.0,3.0,516,517
+Atlassian Confluence Server,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,516,74
+Atlassian Confluence Server,Hyperledger Fabric,2.08,2.0,3.0,516,125
+Atlassian Confluence Server,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,516,135
+Atlassian Confluence Server,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,516,142
+Atlassian Confluence Server,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,516,190
+Atlassian Confluence Server,Lsstcorp Data management,5.723277573326648,2.0,3.0,516,3989
+Atlassian Confluence Server,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,516,131
+Atlassian Confluence Server,MongoDB Compass,1.25,1.0,3.0,516,100
+Atlassian Confluence Server,MongoDB Core Server,1.75503355704698,2.0,3.0,516,149
+Atlassian Confluence Server,Moodle,10.26177049180328,2.0,3.0,516,305
+Atlassian Confluence Server,Mule,2.93234100135318,2.0,3.0,516,739
+Atlassian Confluence Server,Mule APIkit,1.7419354838709677,2.0,3.0,516,93
+Atlassian Confluence Server,Sonatype Nexus,1.778393351800554,2.0,3.0,516,361
+Atlassian Confluence Server,Spring DataCass,4.930232558139535,2.0,3.0,516,43
+Atlassian Confluence Server,Spring XD,2.244350282485876,2.0,3.0,516,708
+Atlassian Confluence Server,The Mongo C++ driver,1.7023809523809523,2.0,3.0,516,42
+Atlassian Confluence Server,The Mongo Java driver,1.9791666666666667,2.0,3.0,516,48
+Atlassian Confluence Server,The MongoDB Engineering,1.421104536489152,1.0,3.0,516,1014
+Atlassian Confluence Server,The Titanium SDK,3.5759637188208617,2.0,3.0,516,882
+Atlassian Confluence Server,Titanium Mobile Platform,2.98046875,2.0,3.0,516,256
+Atlassian Crowd,Alloy Framework,3.098360655737705,2.0,1.0,170,61
+Atlassian Crowd,Apache MXNet,8.414634146341463,3.0,1.0,170,41
+Atlassian Crowd,Apache Mesos,2.4128440366972477,2.0,1.0,170,654
+Atlassian Crowd,Apache Usergrid,1.8541666666666667,2.0,1.0,170,96
+Atlassian Crowd,Appcelerator Daemon,7.354166666666667,4.0,1.0,170,48
+Atlassian Crowd,Appcelerator Studio,4.573596358118361,4.0,1.0,170,659
+Atlassian Crowd,Aptana Studio,8.19047619047619,7.0,1.0,170,168
+Atlassian Crowd,Atlassian Atlassian Software Server,3.076923076923077,2.0,1.0,170,65
+Atlassian Crowd,Atlassian Bamboo,1.4805825242718447,1.0,1.0,170,103
+Atlassian Crowd,Atlassian Clover,3.9539473684210527,1.0,1.0,170,76
+Atlassian Crowd,Atlassian Confluence Cloud,2.389705882352941,2.0,1.0,170,68
+Atlassian Crowd,Atlassian Confluence Server,2.108527131782946,2.0,1.0,170,129
+Atlassian Crowd,Atlassian FishEye,1.4011627906976745,1.0,1.0,170,43
+Atlassian Crowd,Atlassian Jira Cloud,3.242857142857143,3.0,1.0,170,70
+Atlassian Crowd,Atlassian Jira Server,3.263157894736842,3.0,1.0,170,76
+Atlassian Crowd,Atlassian Software Cloud,3.457627118644068,3.0,1.0,170,59
+Atlassian Crowd,Command-Line Interface,2.788732394366197,2.0,1.0,170,71
+Atlassian Crowd,DotNetNuke Platform,1.0829787234042556,1.0,1.0,170,517
+Atlassian Crowd,Hyperledger Blockchain Explorer,2.15,2.0,1.0,170,74
+Atlassian Crowd,Hyperledger Fabric,1.84,1.0,1.0,170,125
+Atlassian Crowd,Hyperledger Indy Node,2.6592592592592594,2.0,1.0,170,135
+Atlassian Crowd,Hyperledger Indy SDK,2.887323943661972,2.0,1.0,170,142
+Atlassian Crowd,Hyperledger Sawtooth,1.368421052631579,1.0,1.0,170,190
+Atlassian Crowd,Lsstcorp Data management,6.209286598144899,2.0,1.0,170,3989
+Atlassian Crowd,Lyrasis Dura Cloud,1.381679389312977,1.0,1.0,170,131
+Atlassian Crowd,MongoDB Compass,2.47,2.0,1.0,170,100
+Atlassian Crowd,MongoDB Core Server,1.7818791946308725,1.0,1.0,170,149
+Atlassian Crowd,Moodle,11.332786885245902,4.0,1.0,170,305
+Atlassian Crowd,Mule,4.004059539918809,3.0,1.0,170,739
+Atlassian Crowd,Mule APIkit,2.4301075268817205,2.0,1.0,170,93
+Atlassian Crowd,Sonatype Nexus,1.0415512465373962,0.5,1.0,170,361
+Atlassian Crowd,Spring DataCass,5.5813953488372094,2.0,1.0,170,43
+Atlassian Crowd,Spring XD,2.922316384180791,2.0,1.0,170,708
+Atlassian Crowd,The Mongo C++ driver,0.36904761904761907,0.0,1.0,170,42
+Atlassian Crowd,The Mongo Java driver,0.020833333333333332,0.0,1.0,170,48
+Atlassian Crowd,The MongoDB Engineering,0.9142011834319527,1.0,1.0,170,1014
+Atlassian Crowd,The Titanium SDK,4.9523809523809526,4.0,1.0,170,882
+Atlassian Crowd,Titanium Mobile Platform,3.34765625,2.0,1.0,170,256
+Atlassian FishEye,Alloy Framework,3.098360655737705,2.0,1.0,174,61
+Atlassian FishEye,Apache MXNet,8.414634146341463,3.0,1.0,174,41
+Atlassian FishEye,Apache Mesos,2.4128440366972477,2.0,1.0,174,654
+Atlassian FishEye,Apache Usergrid,1.8541666666666667,2.0,1.0,174,96
+Atlassian FishEye,Appcelerator Daemon,7.354166666666667,4.0,1.0,174,48
+Atlassian FishEye,Appcelerator Studio,4.573596358118361,4.0,1.0,174,659
+Atlassian FishEye,Aptana Studio,8.19047619047619,7.0,1.0,174,168
+Atlassian FishEye,Atlassian Atlassian Software Server,3.076923076923077,2.0,1.0,174,65
+Atlassian FishEye,Atlassian Bamboo,1.4805825242718447,1.0,1.0,174,103
+Atlassian FishEye,Atlassian Clover,3.9539473684210527,1.0,1.0,174,76
+Atlassian FishEye,Atlassian Confluence Cloud,2.389705882352941,2.0,1.0,174,68
+Atlassian FishEye,Atlassian Confluence Server,2.108527131782946,2.0,1.0,174,129
+Atlassian FishEye,Atlassian Crowd,0.813953488372093,0.5,1.0,174,43
+Atlassian FishEye,Atlassian Jira Cloud,3.242857142857143,3.0,1.0,174,70
+Atlassian FishEye,Atlassian Jira Server,3.263157894736842,3.0,1.0,174,76
+Atlassian FishEye,Atlassian Software Cloud,3.457627118644068,3.0,1.0,174,59
+Atlassian FishEye,Command-Line Interface,2.788732394366197,2.0,1.0,174,71
+Atlassian FishEye,DotNetNuke Platform,1.0829787234042556,1.0,1.0,174,517
+Atlassian FishEye,Hyperledger Blockchain Explorer,2.15,2.0,1.0,174,74
+Atlassian FishEye,Hyperledger Fabric,1.84,1.0,1.0,174,125
+Atlassian FishEye,Hyperledger Indy Node,2.6592592592592594,2.0,1.0,174,135
+Atlassian FishEye,Hyperledger Indy SDK,2.887323943661972,2.0,1.0,174,142
+Atlassian FishEye,Hyperledger Sawtooth,1.368421052631579,1.0,1.0,174,190
+Atlassian FishEye,Lsstcorp Data management,6.209286598144899,2.0,1.0,174,3989
+Atlassian FishEye,Lyrasis Dura Cloud,1.381679389312977,1.0,1.0,174,131
+Atlassian FishEye,MongoDB Compass,2.47,2.0,1.0,174,100
+Atlassian FishEye,MongoDB Core Server,1.7818791946308725,1.0,1.0,174,149
+Atlassian FishEye,Moodle,11.332786885245902,4.0,1.0,174,305
+Atlassian FishEye,Mule,4.004059539918809,3.0,1.0,174,739
+Atlassian FishEye,Mule APIkit,2.4301075268817205,2.0,1.0,174,93
+Atlassian FishEye,Sonatype Nexus,1.0415512465373962,0.5,1.0,174,361
+Atlassian FishEye,Spring DataCass,5.5813953488372094,2.0,1.0,174,43
+Atlassian FishEye,Spring XD,2.922316384180791,2.0,1.0,174,708
+Atlassian FishEye,The Mongo C++ driver,0.36904761904761907,0.0,1.0,174,42
+Atlassian FishEye,The Mongo Java driver,0.020833333333333332,0.0,1.0,174,48
+Atlassian FishEye,The MongoDB Engineering,0.9142011834319527,1.0,1.0,174,1014
+Atlassian FishEye,The Titanium SDK,4.9523809523809526,4.0,1.0,174,882
+Atlassian FishEye,Titanium Mobile Platform,3.34765625,2.0,1.0,174,256
+Atlassian Jira Cloud,Alloy Framework,2.0327868852459017,1.0,4.0,281,61
+Atlassian Jira Cloud,Apache MXNet,7.219512195121951,2.0,4.0,281,41
+Atlassian Jira Cloud,Apache Mesos,1.9694189602446484,1.0,4.0,281,654
+Atlassian Jira Cloud,Apache Usergrid,1.4375,1.0,4.0,281,96
+Atlassian Jira Cloud,Appcelerator Daemon,5.895833333333333,3.0,4.0,281,48
+Atlassian Jira Cloud,Appcelerator Studio,2.4840667678300457,1.0,4.0,281,659
+Atlassian Jira Cloud,Aptana Studio,6.190476190476191,4.0,4.0,281,168
+Atlassian Jira Cloud,Atlassian Atlassian Software Server,2.169230769230769,1.0,4.0,281,65
+Atlassian Jira Cloud,Atlassian Bamboo,2.3058252427184467,2.0,4.0,281,103
+Atlassian Jira Cloud,Atlassian Clover,4.296052631578948,3.0,4.0,281,76
+Atlassian Jira Cloud,Atlassian Confluence Cloud,2.1544117647058822,2.0,4.0,281,68
+Atlassian Jira Cloud,Atlassian Confluence Server,1.682170542635659,1.0,4.0,281,129
+Atlassian Jira Cloud,Atlassian Crowd,2.558139534883721,3.0,4.0,281,43
+Atlassian Jira Cloud,Atlassian FishEye,2.1686046511627906,2.0,4.0,281,43
+Atlassian Jira Cloud,Atlassian Jira Server,1.5526315789473684,1.5,4.0,281,76
+Atlassian Jira Cloud,Atlassian Software Cloud,2.152542372881356,1.0,4.0,281,59
+Atlassian Jira Cloud,Command-Line Interface,2.183098591549296,1.0,4.0,281,71
+Atlassian Jira Cloud,DotNetNuke Platform,2.2860735009671176,2.0,4.0,281,517
+Atlassian Jira Cloud,Hyperledger Blockchain Explorer,1.7175675675675675,1.0,4.0,281,74
+Atlassian Jira Cloud,Hyperledger Fabric,2.632,3.0,4.0,281,125
+Atlassian Jira Cloud,Hyperledger Indy Node,1.837037037037037,1.0,4.0,281,135
+Atlassian Jira Cloud,Hyperledger Indy SDK,1.9295774647887325,1.0,4.0,281,142
+Atlassian Jira Cloud,Hyperledger Sawtooth,1.9263157894736842,2.0,4.0,281,190
+Atlassian Jira Cloud,Lsstcorp Data management,5.811470102782653,3.0,4.0,281,3989
+Atlassian Jira Cloud,Lyrasis Dura Cloud,2.427480916030534,3.0,4.0,281,131
+Atlassian Jira Cloud,MongoDB Compass,1.53,1.0,4.0,281,100
+Atlassian Jira Cloud,MongoDB Core Server,2.338926174496644,2.0,4.0,281,149
+Atlassian Jira Cloud,Moodle,10.083606557377049,3.0,4.0,281,305
+Atlassian Jira Cloud,Mule,2.814614343707713,2.0,4.0,281,739
+Atlassian Jira Cloud,Mule APIkit,1.946236559139785,2.0,4.0,281,93
+Atlassian Jira Cloud,Sonatype Nexus,2.601108033240997,3.0,4.0,281,361
+Atlassian Jira Cloud,Spring DataCass,5.046511627906977,3.0,4.0,281,43
+Atlassian Jira Cloud,Spring XD,2.518361581920904,2.0,4.0,281,708
+Atlassian Jira Cloud,The Mongo C++ driver,2.7023809523809526,3.0,4.0,281,42
+Atlassian Jira Cloud,The Mongo Java driver,2.9791666666666665,3.0,4.0,281,48
+Atlassian Jira Cloud,The MongoDB Engineering,2.111439842209073,2.0,4.0,281,1014
+Atlassian Jira Cloud,The Titanium SDK,3.376417233560091,1.0,4.0,281,882
+Atlassian Jira Cloud,Titanium Mobile Platform,3.19140625,3.0,4.0,281,256
+Atlassian Jira Server,Alloy Framework,2.0327868852459017,1.0,4.0,304,61
+Atlassian Jira Server,Apache MXNet,7.219512195121951,2.0,4.0,304,41
+Atlassian Jira Server,Apache Mesos,1.9694189602446484,1.0,4.0,304,654
+Atlassian Jira Server,Apache Usergrid,1.4375,1.0,4.0,304,96
+Atlassian Jira Server,Appcelerator Daemon,5.895833333333333,3.0,4.0,304,48
+Atlassian Jira Server,Appcelerator Studio,2.4840667678300457,1.0,4.0,304,659
+Atlassian Jira Server,Aptana Studio,6.190476190476191,4.0,4.0,304,168
+Atlassian Jira Server,Atlassian Atlassian Software Server,2.169230769230769,1.0,4.0,304,65
+Atlassian Jira Server,Atlassian Bamboo,2.3058252427184467,2.0,4.0,304,103
+Atlassian Jira Server,Atlassian Clover,4.296052631578948,3.0,4.0,304,76
+Atlassian Jira Server,Atlassian Confluence Cloud,2.1544117647058822,2.0,4.0,304,68
+Atlassian Jira Server,Atlassian Confluence Server,1.682170542635659,1.0,4.0,304,129
+Atlassian Jira Server,Atlassian Crowd,2.558139534883721,3.0,4.0,304,43
+Atlassian Jira Server,Atlassian FishEye,2.1686046511627906,2.0,4.0,304,43
+Atlassian Jira Server,Atlassian Jira Cloud,1.2142857142857142,0.0,4.0,304,70
+Atlassian Jira Server,Atlassian Software Cloud,2.152542372881356,1.0,4.0,304,59
+Atlassian Jira Server,Command-Line Interface,2.183098591549296,1.0,4.0,304,71
+Atlassian Jira Server,DotNetNuke Platform,2.2860735009671176,2.0,4.0,304,517
+Atlassian Jira Server,Hyperledger Blockchain Explorer,1.7175675675675675,1.0,4.0,304,74
+Atlassian Jira Server,Hyperledger Fabric,2.632,3.0,4.0,304,125
+Atlassian Jira Server,Hyperledger Indy Node,1.837037037037037,1.0,4.0,304,135
+Atlassian Jira Server,Hyperledger Indy SDK,1.9295774647887325,1.0,4.0,304,142
+Atlassian Jira Server,Hyperledger Sawtooth,1.9263157894736842,2.0,4.0,304,190
+Atlassian Jira Server,Lsstcorp Data management,5.811470102782653,3.0,4.0,304,3989
+Atlassian Jira Server,Lyrasis Dura Cloud,2.427480916030534,3.0,4.0,304,131
+Atlassian Jira Server,MongoDB Compass,1.53,1.0,4.0,304,100
+Atlassian Jira Server,MongoDB Core Server,2.338926174496644,2.0,4.0,304,149
+Atlassian Jira Server,Moodle,10.083606557377049,3.0,4.0,304,305
+Atlassian Jira Server,Mule,2.814614343707713,2.0,4.0,304,739
+Atlassian Jira Server,Mule APIkit,1.946236559139785,2.0,4.0,304,93
+Atlassian Jira Server,Sonatype Nexus,2.601108033240997,3.0,4.0,304,361
+Atlassian Jira Server,Spring DataCass,5.046511627906977,3.0,4.0,304,43
+Atlassian Jira Server,Spring XD,2.518361581920904,2.0,4.0,304,708
+Atlassian Jira Server,The Mongo C++ driver,2.7023809523809526,3.0,4.0,304,42
+Atlassian Jira Server,The Mongo Java driver,2.9791666666666665,3.0,4.0,304,48
+Atlassian Jira Server,The MongoDB Engineering,2.111439842209073,2.0,4.0,304,1014
+Atlassian Jira Server,The Titanium SDK,3.376417233560091,1.0,4.0,304,882
+Atlassian Jira Server,Titanium Mobile Platform,3.19140625,3.0,4.0,304,256
+Atlassian Software Cloud,Alloy Framework,1.8852459016393444,2.0,3.0,236,61
+Atlassian Software Cloud,Apache MXNet,7.2439024390243905,2.0,3.0,236,41
+Atlassian Software Cloud,Apache Mesos,1.5382262996941896,1.0,3.0,236,654
+Atlassian Software Cloud,Apache Usergrid,0.7291666666666666,0.0,3.0,236,96
+Atlassian Software Cloud,Appcelerator Daemon,6.1875,2.0,3.0,236,48
+Atlassian Software Cloud,Appcelerator Studio,2.8770864946889225,2.0,3.0,236,659
+Atlassian Software Cloud,Aptana Studio,6.75,5.0,3.0,236,168
+Atlassian Software Cloud,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,236,65
+Atlassian Software Cloud,Atlassian Bamboo,1.5970873786407767,2.0,3.0,236,103
+Atlassian Software Cloud,Atlassian Clover,3.7960526315789473,2.0,3.0,236,76
+Atlassian Software Cloud,Atlassian Confluence Cloud,1.625,1.0,3.0,236,68
+Atlassian Software Cloud,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,236,129
+Atlassian Software Cloud,Atlassian Crowd,1.697674418604651,2.0,3.0,236,43
+Atlassian Software Cloud,Atlassian FishEye,1.494186046511628,2.0,3.0,236,43
+Atlassian Software Cloud,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,236,70
+Atlassian Software Cloud,Atlassian Jira Server,1.894736842105263,1.0,3.0,236,76
+Atlassian Software Cloud,Command-Line Interface,1.943661971830986,2.0,3.0,236,71
+Atlassian Software Cloud,DotNetNuke Platform,1.441972920696325,1.0,3.0,236,517
+Atlassian Software Cloud,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,236,74
+Atlassian Software Cloud,Hyperledger Fabric,2.08,2.0,3.0,236,125
+Atlassian Software Cloud,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,236,135
+Atlassian Software Cloud,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,236,142
+Atlassian Software Cloud,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,236,190
+Atlassian Software Cloud,Lsstcorp Data management,5.723277573326648,2.0,3.0,236,3989
+Atlassian Software Cloud,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,236,131
+Atlassian Software Cloud,MongoDB Compass,1.25,1.0,3.0,236,100
+Atlassian Software Cloud,MongoDB Core Server,1.75503355704698,2.0,3.0,236,149
+Atlassian Software Cloud,Moodle,10.26177049180328,2.0,3.0,236,305
+Atlassian Software Cloud,Mule,2.93234100135318,2.0,3.0,236,739
+Atlassian Software Cloud,Mule APIkit,1.7419354838709677,2.0,3.0,236,93
+Atlassian Software Cloud,Sonatype Nexus,1.778393351800554,2.0,3.0,236,361
+Atlassian Software Cloud,Spring DataCass,4.930232558139535,2.0,3.0,236,43
+Atlassian Software Cloud,Spring XD,2.244350282485876,2.0,3.0,236,708
+Atlassian Software Cloud,The Mongo C++ driver,1.7023809523809523,2.0,3.0,236,42
+Atlassian Software Cloud,The Mongo Java driver,1.9791666666666667,2.0,3.0,236,48
+Atlassian Software Cloud,The MongoDB Engineering,1.421104536489152,1.0,3.0,236,1014
+Atlassian Software Cloud,The Titanium SDK,3.5759637188208617,2.0,3.0,236,882
+Atlassian Software Cloud,Titanium Mobile Platform,2.98046875,2.0,3.0,236,256
+Command-Line Interface,Alloy Framework,1.8852459016393444,2.0,3.0,286,61
+Command-Line Interface,Apache MXNet,7.2439024390243905,2.0,3.0,286,41
+Command-Line Interface,Apache Mesos,1.5382262996941896,1.0,3.0,286,654
+Command-Line Interface,Apache Usergrid,0.7291666666666666,0.0,3.0,286,96
+Command-Line Interface,Appcelerator Daemon,6.1875,2.0,3.0,286,48
+Command-Line Interface,Appcelerator Studio,2.8770864946889225,2.0,3.0,286,659
+Command-Line Interface,Aptana Studio,6.75,5.0,3.0,286,168
+Command-Line Interface,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,286,65
+Command-Line Interface,Atlassian Bamboo,1.5970873786407767,2.0,3.0,286,103
+Command-Line Interface,Atlassian Clover,3.7960526315789473,2.0,3.0,286,76
+Command-Line Interface,Atlassian Confluence Cloud,1.625,1.0,3.0,286,68
+Command-Line Interface,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,286,129
+Command-Line Interface,Atlassian Crowd,1.697674418604651,2.0,3.0,286,43
+Command-Line Interface,Atlassian FishEye,1.494186046511628,2.0,3.0,286,43
+Command-Line Interface,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,286,70
+Command-Line Interface,Atlassian Jira Server,1.894736842105263,1.0,3.0,286,76
+Command-Line Interface,Atlassian Software Cloud,2.23728813559322,1.0,3.0,286,59
+Command-Line Interface,DotNetNuke Platform,1.441972920696325,1.0,3.0,286,517
+Command-Line Interface,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,286,74
+Command-Line Interface,Hyperledger Fabric,2.08,2.0,3.0,286,125
+Command-Line Interface,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,286,135
+Command-Line Interface,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,286,142
+Command-Line Interface,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,286,190
+Command-Line Interface,Lsstcorp Data management,5.723277573326648,2.0,3.0,286,3989
+Command-Line Interface,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,286,131
+Command-Line Interface,MongoDB Compass,1.25,1.0,3.0,286,100
+Command-Line Interface,MongoDB Core Server,1.75503355704698,2.0,3.0,286,149
+Command-Line Interface,Moodle,10.26177049180328,2.0,3.0,286,305
+Command-Line Interface,Mule,2.93234100135318,2.0,3.0,286,739
+Command-Line Interface,Mule APIkit,1.7419354838709677,2.0,3.0,286,93
+Command-Line Interface,Sonatype Nexus,1.778393351800554,2.0,3.0,286,361
+Command-Line Interface,Spring DataCass,4.930232558139535,2.0,3.0,286,43
+Command-Line Interface,Spring XD,2.244350282485876,2.0,3.0,286,708
+Command-Line Interface,The Mongo C++ driver,1.7023809523809523,2.0,3.0,286,42
+Command-Line Interface,The Mongo Java driver,1.9791666666666667,2.0,3.0,286,48
+Command-Line Interface,The MongoDB Engineering,1.421104536489152,1.0,3.0,286,1014
+Command-Line Interface,The Titanium SDK,3.5759637188208617,2.0,3.0,286,882
+Command-Line Interface,Titanium Mobile Platform,2.98046875,2.0,3.0,286,256
+DotNetNuke Platform,Alloy Framework,2.4262295081967213,1.0,2.0,2068,61
+DotNetNuke Platform,Apache MXNet,7.609756097560975,2.0,2.0,2068,41
+DotNetNuke Platform,Apache Mesos,1.7737003058103975,1.0,2.0,2068,654
+DotNetNuke Platform,Apache Usergrid,1.0833333333333333,1.0,2.0,2068,96
+DotNetNuke Platform,Appcelerator Daemon,6.729166666666667,3.0,2.0,2068,48
+DotNetNuke Platform,Appcelerator Studio,3.6737481031866466,3.0,2.0,2068,659
+DotNetNuke Platform,Aptana Studio,7.416666666666667,6.0,2.0,2068,168
+DotNetNuke Platform,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,2068,65
+DotNetNuke Platform,Atlassian Bamboo,1.2766990291262137,1.0,2.0,2068,103
+DotNetNuke Platform,Atlassian Clover,3.638157894736842,1.0,2.0,2068,76
+DotNetNuke Platform,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,2068,68
+DotNetNuke Platform,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,2068,129
+DotNetNuke Platform,Atlassian Crowd,0.8837209302325582,1.0,2.0,2068,43
+DotNetNuke Platform,Atlassian FishEye,1.2383720930232558,1.0,2.0,2068,43
+DotNetNuke Platform,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,2068,70
+DotNetNuke Platform,Atlassian Jira Server,2.289473684210526,2.0,2.0,2068,76
+DotNetNuke Platform,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,2068,59
+DotNetNuke Platform,Command-Line Interface,2.295774647887324,1.0,2.0,2068,71
+DotNetNuke Platform,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,2068,74
+DotNetNuke Platform,Hyperledger Fabric,1.752,1.0,2.0,2068,125
+DotNetNuke Platform,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,2068,135
+DotNetNuke Platform,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,2068,142
+DotNetNuke Platform,Hyperledger Sawtooth,0.9473684210526315,1.0,2.0,2068,190
+DotNetNuke Platform,Lsstcorp Data management,5.783014349461018,1.5,2.0,2068,3989
+DotNetNuke Platform,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,2068,131
+DotNetNuke Platform,MongoDB Compass,1.75,1.0,2.0,2068,100
+DotNetNuke Platform,MongoDB Core Server,1.5067114093959733,1.0,2.0,2068,149
+DotNetNuke Platform,Moodle,10.693442622950819,3.0,2.0,2068,305
+DotNetNuke Platform,Mule,3.301759133964817,2.0,2.0,2068,739
+DotNetNuke Platform,Mule APIkit,1.881720430107527,1.0,2.0,2068,93
+DotNetNuke Platform,Sonatype Nexus,1.1939058171745152,1.0,2.0,2068,361
+DotNetNuke Platform,Spring DataCass,5.232558139534884,1.0,2.0,2068,43
+DotNetNuke Platform,Spring XD,2.402542372881356,1.0,2.0,2068,708
+DotNetNuke Platform,The Mongo C++ driver,0.8452380952380952,1.0,2.0,2068,42
+DotNetNuke Platform,The Mongo Java driver,0.9791666666666666,1.0,2.0,2068,48
+DotNetNuke Platform,The MongoDB Engineering,0.7485207100591716,1.0,2.0,2068,1014
+DotNetNuke Platform,The Titanium SDK,4.1768707482993195,3.0,2.0,2068,882
+DotNetNuke Platform,Titanium Mobile Platform,3.02734375,1.0,2.0,2068,256
+Hyperledger Blockchain Explorer,Alloy Framework,1.8852459016393444,2.0,3.0,298,61
+Hyperledger Blockchain Explorer,Apache MXNet,7.2439024390243905,2.0,3.0,298,41
+Hyperledger Blockchain Explorer,Apache Mesos,1.5382262996941896,1.0,3.0,298,654
+Hyperledger Blockchain Explorer,Apache Usergrid,0.7291666666666666,0.0,3.0,298,96
+Hyperledger Blockchain Explorer,Appcelerator Daemon,6.1875,2.0,3.0,298,48
+Hyperledger Blockchain Explorer,Appcelerator Studio,2.8770864946889225,2.0,3.0,298,659
+Hyperledger Blockchain Explorer,Aptana Studio,6.75,5.0,3.0,298,168
+Hyperledger Blockchain Explorer,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,298,65
+Hyperledger Blockchain Explorer,Atlassian Bamboo,1.5970873786407767,2.0,3.0,298,103
+Hyperledger Blockchain Explorer,Atlassian Clover,3.7960526315789473,2.0,3.0,298,76
+Hyperledger Blockchain Explorer,Atlassian Confluence Cloud,1.625,1.0,3.0,298,68
+Hyperledger Blockchain Explorer,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,298,129
+Hyperledger Blockchain Explorer,Atlassian Crowd,1.697674418604651,2.0,3.0,298,43
+Hyperledger Blockchain Explorer,Atlassian FishEye,1.494186046511628,2.0,3.0,298,43
+Hyperledger Blockchain Explorer,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,298,70
+Hyperledger Blockchain Explorer,Atlassian Jira Server,1.894736842105263,1.0,3.0,298,76
+Hyperledger Blockchain Explorer,Atlassian Software Cloud,2.23728813559322,1.0,3.0,298,59
+Hyperledger Blockchain Explorer,Command-Line Interface,1.943661971830986,2.0,3.0,298,71
+Hyperledger Blockchain Explorer,DotNetNuke Platform,1.441972920696325,1.0,3.0,298,517
+Hyperledger Blockchain Explorer,Hyperledger Fabric,2.08,2.0,3.0,298,125
+Hyperledger Blockchain Explorer,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,298,135
+Hyperledger Blockchain Explorer,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,298,142
+Hyperledger Blockchain Explorer,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,298,190
+Hyperledger Blockchain Explorer,Lsstcorp Data management,5.723277573326648,2.0,3.0,298,3989
+Hyperledger Blockchain Explorer,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,298,131
+Hyperledger Blockchain Explorer,MongoDB Compass,1.25,1.0,3.0,298,100
+Hyperledger Blockchain Explorer,MongoDB Core Server,1.75503355704698,2.0,3.0,298,149
+Hyperledger Blockchain Explorer,Moodle,10.26177049180328,2.0,3.0,298,305
+Hyperledger Blockchain Explorer,Mule,2.93234100135318,2.0,3.0,298,739
+Hyperledger Blockchain Explorer,Mule APIkit,1.7419354838709677,2.0,3.0,298,93
+Hyperledger Blockchain Explorer,Sonatype Nexus,1.778393351800554,2.0,3.0,298,361
+Hyperledger Blockchain Explorer,Spring DataCass,4.930232558139535,2.0,3.0,298,43
+Hyperledger Blockchain Explorer,Spring XD,2.244350282485876,2.0,3.0,298,708
+Hyperledger Blockchain Explorer,The Mongo C++ driver,1.7023809523809523,2.0,3.0,298,42
+Hyperledger Blockchain Explorer,The Mongo Java driver,1.9791666666666667,2.0,3.0,298,48
+Hyperledger Blockchain Explorer,The MongoDB Engineering,1.421104536489152,1.0,3.0,298,1014
+Hyperledger Blockchain Explorer,The Titanium SDK,3.5759637188208617,2.0,3.0,298,882
+Hyperledger Blockchain Explorer,Titanium Mobile Platform,2.98046875,2.0,3.0,298,256
+Hyperledger Fabric,Alloy Framework,2.4262295081967213,1.0,2.0,502,61
+Hyperledger Fabric,Apache MXNet,7.609756097560975,2.0,2.0,502,41
+Hyperledger Fabric,Apache Mesos,1.7737003058103975,1.0,2.0,502,654
+Hyperledger Fabric,Apache Usergrid,1.0833333333333333,1.0,2.0,502,96
+Hyperledger Fabric,Appcelerator Daemon,6.729166666666667,3.0,2.0,502,48
+Hyperledger Fabric,Appcelerator Studio,3.6737481031866466,3.0,2.0,502,659
+Hyperledger Fabric,Aptana Studio,7.416666666666667,6.0,2.0,502,168
+Hyperledger Fabric,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,502,65
+Hyperledger Fabric,Atlassian Bamboo,1.2766990291262137,1.0,2.0,502,103
+Hyperledger Fabric,Atlassian Clover,3.638157894736842,1.0,2.0,502,76
+Hyperledger Fabric,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,502,68
+Hyperledger Fabric,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,502,129
+Hyperledger Fabric,Atlassian Crowd,0.8837209302325582,1.0,2.0,502,43
+Hyperledger Fabric,Atlassian FishEye,1.2383720930232558,1.0,2.0,502,43
+Hyperledger Fabric,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,502,70
+Hyperledger Fabric,Atlassian Jira Server,2.289473684210526,2.0,2.0,502,76
+Hyperledger Fabric,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,502,59
+Hyperledger Fabric,Command-Line Interface,2.295774647887324,1.0,2.0,502,71
+Hyperledger Fabric,DotNetNuke Platform,0.8713733075435203,1.0,2.0,502,517
+Hyperledger Fabric,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,502,74
+Hyperledger Fabric,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,502,135
+Hyperledger Fabric,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,502,142
+Hyperledger Fabric,Hyperledger Sawtooth,0.9473684210526315,1.0,2.0,502,190
+Hyperledger Fabric,Lsstcorp Data management,5.783014349461018,1.5,2.0,502,3989
+Hyperledger Fabric,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,502,131
+Hyperledger Fabric,MongoDB Compass,1.75,1.0,2.0,502,100
+Hyperledger Fabric,MongoDB Core Server,1.5067114093959733,1.0,2.0,502,149
+Hyperledger Fabric,Moodle,10.693442622950819,3.0,2.0,502,305
+Hyperledger Fabric,Mule,3.301759133964817,2.0,2.0,502,739
+Hyperledger Fabric,Mule APIkit,1.881720430107527,1.0,2.0,502,93
+Hyperledger Fabric,Sonatype Nexus,1.1939058171745152,1.0,2.0,502,361
+Hyperledger Fabric,Spring DataCass,5.232558139534884,1.0,2.0,502,43
+Hyperledger Fabric,Spring XD,2.402542372881356,1.0,2.0,502,708
+Hyperledger Fabric,The Mongo C++ driver,0.8452380952380952,1.0,2.0,502,42
+Hyperledger Fabric,The Mongo Java driver,0.9791666666666666,1.0,2.0,502,48
+Hyperledger Fabric,The MongoDB Engineering,0.7485207100591716,1.0,2.0,502,1014
+Hyperledger Fabric,The Titanium SDK,4.1768707482993195,3.0,2.0,502,882
+Hyperledger Fabric,Titanium Mobile Platform,3.02734375,1.0,2.0,502,256
+Hyperledger Indy Node,Alloy Framework,1.8852459016393444,2.0,3.0,542,61
+Hyperledger Indy Node,Apache MXNet,7.2439024390243905,2.0,3.0,542,41
+Hyperledger Indy Node,Apache Mesos,1.5382262996941896,1.0,3.0,542,654
+Hyperledger Indy Node,Apache Usergrid,0.7291666666666666,0.0,3.0,542,96
+Hyperledger Indy Node,Appcelerator Daemon,6.1875,2.0,3.0,542,48
+Hyperledger Indy Node,Appcelerator Studio,2.8770864946889225,2.0,3.0,542,659
+Hyperledger Indy Node,Aptana Studio,6.75,5.0,3.0,542,168
+Hyperledger Indy Node,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,542,65
+Hyperledger Indy Node,Atlassian Bamboo,1.5970873786407767,2.0,3.0,542,103
+Hyperledger Indy Node,Atlassian Clover,3.7960526315789473,2.0,3.0,542,76
+Hyperledger Indy Node,Atlassian Confluence Cloud,1.625,1.0,3.0,542,68
+Hyperledger Indy Node,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,542,129
+Hyperledger Indy Node,Atlassian Crowd,1.697674418604651,2.0,3.0,542,43
+Hyperledger Indy Node,Atlassian FishEye,1.494186046511628,2.0,3.0,542,43
+Hyperledger Indy Node,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,542,70
+Hyperledger Indy Node,Atlassian Jira Server,1.894736842105263,1.0,3.0,542,76
+Hyperledger Indy Node,Atlassian Software Cloud,2.23728813559322,1.0,3.0,542,59
+Hyperledger Indy Node,Command-Line Interface,1.943661971830986,2.0,3.0,542,71
+Hyperledger Indy Node,DotNetNuke Platform,1.441972920696325,1.0,3.0,542,517
+Hyperledger Indy Node,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,542,74
+Hyperledger Indy Node,Hyperledger Fabric,2.08,2.0,3.0,542,125
+Hyperledger Indy Node,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,542,142
+Hyperledger Indy Node,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,542,190
+Hyperledger Indy Node,Lsstcorp Data management,5.723277573326648,2.0,3.0,542,3989
+Hyperledger Indy Node,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,542,131
+Hyperledger Indy Node,MongoDB Compass,1.25,1.0,3.0,542,100
+Hyperledger Indy Node,MongoDB Core Server,1.75503355704698,2.0,3.0,542,149
+Hyperledger Indy Node,Moodle,10.26177049180328,2.0,3.0,542,305
+Hyperledger Indy Node,Mule,2.93234100135318,2.0,3.0,542,739
+Hyperledger Indy Node,Mule APIkit,1.7419354838709677,2.0,3.0,542,93
+Hyperledger Indy Node,Sonatype Nexus,1.778393351800554,2.0,3.0,542,361
+Hyperledger Indy Node,Spring DataCass,4.930232558139535,2.0,3.0,542,43
+Hyperledger Indy Node,Spring XD,2.244350282485876,2.0,3.0,542,708
+Hyperledger Indy Node,The Mongo C++ driver,1.7023809523809523,2.0,3.0,542,42
+Hyperledger Indy Node,The Mongo Java driver,1.9791666666666667,2.0,3.0,542,48
+Hyperledger Indy Node,The MongoDB Engineering,1.421104536489152,1.0,3.0,542,1014
+Hyperledger Indy Node,The Titanium SDK,3.5759637188208617,2.0,3.0,542,882
+Hyperledger Indy Node,Titanium Mobile Platform,2.98046875,2.0,3.0,542,256
+Hyperledger Indy SDK,Alloy Framework,1.8852459016393444,2.0,3.0,566,61
+Hyperledger Indy SDK,Apache MXNet,7.2439024390243905,2.0,3.0,566,41
+Hyperledger Indy SDK,Apache Mesos,1.5382262996941896,1.0,3.0,566,654
+Hyperledger Indy SDK,Apache Usergrid,0.7291666666666666,0.0,3.0,566,96
+Hyperledger Indy SDK,Appcelerator Daemon,6.1875,2.0,3.0,566,48
+Hyperledger Indy SDK,Appcelerator Studio,2.8770864946889225,2.0,3.0,566,659
+Hyperledger Indy SDK,Aptana Studio,6.75,5.0,3.0,566,168
+Hyperledger Indy SDK,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,566,65
+Hyperledger Indy SDK,Atlassian Bamboo,1.5970873786407767,2.0,3.0,566,103
+Hyperledger Indy SDK,Atlassian Clover,3.7960526315789473,2.0,3.0,566,76
+Hyperledger Indy SDK,Atlassian Confluence Cloud,1.625,1.0,3.0,566,68
+Hyperledger Indy SDK,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,566,129
+Hyperledger Indy SDK,Atlassian Crowd,1.697674418604651,2.0,3.0,566,43
+Hyperledger Indy SDK,Atlassian FishEye,1.494186046511628,2.0,3.0,566,43
+Hyperledger Indy SDK,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,566,70
+Hyperledger Indy SDK,Atlassian Jira Server,1.894736842105263,1.0,3.0,566,76
+Hyperledger Indy SDK,Atlassian Software Cloud,2.23728813559322,1.0,3.0,566,59
+Hyperledger Indy SDK,Command-Line Interface,1.943661971830986,2.0,3.0,566,71
+Hyperledger Indy SDK,DotNetNuke Platform,1.441972920696325,1.0,3.0,566,517
+Hyperledger Indy SDK,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,566,74
+Hyperledger Indy SDK,Hyperledger Fabric,2.08,2.0,3.0,566,125
+Hyperledger Indy SDK,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,566,135
+Hyperledger Indy SDK,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,566,190
+Hyperledger Indy SDK,Lsstcorp Data management,5.723277573326648,2.0,3.0,566,3989
+Hyperledger Indy SDK,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,566,131
+Hyperledger Indy SDK,MongoDB Compass,1.25,1.0,3.0,566,100
+Hyperledger Indy SDK,MongoDB Core Server,1.75503355704698,2.0,3.0,566,149
+Hyperledger Indy SDK,Moodle,10.26177049180328,2.0,3.0,566,305
+Hyperledger Indy SDK,Mule,2.93234100135318,2.0,3.0,566,739
+Hyperledger Indy SDK,Mule APIkit,1.7419354838709677,2.0,3.0,566,93
+Hyperledger Indy SDK,Sonatype Nexus,1.778393351800554,2.0,3.0,566,361
+Hyperledger Indy SDK,Spring DataCass,4.930232558139535,2.0,3.0,566,43
+Hyperledger Indy SDK,Spring XD,2.244350282485876,2.0,3.0,566,708
+Hyperledger Indy SDK,The Mongo C++ driver,1.7023809523809523,2.0,3.0,566,42
+Hyperledger Indy SDK,The Mongo Java driver,1.9791666666666667,2.0,3.0,566,48
+Hyperledger Indy SDK,The MongoDB Engineering,1.421104536489152,1.0,3.0,566,1014
+Hyperledger Indy SDK,The Titanium SDK,3.5759637188208617,2.0,3.0,566,882
+Hyperledger Indy SDK,Titanium Mobile Platform,2.98046875,2.0,3.0,566,256
+Hyperledger Sawtooth,Alloy Framework,2.4262295081967213,1.0,2.0,760,61
+Hyperledger Sawtooth,Apache MXNet,7.609756097560975,2.0,2.0,760,41
+Hyperledger Sawtooth,Apache Mesos,1.7737003058103975,1.0,2.0,760,654
+Hyperledger Sawtooth,Apache Usergrid,1.0833333333333333,1.0,2.0,760,96
+Hyperledger Sawtooth,Appcelerator Daemon,6.729166666666667,3.0,2.0,760,48
+Hyperledger Sawtooth,Appcelerator Studio,3.6737481031866466,3.0,2.0,760,659
+Hyperledger Sawtooth,Aptana Studio,7.416666666666667,6.0,2.0,760,168
+Hyperledger Sawtooth,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,760,65
+Hyperledger Sawtooth,Atlassian Bamboo,1.2766990291262137,1.0,2.0,760,103
+Hyperledger Sawtooth,Atlassian Clover,3.638157894736842,1.0,2.0,760,76
+Hyperledger Sawtooth,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,760,68
+Hyperledger Sawtooth,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,760,129
+Hyperledger Sawtooth,Atlassian Crowd,0.8837209302325582,1.0,2.0,760,43
+Hyperledger Sawtooth,Atlassian FishEye,1.2383720930232558,1.0,2.0,760,43
+Hyperledger Sawtooth,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,760,70
+Hyperledger Sawtooth,Atlassian Jira Server,2.289473684210526,2.0,2.0,760,76
+Hyperledger Sawtooth,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,760,59
+Hyperledger Sawtooth,Command-Line Interface,2.295774647887324,1.0,2.0,760,71
+Hyperledger Sawtooth,DotNetNuke Platform,0.8713733075435203,1.0,2.0,760,517
+Hyperledger Sawtooth,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,760,74
+Hyperledger Sawtooth,Hyperledger Fabric,1.752,1.0,2.0,760,125
+Hyperledger Sawtooth,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,760,135
+Hyperledger Sawtooth,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,760,142
+Hyperledger Sawtooth,Lsstcorp Data management,5.783014349461018,1.5,2.0,760,3989
+Hyperledger Sawtooth,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,760,131
+Hyperledger Sawtooth,MongoDB Compass,1.75,1.0,2.0,760,100
+Hyperledger Sawtooth,MongoDB Core Server,1.5067114093959733,1.0,2.0,760,149
+Hyperledger Sawtooth,Moodle,10.693442622950819,3.0,2.0,760,305
+Hyperledger Sawtooth,Mule,3.301759133964817,2.0,2.0,760,739
+Hyperledger Sawtooth,Mule APIkit,1.881720430107527,1.0,2.0,760,93
+Hyperledger Sawtooth,Sonatype Nexus,1.1939058171745152,1.0,2.0,760,361
+Hyperledger Sawtooth,Spring DataCass,5.232558139534884,1.0,2.0,760,43
+Hyperledger Sawtooth,Spring XD,2.402542372881356,1.0,2.0,760,708
+Hyperledger Sawtooth,The Mongo C++ driver,0.8452380952380952,1.0,2.0,760,42
+Hyperledger Sawtooth,The Mongo Java driver,0.9791666666666666,1.0,2.0,760,48
+Hyperledger Sawtooth,The MongoDB Engineering,0.7485207100591716,1.0,2.0,760,1014
+Hyperledger Sawtooth,The Titanium SDK,4.1768707482993195,3.0,2.0,760,882
+Hyperledger Sawtooth,Titanium Mobile Platform,3.02734375,1.0,2.0,760,256
+Lsstcorp Data management,Alloy Framework,1.8852459016393444,2.0,3.0,15957,61
+Lsstcorp Data management,Apache MXNet,7.2439024390243905,2.0,3.0,15957,41
+Lsstcorp Data management,Apache Mesos,1.5382262996941896,1.0,3.0,15957,654
+Lsstcorp Data management,Apache Usergrid,0.7291666666666666,0.0,3.0,15957,96
+Lsstcorp Data management,Appcelerator Daemon,6.1875,2.0,3.0,15957,48
+Lsstcorp Data management,Appcelerator Studio,2.8770864946889225,2.0,3.0,15957,659
+Lsstcorp Data management,Aptana Studio,6.75,5.0,3.0,15957,168
+Lsstcorp Data management,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,15957,65
+Lsstcorp Data management,Atlassian Bamboo,1.5970873786407767,2.0,3.0,15957,103
+Lsstcorp Data management,Atlassian Clover,3.7960526315789473,2.0,3.0,15957,76
+Lsstcorp Data management,Atlassian Confluence Cloud,1.625,1.0,3.0,15957,68
+Lsstcorp Data management,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,15957,129
+Lsstcorp Data management,Atlassian Crowd,1.697674418604651,2.0,3.0,15957,43
+Lsstcorp Data management,Atlassian FishEye,1.494186046511628,2.0,3.0,15957,43
+Lsstcorp Data management,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,15957,70
+Lsstcorp Data management,Atlassian Jira Server,1.894736842105263,1.0,3.0,15957,76
+Lsstcorp Data management,Atlassian Software Cloud,2.23728813559322,1.0,3.0,15957,59
+Lsstcorp Data management,Command-Line Interface,1.943661971830986,2.0,3.0,15957,71
+Lsstcorp Data management,DotNetNuke Platform,1.441972920696325,1.0,3.0,15957,517
+Lsstcorp Data management,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,15957,74
+Lsstcorp Data management,Hyperledger Fabric,2.08,2.0,3.0,15957,125
+Lsstcorp Data management,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,15957,135
+Lsstcorp Data management,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,15957,142
+Lsstcorp Data management,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,15957,190
+Lsstcorp Data management,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,15957,131
+Lsstcorp Data management,MongoDB Compass,1.25,1.0,3.0,15957,100
+Lsstcorp Data management,MongoDB Core Server,1.75503355704698,2.0,3.0,15957,149
+Lsstcorp Data management,Moodle,10.26177049180328,2.0,3.0,15957,305
+Lsstcorp Data management,Mule,2.93234100135318,2.0,3.0,15957,739
+Lsstcorp Data management,Mule APIkit,1.7419354838709677,2.0,3.0,15957,93
+Lsstcorp Data management,Sonatype Nexus,1.778393351800554,2.0,3.0,15957,361
+Lsstcorp Data management,Spring DataCass,4.930232558139535,2.0,3.0,15957,43
+Lsstcorp Data management,Spring XD,2.244350282485876,2.0,3.0,15957,708
+Lsstcorp Data management,The Mongo C++ driver,1.7023809523809523,2.0,3.0,15957,42
+Lsstcorp Data management,The Mongo Java driver,1.9791666666666667,2.0,3.0,15957,48
+Lsstcorp Data management,The MongoDB Engineering,1.421104536489152,1.0,3.0,15957,1014
+Lsstcorp Data management,The Titanium SDK,3.5759637188208617,2.0,3.0,15957,882
+Lsstcorp Data management,Titanium Mobile Platform,2.98046875,2.0,3.0,15957,256
+Lyrasis Dura Cloud,Alloy Framework,3.098360655737705,2.0,1.0,526,61
+Lyrasis Dura Cloud,Apache MXNet,8.414634146341463,3.0,1.0,526,41
+Lyrasis Dura Cloud,Apache Mesos,2.4128440366972477,2.0,1.0,526,654
+Lyrasis Dura Cloud,Apache Usergrid,1.8541666666666667,2.0,1.0,526,96
+Lyrasis Dura Cloud,Appcelerator Daemon,7.354166666666667,4.0,1.0,526,48
+Lyrasis Dura Cloud,Appcelerator Studio,4.573596358118361,4.0,1.0,526,659
+Lyrasis Dura Cloud,Aptana Studio,8.19047619047619,7.0,1.0,526,168
+Lyrasis Dura Cloud,Atlassian Atlassian Software Server,3.076923076923077,2.0,1.0,526,65
+Lyrasis Dura Cloud,Atlassian Bamboo,1.4805825242718447,1.0,1.0,526,103
+Lyrasis Dura Cloud,Atlassian Clover,3.9539473684210527,1.0,1.0,526,76
+Lyrasis Dura Cloud,Atlassian Confluence Cloud,2.389705882352941,2.0,1.0,526,68
+Lyrasis Dura Cloud,Atlassian Confluence Server,2.108527131782946,2.0,1.0,526,129
+Lyrasis Dura Cloud,Atlassian Crowd,0.813953488372093,0.5,1.0,526,43
+Lyrasis Dura Cloud,Atlassian FishEye,1.4011627906976745,1.0,1.0,526,43
+Lyrasis Dura Cloud,Atlassian Jira Cloud,3.242857142857143,3.0,1.0,526,70
+Lyrasis Dura Cloud,Atlassian Jira Server,3.263157894736842,3.0,1.0,526,76
+Lyrasis Dura Cloud,Atlassian Software Cloud,3.457627118644068,3.0,1.0,526,59
+Lyrasis Dura Cloud,Command-Line Interface,2.788732394366197,2.0,1.0,526,71
+Lyrasis Dura Cloud,DotNetNuke Platform,1.0829787234042556,1.0,1.0,526,517
+Lyrasis Dura Cloud,Hyperledger Blockchain Explorer,2.15,2.0,1.0,526,74
+Lyrasis Dura Cloud,Hyperledger Fabric,1.84,1.0,1.0,526,125
+Lyrasis Dura Cloud,Hyperledger Indy Node,2.6592592592592594,2.0,1.0,526,135
+Lyrasis Dura Cloud,Hyperledger Indy SDK,2.887323943661972,2.0,1.0,526,142
+Lyrasis Dura Cloud,Hyperledger Sawtooth,1.368421052631579,1.0,1.0,526,190
+Lyrasis Dura Cloud,Lsstcorp Data management,6.209286598144899,2.0,1.0,526,3989
+Lyrasis Dura Cloud,MongoDB Compass,2.47,2.0,1.0,526,100
+Lyrasis Dura Cloud,MongoDB Core Server,1.7818791946308725,1.0,1.0,526,149
+Lyrasis Dura Cloud,Moodle,11.332786885245902,4.0,1.0,526,305
+Lyrasis Dura Cloud,Mule,4.004059539918809,3.0,1.0,526,739
+Lyrasis Dura Cloud,Mule APIkit,2.4301075268817205,2.0,1.0,526,93
+Lyrasis Dura Cloud,Sonatype Nexus,1.0415512465373962,0.5,1.0,526,361
+Lyrasis Dura Cloud,Spring DataCass,5.5813953488372094,2.0,1.0,526,43
+Lyrasis Dura Cloud,Spring XD,2.922316384180791,2.0,1.0,526,708
+Lyrasis Dura Cloud,The Mongo C++ driver,0.36904761904761907,0.0,1.0,526,42
+Lyrasis Dura Cloud,The Mongo Java driver,0.020833333333333332,0.0,1.0,526,48
+Lyrasis Dura Cloud,The MongoDB Engineering,0.9142011834319527,1.0,1.0,526,1014
+Lyrasis Dura Cloud,The Titanium SDK,4.9523809523809526,4.0,1.0,526,882
+Lyrasis Dura Cloud,Titanium Mobile Platform,3.34765625,2.0,1.0,526,256
+MongoDB Compass,Alloy Framework,1.8852459016393444,2.0,3.0,399,61
+MongoDB Compass,Apache MXNet,7.2439024390243905,2.0,3.0,399,41
+MongoDB Compass,Apache Mesos,1.5382262996941896,1.0,3.0,399,654
+MongoDB Compass,Apache Usergrid,0.7291666666666666,0.0,3.0,399,96
+MongoDB Compass,Appcelerator Daemon,6.1875,2.0,3.0,399,48
+MongoDB Compass,Appcelerator Studio,2.8770864946889225,2.0,3.0,399,659
+MongoDB Compass,Aptana Studio,6.75,5.0,3.0,399,168
+MongoDB Compass,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,399,65
+MongoDB Compass,Atlassian Bamboo,1.5970873786407767,2.0,3.0,399,103
+MongoDB Compass,Atlassian Clover,3.7960526315789473,2.0,3.0,399,76
+MongoDB Compass,Atlassian Confluence Cloud,1.625,1.0,3.0,399,68
+MongoDB Compass,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,399,129
+MongoDB Compass,Atlassian Crowd,1.697674418604651,2.0,3.0,399,43
+MongoDB Compass,Atlassian FishEye,1.494186046511628,2.0,3.0,399,43
+MongoDB Compass,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,399,70
+MongoDB Compass,Atlassian Jira Server,1.894736842105263,1.0,3.0,399,76
+MongoDB Compass,Atlassian Software Cloud,2.23728813559322,1.0,3.0,399,59
+MongoDB Compass,Command-Line Interface,1.943661971830986,2.0,3.0,399,71
+MongoDB Compass,DotNetNuke Platform,1.441972920696325,1.0,3.0,399,517
+MongoDB Compass,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,399,74
+MongoDB Compass,Hyperledger Fabric,2.08,2.0,3.0,399,125
+MongoDB Compass,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,399,135
+MongoDB Compass,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,399,142
+MongoDB Compass,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,399,190
+MongoDB Compass,Lsstcorp Data management,5.723277573326648,2.0,3.0,399,3989
+MongoDB Compass,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,399,131
+MongoDB Compass,MongoDB Core Server,1.75503355704698,2.0,3.0,399,149
+MongoDB Compass,Moodle,10.26177049180328,2.0,3.0,399,305
+MongoDB Compass,Mule,2.93234100135318,2.0,3.0,399,739
+MongoDB Compass,Mule APIkit,1.7419354838709677,2.0,3.0,399,93
+MongoDB Compass,Sonatype Nexus,1.778393351800554,2.0,3.0,399,361
+MongoDB Compass,Spring DataCass,4.930232558139535,2.0,3.0,399,43
+MongoDB Compass,Spring XD,2.244350282485876,2.0,3.0,399,708
+MongoDB Compass,The Mongo C++ driver,1.7023809523809523,2.0,3.0,399,42
+MongoDB Compass,The Mongo Java driver,1.9791666666666667,2.0,3.0,399,48
+MongoDB Compass,The MongoDB Engineering,1.421104536489152,1.0,3.0,399,1014
+MongoDB Compass,The Titanium SDK,3.5759637188208617,2.0,3.0,399,882
+MongoDB Compass,Titanium Mobile Platform,2.98046875,2.0,3.0,399,256
+MongoDB Core Server,Alloy Framework,2.4262295081967213,1.0,2.0,594,61
+MongoDB Core Server,Apache MXNet,7.609756097560975,2.0,2.0,594,41
+MongoDB Core Server,Apache Mesos,1.7737003058103975,1.0,2.0,594,654
+MongoDB Core Server,Apache Usergrid,1.0833333333333333,1.0,2.0,594,96
+MongoDB Core Server,Appcelerator Daemon,6.729166666666667,3.0,2.0,594,48
+MongoDB Core Server,Appcelerator Studio,3.6737481031866466,3.0,2.0,594,659
+MongoDB Core Server,Aptana Studio,7.416666666666667,6.0,2.0,594,168
+MongoDB Core Server,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,594,65
+MongoDB Core Server,Atlassian Bamboo,1.2766990291262137,1.0,2.0,594,103
+MongoDB Core Server,Atlassian Clover,3.638157894736842,1.0,2.0,594,76
+MongoDB Core Server,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,594,68
+MongoDB Core Server,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,594,129
+MongoDB Core Server,Atlassian Crowd,0.8837209302325582,1.0,2.0,594,43
+MongoDB Core Server,Atlassian FishEye,1.2383720930232558,1.0,2.0,594,43
+MongoDB Core Server,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,594,70
+MongoDB Core Server,Atlassian Jira Server,2.289473684210526,2.0,2.0,594,76
+MongoDB Core Server,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,594,59
+MongoDB Core Server,Command-Line Interface,2.295774647887324,1.0,2.0,594,71
+MongoDB Core Server,DotNetNuke Platform,0.8713733075435203,1.0,2.0,594,517
+MongoDB Core Server,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,594,74
+MongoDB Core Server,Hyperledger Fabric,1.752,1.0,2.0,594,125
+MongoDB Core Server,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,594,135
+MongoDB Core Server,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,594,142
+MongoDB Core Server,Hyperledger Sawtooth,0.9473684210526315,1.0,2.0,594,190
+MongoDB Core Server,Lsstcorp Data management,5.783014349461018,1.5,2.0,594,3989
+MongoDB Core Server,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,594,131
+MongoDB Core Server,MongoDB Compass,1.75,1.0,2.0,594,100
+MongoDB Core Server,Moodle,10.693442622950819,3.0,2.0,594,305
+MongoDB Core Server,Mule,3.301759133964817,2.0,2.0,594,739
+MongoDB Core Server,Mule APIkit,1.881720430107527,1.0,2.0,594,93
+MongoDB Core Server,Sonatype Nexus,1.1939058171745152,1.0,2.0,594,361
+MongoDB Core Server,Spring DataCass,5.232558139534884,1.0,2.0,594,43
+MongoDB Core Server,Spring XD,2.402542372881356,1.0,2.0,594,708
+MongoDB Core Server,The Mongo C++ driver,0.8452380952380952,1.0,2.0,594,42
+MongoDB Core Server,The Mongo Java driver,0.9791666666666666,1.0,2.0,594,48
+MongoDB Core Server,The MongoDB Engineering,0.7485207100591716,1.0,2.0,594,1014
+MongoDB Core Server,The Titanium SDK,4.1768707482993195,3.0,2.0,594,882
+MongoDB Core Server,Titanium Mobile Platform,3.02734375,1.0,2.0,594,256
+Moodle,Alloy Framework,2.180327868852459,2.0,5.0,1220,61
+Moodle,Apache MXNet,7.2439024390243905,3.0,5.0,1220,41
+Moodle,Apache Mesos,2.400611620795107,2.0,5.0,1220,654
+Moodle,Apache Usergrid,2.1458333333333335,2.0,5.0,1220,96
+Moodle,Appcelerator Daemon,5.604166666666667,3.0,5.0,1220,48
+Moodle,Appcelerator Studio,2.0910470409711683,2.0,5.0,1220,659
+Moodle,Aptana Studio,5.630952380952381,3.0,5.0,1220,168
+Moodle,Atlassian Atlassian Software Server,2.4923076923076923,2.0,5.0,1220,65
+Moodle,Atlassian Bamboo,3.033980582524272,3.0,5.0,1220,103
+Moodle,Atlassian Clover,4.796052631578948,3.0,5.0,1220,76
+Moodle,Atlassian Confluence Cloud,2.713235294117647,3.0,5.0,1220,68
+Moodle,Atlassian Confluence Server,2.3255813953488373,2.0,5.0,1220,129
+Moodle,Atlassian Crowd,3.4186046511627906,4.0,5.0,1220,43
+Moodle,Atlassian FishEye,2.88953488372093,3.0,5.0,1220,43
+Moodle,Atlassian Jira Cloud,1.8142857142857143,1.0,5.0,1220,70
+Moodle,Atlassian Jira Server,2.1315789473684212,1.5,5.0,1220,76
+Moodle,Atlassian Software Cloud,2.406779661016949,2.0,5.0,1220,59
+Moodle,Command-Line Interface,2.4225352112676055,2.0,5.0,1220,71
+Moodle,DotNetNuke Platform,3.1352030947775624,3.0,5.0,1220,517
+Moodle,Hyperledger Blockchain Explorer,2.339189189189189,2.0,5.0,1220,74
+Moodle,Hyperledger Fabric,3.344,3.0,5.0,1220,125
+Moodle,Hyperledger Indy Node,2.111111111111111,2.0,5.0,1220,135
+Moodle,Hyperledger Indy SDK,2.2535211267605635,2.0,5.0,1220,142
+Moodle,Hyperledger Sawtooth,2.663157894736842,3.0,5.0,1220,190
+Moodle,Lsstcorp Data management,6.132026633241414,3.0,5.0,1220,3989
+Moodle,Lyrasis Dura Cloud,3.213740458015267,3.0,5.0,1220,131
+Moodle,MongoDB Compass,1.83,2.0,5.0,1220,100
+Moodle,MongoDB Core Server,2.976510067114094,3.0,5.0,1220,149
+Moodle,Mule,2.970230040595399,3.0,5.0,1220,739
+Moodle,Mule APIkit,2.193548387096774,3.0,5.0,1220,93
+Moodle,Sonatype Nexus,3.4238227146814406,4.0,5.0,1220,361
+Moodle,Spring DataCass,5.162790697674419,4.0,5.0,1220,43
+Moodle,Spring XD,2.9138418079096047,3.0,5.0,1220,708
+Moodle,The Mongo C++ driver,3.7023809523809526,4.0,5.0,1220,42
+Moodle,The Mongo Java driver,3.9791666666666665,4.0,5.0,1220,48
+Moodle,The MongoDB Engineering,3.103550295857988,3.0,5.0,1220,1014
+Moodle,The Titanium SDK,3.18140589569161,2.0,5.0,1220,882
+Moodle,Titanium Mobile Platform,3.52734375,3.0,5.0,1220,256
+Mule,Alloy Framework,2.0327868852459017,1.0,4.0,2955,61
+Mule,Apache MXNet,7.219512195121951,2.0,4.0,2955,41
+Mule,Apache Mesos,1.9694189602446484,1.0,4.0,2955,654
+Mule,Apache Usergrid,1.4375,1.0,4.0,2955,96
+Mule,Appcelerator Daemon,5.895833333333333,3.0,4.0,2955,48
+Mule,Appcelerator Studio,2.4840667678300457,1.0,4.0,2955,659
+Mule,Aptana Studio,6.190476190476191,4.0,4.0,2955,168
+Mule,Atlassian Atlassian Software Server,2.169230769230769,1.0,4.0,2955,65
+Mule,Atlassian Bamboo,2.3058252427184467,2.0,4.0,2955,103
+Mule,Atlassian Clover,4.296052631578948,3.0,4.0,2955,76
+Mule,Atlassian Confluence Cloud,2.1544117647058822,2.0,4.0,2955,68
+Mule,Atlassian Confluence Server,1.682170542635659,1.0,4.0,2955,129
+Mule,Atlassian Crowd,2.558139534883721,3.0,4.0,2955,43
+Mule,Atlassian FishEye,2.1686046511627906,2.0,4.0,2955,43
+Mule,Atlassian Jira Cloud,1.2142857142857142,0.0,4.0,2955,70
+Mule,Atlassian Jira Server,1.5526315789473684,1.5,4.0,2955,76
+Mule,Atlassian Software Cloud,2.152542372881356,1.0,4.0,2955,59
+Mule,Command-Line Interface,2.183098591549296,1.0,4.0,2955,71
+Mule,DotNetNuke Platform,2.2860735009671176,2.0,4.0,2955,517
+Mule,Hyperledger Blockchain Explorer,1.7175675675675675,1.0,4.0,2955,74
+Mule,Hyperledger Fabric,2.632,3.0,4.0,2955,125
+Mule,Hyperledger Indy Node,1.837037037037037,1.0,4.0,2955,135
+Mule,Hyperledger Indy SDK,1.9295774647887325,1.0,4.0,2955,142
+Mule,Hyperledger Sawtooth,1.9263157894736842,2.0,4.0,2955,190
+Mule,Lsstcorp Data management,5.811470102782653,3.0,4.0,2955,3989
+Mule,Lyrasis Dura Cloud,2.427480916030534,3.0,4.0,2955,131
+Mule,MongoDB Compass,1.53,1.0,4.0,2955,100
+Mule,MongoDB Core Server,2.338926174496644,2.0,4.0,2955,149
+Mule,Moodle,10.083606557377049,3.0,4.0,2955,305
+Mule,Mule APIkit,1.946236559139785,2.0,4.0,2955,93
+Mule,Sonatype Nexus,2.601108033240997,3.0,4.0,2955,361
+Mule,Spring DataCass,5.046511627906977,3.0,4.0,2955,43
+Mule,Spring XD,2.518361581920904,2.0,4.0,2955,708
+Mule,The Mongo C++ driver,2.7023809523809526,3.0,4.0,2955,42
+Mule,The Mongo Java driver,2.9791666666666665,3.0,4.0,2955,48
+Mule,The MongoDB Engineering,2.111439842209073,2.0,4.0,2955,1014
+Mule,The Titanium SDK,3.376417233560091,1.0,4.0,2955,882
+Mule,Titanium Mobile Platform,3.19140625,3.0,4.0,2955,256
+Mule APIkit,Alloy Framework,1.8852459016393444,2.0,3.0,372,61
+Mule APIkit,Apache MXNet,7.2439024390243905,2.0,3.0,372,41
+Mule APIkit,Apache Mesos,1.5382262996941896,1.0,3.0,372,654
+Mule APIkit,Apache Usergrid,0.7291666666666666,0.0,3.0,372,96
+Mule APIkit,Appcelerator Daemon,6.1875,2.0,3.0,372,48
+Mule APIkit,Appcelerator Studio,2.8770864946889225,2.0,3.0,372,659
+Mule APIkit,Aptana Studio,6.75,5.0,3.0,372,168
+Mule APIkit,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,372,65
+Mule APIkit,Atlassian Bamboo,1.5970873786407767,2.0,3.0,372,103
+Mule APIkit,Atlassian Clover,3.7960526315789473,2.0,3.0,372,76
+Mule APIkit,Atlassian Confluence Cloud,1.625,1.0,3.0,372,68
+Mule APIkit,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,372,129
+Mule APIkit,Atlassian Crowd,1.697674418604651,2.0,3.0,372,43
+Mule APIkit,Atlassian FishEye,1.494186046511628,2.0,3.0,372,43
+Mule APIkit,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,372,70
+Mule APIkit,Atlassian Jira Server,1.894736842105263,1.0,3.0,372,76
+Mule APIkit,Atlassian Software Cloud,2.23728813559322,1.0,3.0,372,59
+Mule APIkit,Command-Line Interface,1.943661971830986,2.0,3.0,372,71
+Mule APIkit,DotNetNuke Platform,1.441972920696325,1.0,3.0,372,517
+Mule APIkit,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,372,74
+Mule APIkit,Hyperledger Fabric,2.08,2.0,3.0,372,125
+Mule APIkit,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,372,135
+Mule APIkit,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,372,142
+Mule APIkit,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,372,190
+Mule APIkit,Lsstcorp Data management,5.723277573326648,2.0,3.0,372,3989
+Mule APIkit,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,372,131
+Mule APIkit,MongoDB Compass,1.25,1.0,3.0,372,100
+Mule APIkit,MongoDB Core Server,1.75503355704698,2.0,3.0,372,149
+Mule APIkit,Moodle,10.26177049180328,2.0,3.0,372,305
+Mule APIkit,Mule,2.93234100135318,2.0,3.0,372,739
+Mule APIkit,Sonatype Nexus,1.778393351800554,2.0,3.0,372,361
+Mule APIkit,Spring DataCass,4.930232558139535,2.0,3.0,372,43
+Mule APIkit,Spring XD,2.244350282485876,2.0,3.0,372,708
+Mule APIkit,The Mongo C++ driver,1.7023809523809523,2.0,3.0,372,42
+Mule APIkit,The Mongo Java driver,1.9791666666666667,2.0,3.0,372,48
+Mule APIkit,The MongoDB Engineering,1.421104536489152,1.0,3.0,372,1014
+Mule APIkit,The Titanium SDK,3.5759637188208617,2.0,3.0,372,882
+Mule APIkit,Titanium Mobile Platform,2.98046875,2.0,3.0,372,256
+Sonatype Nexus,Alloy Framework,3.098360655737705,2.0,1.0,1443,61
+Sonatype Nexus,Apache MXNet,8.414634146341463,3.0,1.0,1443,41
+Sonatype Nexus,Apache Mesos,2.4128440366972477,2.0,1.0,1443,654
+Sonatype Nexus,Apache Usergrid,1.8541666666666667,2.0,1.0,1443,96
+Sonatype Nexus,Appcelerator Daemon,7.354166666666667,4.0,1.0,1443,48
+Sonatype Nexus,Appcelerator Studio,4.573596358118361,4.0,1.0,1443,659
+Sonatype Nexus,Aptana Studio,8.19047619047619,7.0,1.0,1443,168
+Sonatype Nexus,Atlassian Atlassian Software Server,3.076923076923077,2.0,1.0,1443,65
+Sonatype Nexus,Atlassian Bamboo,1.4805825242718447,1.0,1.0,1443,103
+Sonatype Nexus,Atlassian Clover,3.9539473684210527,1.0,1.0,1443,76
+Sonatype Nexus,Atlassian Confluence Cloud,2.389705882352941,2.0,1.0,1443,68
+Sonatype Nexus,Atlassian Confluence Server,2.108527131782946,2.0,1.0,1443,129
+Sonatype Nexus,Atlassian Crowd,0.813953488372093,0.5,1.0,1443,43
+Sonatype Nexus,Atlassian FishEye,1.4011627906976745,1.0,1.0,1443,43
+Sonatype Nexus,Atlassian Jira Cloud,3.242857142857143,3.0,1.0,1443,70
+Sonatype Nexus,Atlassian Jira Server,3.263157894736842,3.0,1.0,1443,76
+Sonatype Nexus,Atlassian Software Cloud,3.457627118644068,3.0,1.0,1443,59
+Sonatype Nexus,Command-Line Interface,2.788732394366197,2.0,1.0,1443,71
+Sonatype Nexus,DotNetNuke Platform,1.0829787234042556,1.0,1.0,1443,517
+Sonatype Nexus,Hyperledger Blockchain Explorer,2.15,2.0,1.0,1443,74
+Sonatype Nexus,Hyperledger Fabric,1.84,1.0,1.0,1443,125
+Sonatype Nexus,Hyperledger Indy Node,2.6592592592592594,2.0,1.0,1443,135
+Sonatype Nexus,Hyperledger Indy SDK,2.887323943661972,2.0,1.0,1443,142
+Sonatype Nexus,Hyperledger Sawtooth,1.368421052631579,1.0,1.0,1443,190
+Sonatype Nexus,Lsstcorp Data management,6.209286598144899,2.0,1.0,1443,3989
+Sonatype Nexus,Lyrasis Dura Cloud,1.381679389312977,1.0,1.0,1443,131
+Sonatype Nexus,MongoDB Compass,2.47,2.0,1.0,1443,100
+Sonatype Nexus,MongoDB Core Server,1.7818791946308725,1.0,1.0,1443,149
+Sonatype Nexus,Moodle,11.332786885245902,4.0,1.0,1443,305
+Sonatype Nexus,Mule,4.004059539918809,3.0,1.0,1443,739
+Sonatype Nexus,Mule APIkit,2.4301075268817205,2.0,1.0,1443,93
+Sonatype Nexus,Spring DataCass,5.5813953488372094,2.0,1.0,1443,43
+Sonatype Nexus,Spring XD,2.922316384180791,2.0,1.0,1443,708
+Sonatype Nexus,The Mongo C++ driver,0.36904761904761907,0.0,1.0,1443,42
+Sonatype Nexus,The Mongo Java driver,0.020833333333333332,0.0,1.0,1443,48
+Sonatype Nexus,The MongoDB Engineering,0.9142011834319527,1.0,1.0,1443,1014
+Sonatype Nexus,The Titanium SDK,4.9523809523809526,4.0,1.0,1443,882
+Sonatype Nexus,Titanium Mobile Platform,3.34765625,2.0,1.0,1443,256
+Spring DataCass,Alloy Framework,1.8852459016393444,2.0,3.0,171,61
+Spring DataCass,Apache MXNet,7.2439024390243905,2.0,3.0,171,41
+Spring DataCass,Apache Mesos,1.5382262996941896,1.0,3.0,171,654
+Spring DataCass,Apache Usergrid,0.7291666666666666,0.0,3.0,171,96
+Spring DataCass,Appcelerator Daemon,6.1875,2.0,3.0,171,48
+Spring DataCass,Appcelerator Studio,2.8770864946889225,2.0,3.0,171,659
+Spring DataCass,Aptana Studio,6.75,5.0,3.0,171,168
+Spring DataCass,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,171,65
+Spring DataCass,Atlassian Bamboo,1.5970873786407767,2.0,3.0,171,103
+Spring DataCass,Atlassian Clover,3.7960526315789473,2.0,3.0,171,76
+Spring DataCass,Atlassian Confluence Cloud,1.625,1.0,3.0,171,68
+Spring DataCass,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,171,129
+Spring DataCass,Atlassian Crowd,1.697674418604651,2.0,3.0,171,43
+Spring DataCass,Atlassian FishEye,1.494186046511628,2.0,3.0,171,43
+Spring DataCass,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,171,70
+Spring DataCass,Atlassian Jira Server,1.894736842105263,1.0,3.0,171,76
+Spring DataCass,Atlassian Software Cloud,2.23728813559322,1.0,3.0,171,59
+Spring DataCass,Command-Line Interface,1.943661971830986,2.0,3.0,171,71
+Spring DataCass,DotNetNuke Platform,1.441972920696325,1.0,3.0,171,517
+Spring DataCass,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,171,74
+Spring DataCass,Hyperledger Fabric,2.08,2.0,3.0,171,125
+Spring DataCass,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,171,135
+Spring DataCass,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,171,142
+Spring DataCass,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,171,190
+Spring DataCass,Lsstcorp Data management,5.723277573326648,2.0,3.0,171,3989
+Spring DataCass,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,171,131
+Spring DataCass,MongoDB Compass,1.25,1.0,3.0,171,100
+Spring DataCass,MongoDB Core Server,1.75503355704698,2.0,3.0,171,149
+Spring DataCass,Moodle,10.26177049180328,2.0,3.0,171,305
+Spring DataCass,Mule,2.93234100135318,2.0,3.0,171,739
+Spring DataCass,Mule APIkit,1.7419354838709677,2.0,3.0,171,93
+Spring DataCass,Sonatype Nexus,1.778393351800554,2.0,3.0,171,361
+Spring DataCass,Spring XD,2.244350282485876,2.0,3.0,171,708
+Spring DataCass,The Mongo C++ driver,1.7023809523809523,2.0,3.0,171,42
+Spring DataCass,The Mongo Java driver,1.9791666666666667,2.0,3.0,171,48
+Spring DataCass,The MongoDB Engineering,1.421104536489152,1.0,3.0,171,1014
+Spring DataCass,The Titanium SDK,3.5759637188208617,2.0,3.0,171,882
+Spring DataCass,Titanium Mobile Platform,2.98046875,2.0,3.0,171,256
+Spring XD,Alloy Framework,1.8852459016393444,2.0,3.0,2833,61
+Spring XD,Apache MXNet,7.2439024390243905,2.0,3.0,2833,41
+Spring XD,Apache Mesos,1.5382262996941896,1.0,3.0,2833,654
+Spring XD,Apache Usergrid,0.7291666666666666,0.0,3.0,2833,96
+Spring XD,Appcelerator Daemon,6.1875,2.0,3.0,2833,48
+Spring XD,Appcelerator Studio,2.8770864946889225,2.0,3.0,2833,659
+Spring XD,Aptana Studio,6.75,5.0,3.0,2833,168
+Spring XD,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,2833,65
+Spring XD,Atlassian Bamboo,1.5970873786407767,2.0,3.0,2833,103
+Spring XD,Atlassian Clover,3.7960526315789473,2.0,3.0,2833,76
+Spring XD,Atlassian Confluence Cloud,1.625,1.0,3.0,2833,68
+Spring XD,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,2833,129
+Spring XD,Atlassian Crowd,1.697674418604651,2.0,3.0,2833,43
+Spring XD,Atlassian FishEye,1.494186046511628,2.0,3.0,2833,43
+Spring XD,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,2833,70
+Spring XD,Atlassian Jira Server,1.894736842105263,1.0,3.0,2833,76
+Spring XD,Atlassian Software Cloud,2.23728813559322,1.0,3.0,2833,59
+Spring XD,Command-Line Interface,1.943661971830986,2.0,3.0,2833,71
+Spring XD,DotNetNuke Platform,1.441972920696325,1.0,3.0,2833,517
+Spring XD,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,2833,74
+Spring XD,Hyperledger Fabric,2.08,2.0,3.0,2833,125
+Spring XD,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,2833,135
+Spring XD,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,2833,142
+Spring XD,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,2833,190
+Spring XD,Lsstcorp Data management,5.723277573326648,2.0,3.0,2833,3989
+Spring XD,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,2833,131
+Spring XD,MongoDB Compass,1.25,1.0,3.0,2833,100
+Spring XD,MongoDB Core Server,1.75503355704698,2.0,3.0,2833,149
+Spring XD,Moodle,10.26177049180328,2.0,3.0,2833,305
+Spring XD,Mule,2.93234100135318,2.0,3.0,2833,739
+Spring XD,Mule APIkit,1.7419354838709677,2.0,3.0,2833,93
+Spring XD,Sonatype Nexus,1.778393351800554,2.0,3.0,2833,361
+Spring XD,Spring DataCass,4.930232558139535,2.0,3.0,2833,43
+Spring XD,The Mongo C++ driver,1.7023809523809523,2.0,3.0,2833,42
+Spring XD,The Mongo Java driver,1.9791666666666667,2.0,3.0,2833,48
+Spring XD,The MongoDB Engineering,1.421104536489152,1.0,3.0,2833,1014
+Spring XD,The Titanium SDK,3.5759637188208617,2.0,3.0,2833,882
+Spring XD,Titanium Mobile Platform,2.98046875,2.0,3.0,2833,256
+The Mongo C++ driver,Alloy Framework,3.098360655737705,2.0,1.0,170,61
+The Mongo C++ driver,Apache MXNet,8.414634146341463,3.0,1.0,170,41
+The Mongo C++ driver,Apache Mesos,2.4128440366972477,2.0,1.0,170,654
+The Mongo C++ driver,Apache Usergrid,1.8541666666666667,2.0,1.0,170,96
+The Mongo C++ driver,Appcelerator Daemon,7.354166666666667,4.0,1.0,170,48
+The Mongo C++ driver,Appcelerator Studio,4.573596358118361,4.0,1.0,170,659
+The Mongo C++ driver,Aptana Studio,8.19047619047619,7.0,1.0,170,168
+The Mongo C++ driver,Atlassian Atlassian Software Server,3.076923076923077,2.0,1.0,170,65
+The Mongo C++ driver,Atlassian Bamboo,1.4805825242718447,1.0,1.0,170,103
+The Mongo C++ driver,Atlassian Clover,3.9539473684210527,1.0,1.0,170,76
+The Mongo C++ driver,Atlassian Confluence Cloud,2.389705882352941,2.0,1.0,170,68
+The Mongo C++ driver,Atlassian Confluence Server,2.108527131782946,2.0,1.0,170,129
+The Mongo C++ driver,Atlassian Crowd,0.813953488372093,0.5,1.0,170,43
+The Mongo C++ driver,Atlassian FishEye,1.4011627906976745,1.0,1.0,170,43
+The Mongo C++ driver,Atlassian Jira Cloud,3.242857142857143,3.0,1.0,170,70
+The Mongo C++ driver,Atlassian Jira Server,3.263157894736842,3.0,1.0,170,76
+The Mongo C++ driver,Atlassian Software Cloud,3.457627118644068,3.0,1.0,170,59
+The Mongo C++ driver,Command-Line Interface,2.788732394366197,2.0,1.0,170,71
+The Mongo C++ driver,DotNetNuke Platform,1.0829787234042556,1.0,1.0,170,517
+The Mongo C++ driver,Hyperledger Blockchain Explorer,2.15,2.0,1.0,170,74
+The Mongo C++ driver,Hyperledger Fabric,1.84,1.0,1.0,170,125
+The Mongo C++ driver,Hyperledger Indy Node,2.6592592592592594,2.0,1.0,170,135
+The Mongo C++ driver,Hyperledger Indy SDK,2.887323943661972,2.0,1.0,170,142
+The Mongo C++ driver,Hyperledger Sawtooth,1.368421052631579,1.0,1.0,170,190
+The Mongo C++ driver,Lsstcorp Data management,6.209286598144899,2.0,1.0,170,3989
+The Mongo C++ driver,Lyrasis Dura Cloud,1.381679389312977,1.0,1.0,170,131
+The Mongo C++ driver,MongoDB Compass,2.47,2.0,1.0,170,100
+The Mongo C++ driver,MongoDB Core Server,1.7818791946308725,1.0,1.0,170,149
+The Mongo C++ driver,Moodle,11.332786885245902,4.0,1.0,170,305
+The Mongo C++ driver,Mule,4.004059539918809,3.0,1.0,170,739
+The Mongo C++ driver,Mule APIkit,2.4301075268817205,2.0,1.0,170,93
+The Mongo C++ driver,Sonatype Nexus,1.0415512465373962,0.5,1.0,170,361
+The Mongo C++ driver,Spring DataCass,5.5813953488372094,2.0,1.0,170,43
+The Mongo C++ driver,Spring XD,2.922316384180791,2.0,1.0,170,708
+The Mongo C++ driver,The Mongo Java driver,0.020833333333333332,0.0,1.0,170,48
+The Mongo C++ driver,The MongoDB Engineering,0.9142011834319527,1.0,1.0,170,1014
+The Mongo C++ driver,The Titanium SDK,4.9523809523809526,4.0,1.0,170,882
+The Mongo C++ driver,Titanium Mobile Platform,3.34765625,2.0,1.0,170,256
+The Mongo Java driver,Alloy Framework,3.098360655737705,2.0,1.0,190,61
+The Mongo Java driver,Apache MXNet,8.414634146341463,3.0,1.0,190,41
+The Mongo Java driver,Apache Mesos,2.4128440366972477,2.0,1.0,190,654
+The Mongo Java driver,Apache Usergrid,1.8541666666666667,2.0,1.0,190,96
+The Mongo Java driver,Appcelerator Daemon,7.354166666666667,4.0,1.0,190,48
+The Mongo Java driver,Appcelerator Studio,4.573596358118361,4.0,1.0,190,659
+The Mongo Java driver,Aptana Studio,8.19047619047619,7.0,1.0,190,168
+The Mongo Java driver,Atlassian Atlassian Software Server,3.076923076923077,2.0,1.0,190,65
+The Mongo Java driver,Atlassian Bamboo,1.4805825242718447,1.0,1.0,190,103
+The Mongo Java driver,Atlassian Clover,3.9539473684210527,1.0,1.0,190,76
+The Mongo Java driver,Atlassian Confluence Cloud,2.389705882352941,2.0,1.0,190,68
+The Mongo Java driver,Atlassian Confluence Server,2.108527131782946,2.0,1.0,190,129
+The Mongo Java driver,Atlassian Crowd,0.813953488372093,0.5,1.0,190,43
+The Mongo Java driver,Atlassian FishEye,1.4011627906976745,1.0,1.0,190,43
+The Mongo Java driver,Atlassian Jira Cloud,3.242857142857143,3.0,1.0,190,70
+The Mongo Java driver,Atlassian Jira Server,3.263157894736842,3.0,1.0,190,76
+The Mongo Java driver,Atlassian Software Cloud,3.457627118644068,3.0,1.0,190,59
+The Mongo Java driver,Command-Line Interface,2.788732394366197,2.0,1.0,190,71
+The Mongo Java driver,DotNetNuke Platform,1.0829787234042556,1.0,1.0,190,517
+The Mongo Java driver,Hyperledger Blockchain Explorer,2.15,2.0,1.0,190,74
+The Mongo Java driver,Hyperledger Fabric,1.84,1.0,1.0,190,125
+The Mongo Java driver,Hyperledger Indy Node,2.6592592592592594,2.0,1.0,190,135
+The Mongo Java driver,Hyperledger Indy SDK,2.887323943661972,2.0,1.0,190,142
+The Mongo Java driver,Hyperledger Sawtooth,1.368421052631579,1.0,1.0,190,190
+The Mongo Java driver,Lsstcorp Data management,6.209286598144899,2.0,1.0,190,3989
+The Mongo Java driver,Lyrasis Dura Cloud,1.381679389312977,1.0,1.0,190,131
+The Mongo Java driver,MongoDB Compass,2.47,2.0,1.0,190,100
+The Mongo Java driver,MongoDB Core Server,1.7818791946308725,1.0,1.0,190,149
+The Mongo Java driver,Moodle,11.332786885245902,4.0,1.0,190,305
+The Mongo Java driver,Mule,4.004059539918809,3.0,1.0,190,739
+The Mongo Java driver,Mule APIkit,2.4301075268817205,2.0,1.0,190,93
+The Mongo Java driver,Sonatype Nexus,1.0415512465373962,0.5,1.0,190,361
+The Mongo Java driver,Spring DataCass,5.5813953488372094,2.0,1.0,190,43
+The Mongo Java driver,Spring XD,2.922316384180791,2.0,1.0,190,708
+The Mongo Java driver,The Mongo C++ driver,0.36904761904761907,0.0,1.0,190,42
+The Mongo Java driver,The MongoDB Engineering,0.9142011834319527,1.0,1.0,190,1014
+The Mongo Java driver,The Titanium SDK,4.9523809523809526,4.0,1.0,190,882
+The Mongo Java driver,Titanium Mobile Platform,3.34765625,2.0,1.0,190,256
+The MongoDB Engineering,Alloy Framework,2.4262295081967213,1.0,2.0,4055,61
+The MongoDB Engineering,Apache MXNet,7.609756097560975,2.0,2.0,4055,41
+The MongoDB Engineering,Apache Mesos,1.7737003058103975,1.0,2.0,4055,654
+The MongoDB Engineering,Apache Usergrid,1.0833333333333333,1.0,2.0,4055,96
+The MongoDB Engineering,Appcelerator Daemon,6.729166666666667,3.0,2.0,4055,48
+The MongoDB Engineering,Appcelerator Studio,3.6737481031866466,3.0,2.0,4055,659
+The MongoDB Engineering,Aptana Studio,7.416666666666667,6.0,2.0,4055,168
+The MongoDB Engineering,Atlassian Atlassian Software Server,2.3230769230769233,1.0,2.0,4055,65
+The MongoDB Engineering,Atlassian Bamboo,1.2766990291262137,1.0,2.0,4055,103
+The MongoDB Engineering,Atlassian Clover,3.638157894736842,1.0,2.0,4055,76
+The MongoDB Engineering,Atlassian Confluence Cloud,1.6544117647058822,1.0,2.0,4055,68
+The MongoDB Engineering,Atlassian Confluence Server,1.3255813953488371,1.0,2.0,4055,129
+The MongoDB Engineering,Atlassian Crowd,0.8837209302325582,1.0,2.0,4055,43
+The MongoDB Engineering,Atlassian FishEye,1.2383720930232558,1.0,2.0,4055,43
+The MongoDB Engineering,Atlassian Jira Cloud,2.242857142857143,2.0,2.0,4055,70
+The MongoDB Engineering,Atlassian Jira Server,2.289473684210526,2.0,2.0,4055,76
+The MongoDB Engineering,Atlassian Software Cloud,2.6610169491525424,2.0,2.0,4055,59
+The MongoDB Engineering,Command-Line Interface,2.295774647887324,1.0,2.0,4055,71
+The MongoDB Engineering,DotNetNuke Platform,0.8713733075435203,1.0,2.0,4055,517
+The MongoDB Engineering,Hyperledger Blockchain Explorer,1.5013513513513512,1.0,2.0,4055,74
+The MongoDB Engineering,Hyperledger Fabric,1.752,1.0,2.0,4055,125
+The MongoDB Engineering,Hyperledger Indy Node,1.9555555555555555,1.0,2.0,4055,135
+The MongoDB Engineering,Hyperledger Indy SDK,2.0704225352112675,1.0,2.0,4055,142
+The MongoDB Engineering,Hyperledger Sawtooth,0.9473684210526315,1.0,2.0,4055,190
+The MongoDB Engineering,Lsstcorp Data management,5.783014349461018,1.5,2.0,4055,3989
+The MongoDB Engineering,Lyrasis Dura Cloud,1.3129770992366412,1.0,2.0,4055,131
+The MongoDB Engineering,MongoDB Compass,1.75,1.0,2.0,4055,100
+The MongoDB Engineering,MongoDB Core Server,1.5067114093959733,1.0,2.0,4055,149
+The MongoDB Engineering,Moodle,10.693442622950819,3.0,2.0,4055,305
+The MongoDB Engineering,Mule,3.301759133964817,2.0,2.0,4055,739
+The MongoDB Engineering,Mule APIkit,1.881720430107527,1.0,2.0,4055,93
+The MongoDB Engineering,Sonatype Nexus,1.1939058171745152,1.0,2.0,4055,361
+The MongoDB Engineering,Spring DataCass,5.232558139534884,1.0,2.0,4055,43
+The MongoDB Engineering,Spring XD,2.402542372881356,1.0,2.0,4055,708
+The MongoDB Engineering,The Mongo C++ driver,0.8452380952380952,1.0,2.0,4055,42
+The MongoDB Engineering,The Mongo Java driver,0.9791666666666666,1.0,2.0,4055,48
+The MongoDB Engineering,The Titanium SDK,4.1768707482993195,3.0,2.0,4055,882
+The MongoDB Engineering,Titanium Mobile Platform,3.02734375,1.0,2.0,4055,256
+The Titanium SDK,Alloy Framework,2.180327868852459,2.0,5.0,3530,61
+The Titanium SDK,Apache MXNet,7.2439024390243905,3.0,5.0,3530,41
+The Titanium SDK,Apache Mesos,2.400611620795107,2.0,5.0,3530,654
+The Titanium SDK,Apache Usergrid,2.1458333333333335,2.0,5.0,3530,96
+The Titanium SDK,Appcelerator Daemon,5.604166666666667,3.0,5.0,3530,48
+The Titanium SDK,Appcelerator Studio,2.0910470409711683,2.0,5.0,3530,659
+The Titanium SDK,Aptana Studio,5.630952380952381,3.0,5.0,3530,168
+The Titanium SDK,Atlassian Atlassian Software Server,2.4923076923076923,2.0,5.0,3530,65
+The Titanium SDK,Atlassian Bamboo,3.033980582524272,3.0,5.0,3530,103
+The Titanium SDK,Atlassian Clover,4.796052631578948,3.0,5.0,3530,76
+The Titanium SDK,Atlassian Confluence Cloud,2.713235294117647,3.0,5.0,3530,68
+The Titanium SDK,Atlassian Confluence Server,2.3255813953488373,2.0,5.0,3530,129
+The Titanium SDK,Atlassian Crowd,3.4186046511627906,4.0,5.0,3530,43
+The Titanium SDK,Atlassian FishEye,2.88953488372093,3.0,5.0,3530,43
+The Titanium SDK,Atlassian Jira Cloud,1.8142857142857143,1.0,5.0,3530,70
+The Titanium SDK,Atlassian Jira Server,2.1315789473684212,1.5,5.0,3530,76
+The Titanium SDK,Atlassian Software Cloud,2.406779661016949,2.0,5.0,3530,59
+The Titanium SDK,Command-Line Interface,2.4225352112676055,2.0,5.0,3530,71
+The Titanium SDK,DotNetNuke Platform,3.1352030947775624,3.0,5.0,3530,517
+The Titanium SDK,Hyperledger Blockchain Explorer,2.339189189189189,2.0,5.0,3530,74
+The Titanium SDK,Hyperledger Fabric,3.344,3.0,5.0,3530,125
+The Titanium SDK,Hyperledger Indy Node,2.111111111111111,2.0,5.0,3530,135
+The Titanium SDK,Hyperledger Indy SDK,2.2535211267605635,2.0,5.0,3530,142
+The Titanium SDK,Hyperledger Sawtooth,2.663157894736842,3.0,5.0,3530,190
+The Titanium SDK,Lsstcorp Data management,6.132026633241414,3.0,5.0,3530,3989
+The Titanium SDK,Lyrasis Dura Cloud,3.213740458015267,3.0,5.0,3530,131
+The Titanium SDK,MongoDB Compass,1.83,2.0,5.0,3530,100
+The Titanium SDK,MongoDB Core Server,2.976510067114094,3.0,5.0,3530,149
+The Titanium SDK,Moodle,9.962295081967213,3.0,5.0,3530,305
+The Titanium SDK,Mule,2.970230040595399,3.0,5.0,3530,739
+The Titanium SDK,Mule APIkit,2.193548387096774,3.0,5.0,3530,93
+The Titanium SDK,Sonatype Nexus,3.4238227146814406,4.0,5.0,3530,361
+The Titanium SDK,Spring DataCass,5.162790697674419,4.0,5.0,3530,43
+The Titanium SDK,Spring XD,2.9138418079096047,3.0,5.0,3530,708
+The Titanium SDK,The Mongo C++ driver,3.7023809523809526,4.0,5.0,3530,42
+The Titanium SDK,The Mongo Java driver,3.9791666666666665,4.0,5.0,3530,48
+The Titanium SDK,The MongoDB Engineering,3.103550295857988,3.0,5.0,3530,1014
+The Titanium SDK,Titanium Mobile Platform,3.52734375,3.0,5.0,3530,256
+Titanium Mobile Platform,Alloy Framework,1.8852459016393444,2.0,3.0,1023,61
+Titanium Mobile Platform,Apache MXNet,7.2439024390243905,2.0,3.0,1023,41
+Titanium Mobile Platform,Apache Mesos,1.5382262996941896,1.0,3.0,1023,654
+Titanium Mobile Platform,Apache Usergrid,0.7291666666666666,0.0,3.0,1023,96
+Titanium Mobile Platform,Appcelerator Daemon,6.1875,2.0,3.0,1023,48
+Titanium Mobile Platform,Appcelerator Studio,2.8770864946889225,2.0,3.0,1023,659
+Titanium Mobile Platform,Aptana Studio,6.75,5.0,3.0,1023,168
+Titanium Mobile Platform,Atlassian Atlassian Software Server,2.0615384615384613,1.0,3.0,1023,65
+Titanium Mobile Platform,Atlassian Bamboo,1.5970873786407767,2.0,3.0,1023,103
+Titanium Mobile Platform,Atlassian Clover,3.7960526315789473,2.0,3.0,1023,76
+Titanium Mobile Platform,Atlassian Confluence Cloud,1.625,1.0,3.0,1023,68
+Titanium Mobile Platform,Atlassian Confluence Server,1.0387596899224807,1.0,3.0,1023,129
+Titanium Mobile Platform,Atlassian Crowd,1.697674418604651,2.0,3.0,1023,43
+Titanium Mobile Platform,Atlassian FishEye,1.494186046511628,2.0,3.0,1023,43
+Titanium Mobile Platform,Atlassian Jira Cloud,1.7285714285714286,1.0,3.0,1023,70
+Titanium Mobile Platform,Atlassian Jira Server,1.894736842105263,1.0,3.0,1023,76
+Titanium Mobile Platform,Atlassian Software Cloud,2.23728813559322,1.0,3.0,1023,59
+Titanium Mobile Platform,Command-Line Interface,1.943661971830986,2.0,3.0,1023,71
+Titanium Mobile Platform,DotNetNuke Platform,1.441972920696325,1.0,3.0,1023,517
+Titanium Mobile Platform,Hyperledger Blockchain Explorer,1.1770270270270269,1.0,3.0,1023,74
+Titanium Mobile Platform,Hyperledger Fabric,2.08,2.0,3.0,1023,125
+Titanium Mobile Platform,Hyperledger Indy Node,1.5629629629629629,2.0,3.0,1023,135
+Titanium Mobile Platform,Hyperledger Indy SDK,1.619718309859155,1.0,3.0,1023,142
+Titanium Mobile Platform,Hyperledger Sawtooth,1.1894736842105262,1.0,3.0,1023,190
+Titanium Mobile Platform,Lsstcorp Data management,5.723277573326648,2.0,3.0,1023,3989
+Titanium Mobile Platform,Lyrasis Dura Cloud,1.717557251908397,2.0,3.0,1023,131
+Titanium Mobile Platform,MongoDB Compass,1.25,1.0,3.0,1023,100
+Titanium Mobile Platform,MongoDB Core Server,1.75503355704698,2.0,3.0,1023,149
+Titanium Mobile Platform,Moodle,10.26177049180328,2.0,3.0,1023,305
+Titanium Mobile Platform,Mule,2.93234100135318,2.0,3.0,1023,739
+Titanium Mobile Platform,Mule APIkit,1.7419354838709677,2.0,3.0,1023,93
+Titanium Mobile Platform,Sonatype Nexus,1.778393351800554,2.0,3.0,1023,361
+Titanium Mobile Platform,Spring DataCass,4.930232558139535,2.0,3.0,1023,43
+Titanium Mobile Platform,Spring XD,2.244350282485876,2.0,3.0,1023,708
+Titanium Mobile Platform,The Mongo C++ driver,1.7023809523809523,2.0,3.0,1023,42
+Titanium Mobile Platform,The Mongo Java driver,1.9791666666666667,2.0,3.0,1023,48
+Titanium Mobile Platform,The MongoDB Engineering,1.421104536489152,1.0,3.0,1023,1014
+Titanium Mobile Platform,The Titanium SDK,3.5759637188208617,2.0,3.0,1023,882
+Alloy Framework,Alloy Framework [WITHIN],1.8852459016393444,2.0,3.0,242,61
+Apache MXNet,Apache MXNet [WITHIN],7.2439024390243905,2.0,3.0,164,41
+Apache Mesos,Apache Mesos [WITHIN],1.5382262996941896,1.0,3.0,2614,654
+Apache Usergrid,Apache Usergrid [WITHIN],0.7291666666666666,0.0,3.0,386,96
+Appcelerator Daemon,Appcelerator Daemon [WITHIN],5.604166666666667,3.0,5.0,193,48
+Appcelerator Studio,Appcelerator Studio [WITHIN],2.0910470409711683,2.0,5.0,2635,659
+Aptana Studio,Aptana Studio [WITHIN],5.0,4.0,8.0,671,168
+Atlassian Atlassian Software Server,Atlassian Atlassian Software Server [WITHIN],2.0615384615384613,1.0,3.0,260,65
+Atlassian Bamboo,Atlassian Bamboo [WITHIN],1.2766990291262137,1.0,2.0,413,103
+Atlassian Clover,Atlassian Clover [WITHIN],3.638157894736842,1.0,2.0,306,76
+Atlassian Confluence Cloud,Atlassian Confluence Cloud [WITHIN],1.625,1.0,3.0,272,68
+Atlassian Confluence Server,Atlassian Confluence Server [WITHIN],1.0387596899224807,1.0,3.0,516,129
+Atlassian Crowd,Atlassian Crowd [WITHIN],0.813953488372093,0.5,1.0,170,43
+Atlassian FishEye,Atlassian FishEye [WITHIN],1.4011627906976745,1.0,1.0,174,43
+Atlassian Jira Cloud,Atlassian Jira Cloud [WITHIN],1.2142857142857142,0.0,4.0,281,70
+Atlassian Jira Server,Atlassian Jira Server [WITHIN],1.5526315789473684,1.5,4.0,304,76
+Atlassian Software Cloud,Atlassian Software Cloud [WITHIN],2.23728813559322,1.0,3.0,236,59
+Command-Line Interface,Command-Line Interface [WITHIN],1.943661971830986,2.0,3.0,286,71
+DotNetNuke Platform,DotNetNuke Platform [WITHIN],0.8713733075435203,1.0,2.0,2068,517
+Hyperledger Blockchain Explorer,Hyperledger Blockchain Explorer [WITHIN],1.1770270270270269,1.0,3.0,298,74
+Hyperledger Fabric,Hyperledger Fabric [WITHIN],1.752,1.0,2.0,502,125
+Hyperledger Indy Node,Hyperledger Indy Node [WITHIN],1.5629629629629629,2.0,3.0,542,135
+Hyperledger Indy SDK,Hyperledger Indy SDK [WITHIN],1.619718309859155,1.0,3.0,566,142
+Hyperledger Sawtooth,Hyperledger Sawtooth [WITHIN],0.9473684210526315,1.0,2.0,760,190
+Lsstcorp Data management,Lsstcorp Data management [WITHIN],5.723277573326648,2.0,3.0,15957,3989
+Lyrasis Dura Cloud,Lyrasis Dura Cloud [WITHIN],1.381679389312977,1.0,1.0,526,131
+MongoDB Compass,MongoDB Compass [WITHIN],1.25,1.0,3.0,399,100
+MongoDB Core Server,MongoDB Core Server [WITHIN],1.5067114093959733,1.0,2.0,594,149
+Moodle,Moodle [WITHIN],9.962295081967213,3.0,5.0,1220,305
+Mule,Mule [WITHIN],2.814614343707713,2.0,4.0,2955,739
+Mule APIkit,Mule APIkit [WITHIN],1.7419354838709677,2.0,3.0,372,93
+Sonatype Nexus,Sonatype Nexus [WITHIN],1.0415512465373962,0.5,1.0,1443,361
+Spring DataCass,Spring DataCass [WITHIN],4.930232558139535,2.0,3.0,171,43
+Spring XD,Spring XD [WITHIN],2.244350282485876,2.0,3.0,2833,708
+The Mongo C++ driver,The Mongo C++ driver [WITHIN],0.36904761904761907,0.0,1.0,170,42
+The Mongo Java driver,The Mongo Java driver [WITHIN],0.020833333333333332,0.0,1.0,190,48
+The MongoDB Engineering,The MongoDB Engineering [WITHIN],0.7485207100591716,1.0,2.0,4055,1014
+The Titanium SDK,The Titanium SDK [WITHIN],3.18140589569161,2.0,5.0,3530,882
+Titanium Mobile Platform,Titanium Mobile Platform [WITHIN],2.98046875,2.0,3.0,1023,256

@@ -1,0 +1,155 @@
+# PS-3 experiment configuration
+# ---------------------------------------------------------------------------
+# Guideline 3.5 asks for configuration files specifying model names,
+# hyperparameters, random seeds and split settings. This is the single source of
+# truth for the values used in the notebooks.
+#
+#   src/05_run_all_pairs.py        committed PS-3 experiment
+#   src/06_pooled_training.py      pooled extension
+#   src/07_architecture_ablation.py  Transformer / MLP extension
+#   redo/src/10_main.py            256-token / (0,100] PS-3 redo
+#
+# PS-3 = BERT word embeddings + cross-project + random split.
+# SBERT and combined BERT+SBERT representations belong to other problem
+# statements and are not configured here.
+
+problem_statement: PS-3
+representation: BERT token-level word embeddings (frozen)
+setting: cross-project
+split: random
+
+dataset:
+  name: TAWOS
+  doi: 10.5522/04/21308124
+  raw_source: official MySQL dump, loaded by 01_extract_tawos.ipynb
+  projects: 39
+  text_fields: [title, description]
+  pair_list: 39 assigned source -> target pairs, assignment guidelines section 3.3
+  name_mapping: results/project_name_mapping.csv
+  mapping_validation: results/project_mapping_validation.json
+  # Instructor-approved remaps for the two PDF labels with no TAWOS counterpart
+  approved_remaps:
+    Evergreen: The MongoDB Engineering
+    C++ driver (Appcelerator): Aptana Studio
+
+# ---------------------------------------------------------------------------
+# Values shared by every experiment
+# ---------------------------------------------------------------------------
+shared:
+  seed: 42
+  split_ratio: [0.8, 0.2]              # development : held-out test, per project
+  split_generator: numpy.random.default_rng(42), projects visited in sorted order
+  folds: 5                             # five-fold CV on the development portion only
+  model_selection: development folds only; final epochs = mean of the 5 best epochs
+  target_test_isolation: true          # target 20% read once, only for final scoring
+  metrics: [MAE, MdAE]
+
+  embedding_model: bert-base-uncased
+  embedding_mode: inference only, weights frozen
+  embedding_layer: last hidden state, token level
+  embedding_width: 768
+  embedding_dtype: float16
+  tokenizer_max_length: see the per-run profiles below
+
+  architecture: three-layer 1-D CNN over BERT token embeddings
+  channels: [768, 256, 128, 64]
+  kernel_size: 3
+  activation: ReLU
+  dropout: 0.2                         # first convolution only
+  pooling: masked global max over real (non-padding) tokens
+  head: [64, 32, 1]
+  output_activation: Softplus          # story points can never be negative
+  loss: L1                             # matches MAE
+  optimizer: Adam
+  learning_rate: 0.001
+  batch_size: 64
+  max_epochs: 25
+  early_stopping_patience: 4
+  masking: padding mask applied before the first convolution and after every layer
+
+# ---------------------------------------------------------------------------
+# Profile A: committed run (the original submission)
+# ---------------------------------------------------------------------------
+committed:
+  notebooks: [01_extract_tawos, 02_baseline_median, 03_bert_embeddings,
+              04_check_embeddings, 04_cnn_model, 05_run_all_pairs]
+  max_length: 128
+  story_point_filter: (0,40]
+  issues_kept: 62193
+  embedding_array: [n, 128, 768]
+  embedding_size_gb: 12.2
+  embedding_kernel: madmaxop123/tawos-bert-embed-v2
+  results: [results/results_pairs.csv, results/evaluation_summary.txt,
+            results/predictions/]
+  status: COMPLETE
+
+# ---------------------------------------------------------------------------
+# Profile B: separate extra experiment (NOT the assigned PS-3 protocol)
+# For each target, trains on the other 38 projects instead of one assigned source.
+# ---------------------------------------------------------------------------
+pooled_extension:
+  notebooks: [06_pooled_training, 07_architecture_ablation]
+  max_length: 128
+  story_point_filter: (0,40]
+  sources_per_target: 38
+  target_transform: log1p(storypoint), expm1 at prediction
+  ensemble_seeds: [42, 43, 44]
+  cv: project-grouped, target excluded from its own epoch average
+  calibration: target-blind affine a*p+b from other projects' out-of-fold predictions
+  cv_max_epochs: 10
+  final_epoch_cap: 8
+  predictor_heads: [CNN, Transformer, MLP]
+  transformer: {layers: 1, d_model: 256, heads: 4, ffn: 512}
+  results: [results/results_pooled_pairs.csv, results/results_pooled_transformer.csv,
+            results/results_pooled_mlp.csv]
+  status: COMPLETE
+  note: >-
+    Changes three things at once (more sources, log1p target, 3-seed ensemble),
+    so its improvement over the single-source model is not attributable to
+    pooling alone. Reported separately from PS-3.
+
+# ---------------------------------------------------------------------------
+# Profile C: 256-token / (0,100] redo of the ASSIGNED protocol
+# ---------------------------------------------------------------------------
+redo_256_sp100:
+  source: redo/src/10_main.py
+  kernel: madmaxop123/ps3-256-main
+  max_length: 256
+  story_point_filter: (0,100]
+  issues_kept: 62870
+  embedding_array: [n, 256, 768]
+  embedding_size_gb: 24.7
+  embedding_kernels: [madmaxop123/tawos-bert-256-a, madmaxop123/tawos-bert-256-b]
+  corpus_audit: madmaxop123/ps3-256-audit
+  outputs_dir: results/256_sp100/main/
+  status: COMPLETE
+  kaggle_hardware: Tesla T4
+  runtime_minutes: 108.6
+  pairs_evaluated: 39
+  results:
+    macro_test_mae: 2.966
+    macro_test_mae_std: 2.017
+    macro_baseline_mae: 2.897
+    mean_per_pair_test_mdae: 1.792
+    mean_baseline_mdae: 1.897
+    issue_weighted_mae: 3.961
+    issue_weighted_baseline_mae: 4.059
+    five_fold_val_mae: 1.991
+    five_fold_val_mae_std: 0.294
+    beats_baseline_pairs: 15
+    wilcoxon_pair_level_p: 0.1045
+    held_out_issues: 12573
+  note: >-
+    Same architecture, seed, folds and 39 pairs as Profile A. Only the token
+    window and the story-point cap differ. No transformer variant is planned:
+    one CNN is sufficient for the redo. The CNN loses to the median baseline on
+    macro MAE (2.966 vs 2.897) but wins on MdAE (1.792 vs 1.897) and on
+    issue-weighted MAE (3.961 vs 4.059); the pair-level difference is not
+    significant (Wilcoxon p = 0.104). Because the corpus, cap and partitions all
+    changed, this is not a controlled A/B test of the 128 vs 256 token window.
+
+# Rationale for the upper cap (assignment does not prescribe one):
+#   Deep-SE / Choetkiertikul et al., TSE 2019 -- drop SP <= 0 and SP > 100
+#   TAWOS README sample query           -- Story_Point BETWEEN 1 AND 100
+#   Tawosi et al., ESEM 2022            -- remove SP < 1 and SP > 100
+# 100 is therefore the de facto ceiling; the committed (0,40] cap was the outlier.

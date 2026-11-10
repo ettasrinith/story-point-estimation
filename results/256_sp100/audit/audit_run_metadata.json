@@ -1,0 +1,31 @@
+{
+  "kernel": "ps3-256-audit",
+  "seed": 42,
+  "gpu": false,
+  "dataset": "ettasrinithreddy/tawos-extracted",
+  "embedding_metadata": [
+    "madmaxop123/tawos-bert-256-a",
+    "madmaxop123/tawos-bert-256-b"
+  ],
+  "filters": {
+    "old": "(0,40]",
+    "redo": "(0,100]"
+  },
+  "tfidf": {
+    "max_features": 20000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "alphas": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "folds": 5,
+    "clip_predictions_at": 0
+  },
+  "runtime_minutes": 0.5
+}

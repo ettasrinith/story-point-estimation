@@ -1,0 +1,40 @@
+pdf_name,tawos_name,match_type,note
+C++ driver (Appcelerator),Aptana Studio,approved_remap,"no TAWOS project is named C++ driver (Appcelerator); Aptana Studio is the only TAWOS project left unmatched, so the instructor approved this mapping"
+Evergreen,The MongoDB Engineering,approved_remap,"no TAWOS project is named Evergreen; The MongoDB Engineering is the only TAWOS project left unmatched, so the instructor approved this mapping"
+Alloy Framework,Alloy Framework,exact,verbatim TAWOS project name
+Appcelerator Daemon,Appcelerator Daemon,exact,verbatim TAWOS project name
+Appcelerator Studio,Appcelerator Studio,exact,verbatim TAWOS project name
+Command-Line Interface,Command-Line Interface,exact,verbatim TAWOS project name
+DotNetNuke Platform,DotNetNuke Platform,exact,verbatim TAWOS project name
+Lsstcorp Data management,Lsstcorp Data management,exact,verbatim TAWOS project name
+Lyrasis Dura Cloud,Lyrasis Dura Cloud,exact,verbatim TAWOS project name
+MongoDB Core Server,MongoDB Core Server,exact,verbatim TAWOS project name
+Moodle,Moodle,exact,verbatim TAWOS project name
+Mule,Mule,exact,verbatim TAWOS project name
+Mule APIkit,Mule APIkit,exact,verbatim TAWOS project name
+The Titanium SDK,The Titanium SDK,exact,verbatim TAWOS project name
+Titanium Mobile Platform,Titanium Mobile Platform,exact,verbatim TAWOS project name
+Atlassian Software Server,Atlassian Atlassian Software Server,normalised,TAWOS itself stores a duplicated vendor prefix; the PDF uses the de-duplicated form of the same project
+Bamboo,Atlassian Bamboo,normalised,PDF drops the vendor prefix
+Blockchain Explorer,Hyperledger Blockchain Explorer,normalised,PDF drops the vendor prefix
+C++ driver (MongoDB),The Mongo C++ driver,normalised,PDF short form of the Mongo C++ driver project
+Clover,Atlassian Clover,normalised,PDF drops the vendor prefix
+Compass,MongoDB Compass,normalised,PDF drops the vendor prefix
+Confluence Cloud,Atlassian Confluence Cloud,normalised,PDF drops the vendor prefix
+Confluence Server,Atlassian Confluence Server,normalised,PDF drops the vendor prefix
+Crowd,Atlassian Crowd,normalised,PDF drops the vendor prefix
+DataCass,Spring DataCass,normalised,PDF drops the vendor prefix
+Fabric,Hyperledger Fabric,normalised,PDF drops the vendor prefix
+FishEye,Atlassian FishEye,normalised,PDF drops the vendor prefix
+Indy Node,Hyperledger Indy Node,normalised,PDF drops the vendor prefix
+Indy SDK,Hyperledger Indy SDK,normalised,PDF drops the vendor prefix
+Java driver,The Mongo Java driver,normalised,PDF short form of the Mongo Java driver project
+Jira Cloud,Atlassian Jira Cloud,normalised,PDF drops the vendor prefix
+Jira Server,Atlassian Jira Server,normalised,PDF drops the vendor prefix
+MESOS,Apache Mesos,normalised,PDF drops the vendor prefix
+MXNet,Apache MXNet,normalised,PDF drops the vendor prefix
+Nexus,Sonatype Nexus,normalised,PDF drops the vendor prefix
+Sawtooth,Hyperledger Sawtooth,normalised,PDF drops the vendor prefix
+Software Cloud,Atlassian Software Cloud,normalised,PDF drops the vendor prefix
+Usergrid,Apache Usergrid,normalised,PDF drops the vendor prefix
+XD,Spring XD,normalised,PDF short name; TAWOS stores the full project name Spring XD

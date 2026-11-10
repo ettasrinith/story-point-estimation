@@ -1,0 +1,24 @@
+{
+  "sp40": {
+    "issues": 62193,
+    "median_tokens": 81.0,
+    "p90_tokens": 244.0,
+    "p99_tokens": 860.2400000000052,
+    "max_tokens": 108366,
+    "trunc_pct_128": 29.492,
+    "trunc_pct_256": 9.015,
+    "content_lost_at_128_pct": 41.775,
+    "content_lost_at_256_pct": 26.298
+  },
+  "sp100": {
+    "issues": 62870,
+    "median_tokens": 81.0,
+    "p90_tokens": 243.0,
+    "p99_tokens": 858.3099999999977,
+    "max_tokens": 108366,
+    "trunc_pct_128": 29.345,
+    "trunc_pct_256": 8.966,
+    "content_lost_at_128_pct": 41.655,
+    "content_lost_at_256_pct": 26.195
+  }
+}

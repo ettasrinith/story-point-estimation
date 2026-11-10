@@ -1,0 +1,12 @@
+{
+  "rows_in_csv": 65427,
+  "rows_with_storypoint": 65427,
+  "rows_without_storypoint": 0,
+  "dropped_sp_le_0": 2416,
+  "dropped_sp_gt_100": 141,
+  "dropped_sp_gt_40": 818,
+  "kept_sp_0_40": 62193,
+  "kept_sp_0_100": 62870,
+  "max_storypoint": 26710114.0,
+  "added_by_relaxing_40_to_100": 677
+}

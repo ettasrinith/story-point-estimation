@@ -1,0 +1,10 @@
+{
+  "issues": 62870,
+  "median_tokens": 81.0,
+  "p90_tokens": 243.0,
+  "p99_tokens": 858.3099999999977,
+  "trunc_pct_128": 29.34,
+  "trunc_pct_256": 8.97,
+  "content_lost_at_128_pct": 41.66,
+  "content_lost_at_256_pct": 26.19
+}

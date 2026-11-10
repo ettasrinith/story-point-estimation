@@ -1,0 +1,19 @@
+{
+  "id": "madmaxop123/ps3-256-main",
+  "title": "ps3 256 main",
+  "code_file": "ps3-256-main.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "ettasrinithreddy/tawos-extracted"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "madmaxop123/tawos-bert-256-a",
+    "madmaxop123/tawos-bert-256-b"
+  ],
+  "model_sources": []
+}

@@ -1,0 +1,57 @@
+{
+  "experiment": "PS-3 assigned cross-project random-split evaluation (redo, tag 256)",
+  "tag": "256",
+  "configuration": {
+    "seed": 42,
+    "split": "80:20 random per project",
+    "folds": 5,
+    "story_point_filter": "(0,100]",
+    "max_length": 256,
+    "stored_array_length": 256,
+    "window_note": "full stored arrays",
+    "embeddings": "bert-base-uncased frozen last hidden state, float16",
+    "embedding_sources": [
+      "madmaxop123/tawos-bert-256-a",
+      "madmaxop123/tawos-bert-256-b"
+    ],
+    "model": "3-layer 1D CNN 768-256-128-64, kernel 3, masked max pool, Softplus head",
+    "loss": "L1",
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "batch_size": 64,
+    "max_epochs": 25,
+    "early_stopping_patience": 4,
+    "epoch_selection": "mean of the 5 best validation epochs"
+  },
+  "corpus": {
+    "rows_in_csv": 65427,
+    "rows_with_storypoint": 65427,
+    "rows_without_storypoint": 0,
+    "dropped_sp_le_0": 2416,
+    "dropped_sp_gt_100": 141,
+    "dropped_sp_gt_40": 818,
+    "kept_sp_0_40": 62193,
+    "kept_sp_0_100": 62870,
+    "max_storypoint": 26710114.0,
+    "added_by_relaxing_40_to_100": 677
+  },
+  "truncation": {
+    "issues": 62870,
+    "median_tokens": 81.0,
+    "p90_tokens": 243.0,
+    "p99_tokens": 858.3099999999977,
+    "trunc_pct_128": 29.34,
+    "trunc_pct_256": 8.97,
+    "content_lost_at_128_pct": 41.66,
+    "content_lost_at_256_pct": 26.19
+  },
+  "device": "Tesla T4",
+  "versions": {
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "sklearn": "1.6.1"
+  },
+  "runtime_minutes": 108.6
+}

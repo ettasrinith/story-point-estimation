@@ -1,0 +1,32 @@
+{
+  "pdf_labels": 39,
+  "pairs": 39,
+  "tawos_projects": 39,
+  "match_type_counts": {
+    "normalised": 24,
+    "exact": 13,
+    "approved_remap": 2
+  },
+  "approved_remaps": [
+    {
+      "pdf_name": "Evergreen",
+      "tawos_name": "The MongoDB Engineering"
+    },
+    {
+      "pdf_name": "C++ driver (Appcelerator)",
+      "tawos_name": "Aptana Studio"
+    }
+  ],
+  "tawos_projects_left_over_after_exact_and_normalised": [
+    "Aptana Studio",
+    "The MongoDB Engineering"
+  ],
+  "tawos_projects_claimed_left_over": [
+    "The MongoDB Engineering",
+    "Aptana Studio"
+  ],
+  "bijection_holds": true,
+  "every_project_source_once": true,
+  "every_project_target_once": true,
+  "problems": []
+}
