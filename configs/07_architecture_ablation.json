@@ -1,0 +1,9 @@
+{
+  "representations": "identical frozen BERT token embeddings as 05/06",
+  "predictors": {
+    "cnn": "3-layer CNN as 05/06 (reference row from 06)",
+    "transformer": "linear proj to d=256, 1 TransformerEncoder layer (4 heads, FFN 512, dropout 0.2), masked mean pool, head 256-32-1 Softplus",
+    "mlp": "masked mean pool over tokens, MLP 768-256-32-1, dropout 0.2"
+  },
+  "protocol": "identical to 06 (pooled, log1p, 3-seed ensemble 42/43/44, grouped-CV epochs, target-blind calibration)"
+}

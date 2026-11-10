@@ -1,0 +1,8 @@
+{
+  "model": "bert-base-uncased (frozen, inference only, revision recorded at run time)",
+  "max_length": 128,
+  "batch_size": 64,
+  "dtype": "float16 autocast, fp16 storage",
+  "fields": "title + description (HTML stripped)",
+  "label_filter": "(0, 40]"
+}

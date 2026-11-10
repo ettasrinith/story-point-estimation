@@ -1,0 +1,28 @@
+{
+  "vectorizer": {
+    "ngram_range": [
+      1,
+      2
+    ],
+    "sublinear_tf": true,
+    "min_df": 2,
+    "max_features": 200000
+  },
+  "regressor": {
+    "name": "Ridge",
+    "alpha_grid": [
+      0.3,
+      1.0,
+      3.0,
+      10.0
+    ],
+    "selection": "5-fold CV on the source pool, validation MAE, development data only"
+  },
+  "prediction_clip": "max(pred, 0)",
+  "split": {
+    "test_fraction": 0.2,
+    "seed": 42,
+    "scope": "per project"
+  },
+  "pairs": "39 assigned; pooled 38-source variant reported separately"
+}
